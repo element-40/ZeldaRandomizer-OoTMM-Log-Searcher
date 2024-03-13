@@ -1,0 +1,1719 @@
+Seed: f3bba239b695a6f507d14027c5f02b1ba69ac4672ba4382ae2ae8a49e05ebc93cbbe1208d6451e62b690e672042028cc
+Version: dev-45ee9e6
+SettingsString: v1.eJztV0tv2zgQ/iuBzj0kiz3lZjuJ7CS2CkuAsVsUBS2NJVYUKfAR11v0v++Qki3qkbR76J5yMcxvhjPkNy/qe8BETtPgNuCCQ/AhUILnCpeEn44FSAvlgmVxaRjThpFElMCdAmMoK4RRoF6TaspzBnFhDgcGfaMVqReiqolSk2JVoYUnOLXCSOg35evqTfGSZiDMwMReKPWGh774NQdbvKHb+j3Qp9peQhKeiSr40dex+6dUKHsBuTU1TLPkyT8KkxagPDOWY7ShxZE/ECpP0xa0JCcnXuBu/ROdSCM0qZMTTJB5wwlKUqM0XgH3ptLsfQ61NNCH7d0bNBXHsWoHdoqqEHUvMAfjEsrDXUQucAMRpfH4RyGz4PZAmIJOBDItCNeq8wF5frlpg9SSptZfjF5sEh+B5oWGLPBE9l4uwQ8HdEP2DM7SdfXavnWVuELoixyjiaR4znFQlSbSVs8sd2BmmMYtmRAyOiS0sqCogSNGcljgzZyeEE4LSpNIgJnb1d7tQCXqUZadgZKURNJShER71v4RkjyhX89pRb4i2O7tAm83IOGlvfQllBITZEdk7Yf3jPkBS1Vlew7JBT+1yyXgjdUlbnuGwbT2FwLbD6Y4qmMpnDADpD3VgWJE4Q6oPs3OWdp6zOBA8OhL3JcQmYO+GH0RNDsfpdElRosVR8MuyahUenFKXUwPlLEdRgPsoc75IXIJStEXcEmmmtxUUBNpWcSwGR6Lptpb2l1Vpcg0Jx26ZwYeMCAzKcXxYh43M5sdfTQVDAkkw7PsRbVPCzMnucd1B3qlVANj1tkA2lGeDaBn8eJp7TGb1EoKPoCWqCU7TBtO01D09Bz2N2aN5yAlDLzqw54DPNeFT0obcb+NaJxKAwwY5CdfRximbGeawjrzDDgFruOalqC89kAkZBujVaxpWnaxcPjcj06LVHukd4CuiZuhI8hF0nL/mmyVvip6tqnQF9rUuq8FJ2M41kJWaow3vWKkbXgfXApRYmUN/D27We4jbSYPz6xKlwBj2ObAGJ0bjmU/gp+A6CkjiTS6mLBi82UMxzZlJnizWdOHBxXVMgGEDb3FBQWWTWRCU2tD2s8FNwHbopuAbeENrbfFNwG7AuzjyaUIJ/BxEGJXjAOsLchLmUlbP13LBnlncMoI3sPWdjh0gvPWNeVTcGhH3gLD1s1cnNc1vs7k0j0kO/QjtS31AZu97bjeoYBjmhQ7ZK0DVyXhZGQXUgk4yzFhO3LbsbrSULmpu15/iaNNiD+z7WoTBrc3OHy/Gl4+i5Ro6k7/CbWu1kLwqwc3dK7c1LmyyRZ8xmYnm8bxCf9nzZWt5buke+l9CO4W/urx0V/hJcFmsoe47OnWO6RC+gByJmlvS1wQnJI+Mhd6569XvSOESdhb2sj0n6Y1pPg2WQieOabm29VdeG//pcJw9H3dtueumVaQYUk1pLWQhIpQb63sl4IKBcsGUHwkVT3AohQIv2B2lFJQu4chEi+HSDgf6SQ95JS4F8X53BhJtYUcP2BkH0yQD4UPvaoPu0nTAhh+VLB9vAVSgRfeQtYHQnyQ8T40x1dAH/kLs9oG0WEYg3UUbTzG/+wYb9LZJ7xBLny3+f5O93+g+3m2iN8T/P9kPJxtos2X+ZPH+s31e5b/3qYye4y2M5/xm3fGfyPjSHlBuX1nfrp85VN8f9hv96qNAL5Xvmn7SsN/TnYbxMvZ9v6ueZ0kq/U9zuTh9r5mtLBPmNm02fHmX/C9jKKneBklvmvCjuSkvP1/XE96UaICjR8fv6B6wC98qgpPEcPzLfB0P//4F0DDSmw=
+
+Settings
+  mode: single
+  players: 1
+  distinctWorlds: false
+  goal: both
+  logic: none
+  itemPool: normal
+  generateSpoilerLog: true
+  probabilisticFoolish: true
+  noPlandoHints: true
+  hintImportance: false
+  songs: anywhere
+  goldSkulltulaTokens: all
+  housesSkulltulaTokens: all
+  tingleShuffle: anywhere
+  mapCompassShuffle: anywhere
+  smallKeyShuffleOot: anywhere
+  smallKeyShuffleMm: anywhere
+  smallKeyShuffleHideout: anywhere
+  smallKeyShuffleChestGame: vanilla
+  bossKeyShuffleOot: anywhere
+  bossKeyShuffleMm: anywhere
+  silverRupeeShuffle: anywhere
+  townFairyShuffle: anywhere
+  strayFairyChestShuffle: anywhere
+  strayFairyOtherShuffle: anywhere
+  ganonBossKey: custom
+  dungeonRewardShuffle: dungeonBlueWarps
+  scrubShuffleOot: true
+  scrubShuffleMm: true
+  cowShuffleOot: true
+  cowShuffleMm: true
+  shopShuffleOot: full
+  shopShuffleMm: full
+  owlShuffle: none
+  shufflePotsOot: false
+  shufflePotsMm: false
+  shuffleGrassOot: false
+  shuffleGrassMm: false
+  shuffleFreeRupeesOot: false
+  shuffleFreeRupeesMm: false
+  shuffleFreeHeartsOot: false
+  shuffleFreeHeartsMm: false
+  shuffleOcarinasOot: true
+  shuffleMasterSword: false
+  shuffleGerudoCard: true
+  shuffleMerchantsMm: true
+  pondFishShuffle: false
+  divingGameRupeeShuffle: false
+  fairyFountainFairyShuffleOot: false
+  fairyFountainFairyShuffleMm: false
+  fairySpotShuffleOot: false
+  eggShuffle: true
+  priceOotShops: weighted
+  priceOotScrubs: affordable
+  priceMmShops: weighted
+  priceMmTingle: weighted
+  moonCrash: reset
+  startingAge: adult
+  doorOfTime: open
+  ageChange: oot
+  dekuTree: open
+  dekuTreeAdult: true
+  wellAdult: false
+  fireChild: true
+  clearStateDungeonsMm: none
+  kakarikoGate: open
+  openZdShortcut: false
+  zoraKing: adult
+  gerudoFortress: vanilla
+  skipZelda: false
+  openMoon: false
+  lacs: vanilla
+  rainbowBridge: medallions
+  majoraChild: custom
+  bossWarpPads: bossBeaten
+  freeScarecrowOot: false
+  preCompletedDungeons: false
+  preCompletedDungeonsMajor: 0
+  preCompletedDungeonsStones: 0
+  preCompletedDungeonsMedallions: 0
+  preCompletedDungeonsRemains: 0
+  openMaskShop: true
+  crossWarpOot: true
+  crossWarpMm: full
+  csmc: agony
+  csmcHearts: false
+  csmcExtra: false
+  blastMaskCooldown: veryshort
+  clockSpeed: default
+  fierceDeityAnywhere: true
+  hookshotAnywhereOot: false
+  hookshotAnywhereMm: false
+  climbMostSurfacesOot: false
+  climbMostSurfacesMm: false
+  fastBunnyHood: true
+  defaultHoldTarget: false
+  critWiggleDisable: true
+  restoreBrokenActors: false
+  alterLostWoodsExits: false
+  voidWarpMm: true
+  autoInvert: firstCycle
+  fillWallets: true
+  progressiveShieldsOot: separate
+  progressiveSwordsOot: separate
+  progressiveShieldsMm: separate
+  progressiveGFS: separate
+  progressiveGoronLullaby: progressive
+  progressiveClocks: ascending
+  bottleContentShuffle: false
+  sunSongMm: true
+  fairyOcarinaMm: true
+  blueFireArrows: true
+  sunlightArrows: true
+  shortHookshotMm: false
+  childWallets: false
+  colossalWallets: true
+  bottomlessWallets: false
+  skeletonKeyOot: false
+  skeletonKeyMm: false
+  magicalRupee: false
+  bombchuBagOot: true
+  bombchuBagMm: true
+  spellFireMm: true
+  spellWindMm: true
+  spellLoveMm: true
+  bootsIronMm: true
+  bootsHoverMm: true
+  tunicGoronMm: true
+  tunicZoraMm: true
+  scalesMm: true
+  strengthMm: true
+  blastMaskOot: true
+  stoneMaskOot: true
+  elegyOot: true
+  ocarinaButtonsShuffleOot: false
+  ocarinaButtonsShuffleMm: false
+  soulsEnemyOot: false
+  soulsEnemyMm: false
+  soulsBossOot: true
+  soulsBossMm: true
+  soulsNpcOot: false
+  clocks: false
+  lenientSpikes: false
+  menuNotebook: false
+  coins: false
+  coinsRed: 0
+  coinsGreen: 0
+  coinsBlue: 0
+  coinsYellow: 0
+  trapRupoor: false
+  sharedNutsSticks: true
+  sharedBows: true
+  sharedBombBags: true
+  sharedMagic: true
+  sharedMagicArrowFire: true
+  sharedMagicArrowIce: true
+  sharedMagicArrowLight: true
+  sharedSongEpona: true
+  sharedSongStorms: true
+  sharedSongTime: true
+  sharedSongSun: true
+  sharedHookshot: true
+  sharedLens: true
+  sharedOcarina: true
+  sharedMaskGoron: true
+  sharedMaskZora: true
+  sharedMaskBunny: true
+  sharedMaskKeaton: true
+  sharedMaskTruth: true
+  sharedMaskBlast: true
+  sharedMaskStone: true
+  sharedSongElegy: true
+  sharedWallets: true
+  sharedHealth: true
+  sharedShields: true
+  sharedSoulsEnemy: false
+  sharedOcarinaButtons: false
+  sharedSkeletonKey: false
+  sharedBombchuBags: true
+  sharedSpellFire: true
+  sharedSpellWind: true
+  sharedSpellLove: true
+  sharedBootsIron: true
+  sharedBootsHover: true
+  sharedTunicGoron: true
+  sharedTunicZora: true
+  sharedScales: true
+  sharedStrength: true
+  agelessSwords: false
+  agelessShields: false
+  agelessTunics: false
+  agelessBoots: false
+  agelessSticks: false
+  agelessBoomerang: false
+  agelessHammer: false
+  agelessHookshot: false
+  agelessChildTrade: false
+  erBoss: full
+  erDungeons: full
+  erWallmasters: none
+  erMajorDungeons: true
+  erMinorDungeons: true
+  erGanonCastle: true
+  erGanonTower: false
+  erMoon: false
+  erSpiderHouses: true
+  erPirateFortress: true
+  erBeneathWell: true
+  erIkanaCastle: true
+  erSecretShrine: true
+  erRegions: none
+  erRegionsExtra: false
+  erRegionsShortcuts: false
+  erIndoors: none
+  erIndoorsMajor: false
+  erIndoorsExtra: false
+  erWarps: none
+  erOneWays: none
+  erOneWaysMajor: false
+  erOneWaysIkana: false
+  erOneWaysSongs: false
+  erOneWaysStatues: false
+  erOneWaysOwls: false
+  erOneWaysWoods: false
+
+Special Conditions
+  BRIDGE:
+    count: 0
+    stones: false
+    medallions: false
+    remains: false
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  MOON:
+    count: 4
+    stones: true
+    medallions: true
+    remains: true
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  LACS:
+    count: 0
+    stones: false
+    medallions: false
+    remains: false
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  GANON_BK:
+    count: 10
+    stones: true
+    medallions: true
+    remains: true
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+  MAJORA:
+    count: 11
+    stones: true
+    medallions: true
+    remains: true
+    skullsGold: false
+    skullsSwamp: false
+    skullsOcean: false
+    fairiesWF: false
+    fairiesSH: false
+    fairiesGB: false
+    fairiesST: false
+    fairyTown: false
+    masksRegular: false
+    masksTransform: false
+    masksOot: false
+    triforce: false
+    coinsRed: false
+    coinsGreen: false
+    coinsBlue: false
+    coinsYellow: false
+
+Starting Items
+  Song of Soaring: 1
+
+Junk Locations
+  MM Moon Fierce Deity Mask
+
+World Flags
+  ganonTrials: all
+  smallKeyRingOot:
+    - Forest
+    - Fire
+    - Spirit
+    - GTG
+    - GF
+    - TCG
+
+  smallKeyRingMm:
+    - SH
+    - GB
+
+  silverRupeePouches: all
+  openDungeonsMm: none
+
+MQ Dungeons
+  BotW
+  IC
+
+Entrances
+  MM_TEMPLE_STONE_TOWER_INVERTED -> MM_TEMPLE_STONE_TOWER_INVERTED
+  MM_STONE_TOWER_INVERTED_FROM_TEMPLE -> MM_STONE_TOWER_INVERTED_FROM_TEMPLE
+  MM_TEMPLE_WOODFALL -> MM_TEMPLE_STONE_TOWER
+  MM_STONE_TOWER_FROM_TEMPLE -> MM_WOODFALL_FROM_TEMPLE
+  OOT_TEMPLE_FOREST -> MM_IKANA_CASTLE
+  MM_IKANA_CASTLE_EXTERIOR_FROM_CASTLE -> OOT_SACRED_MEADOW_FROM_TEMPLE_FOREST
+  MM_BENEATH_THE_WELL_BACK -> OOT_TEMPLE_SPIRIT
+  OOT_DESERT_COLOSSUS_FROM_TEMPLE_SPIRIT -> MM_IKANA_CASTLE_EXTERIOR_FROM_WELL
+  MM_TEMPLE_STONE_TOWER -> OOT_GANON_CASTLE
+  OOT_GANON_CASTLE_EXTERIOR_FROM_CASTLE -> MM_STONE_TOWER_FROM_TEMPLE
+  MM_SPIDER_HOUSE_OCEAN -> MM_TEMPLE_SNOWHEAD
+  MM_SNOWHEAD_FROM_TEMPLE -> MM_GREAT_BAY_FROM_SPIDER_HOUSE
+  MM_IKANA_CASTLE -> MM_TEMPLE_GREAT_BAY
+  MM_GREAT_BAY_FROM_TEMPLE -> MM_IKANA_CASTLE_EXTERIOR_FROM_CASTLE
+  MM_SECRET_SHRINE -> OOT_TEMPLE_WATER
+  OOT_LAKE_HYLIA_FROM_TEMPLE_WATER -> MM_IKANA_VALLEY_FROM_SHRINE
+  MM_PIRATE_FORTRESS -> MM_PIRATE_FORTRESS
+  MM_GREAT_BAY_FROM_PIRATE_FORTRESS -> MM_GREAT_BAY_FROM_PIRATE_FORTRESS
+  OOT_ICE_CAVERN -> OOT_JABU_JABU
+  OOT_ZORA_FOUNTAIN_FROM_JABU_JABU -> OOT_ZORA_FOUNTAIN_FROM_ICE_CAVERN
+  OOT_DODONGO_CAVERN -> MM_SPIDER_HOUSE_OCEAN
+  MM_GREAT_BAY_FROM_SPIDER_HOUSE -> OOT_MOUNTAIN_TRAIL_FROM_DODONGO_CAVERN
+  OOT_TEMPLE_SPIRIT -> OOT_TEMPLE_FIRE
+  OOT_DEATH_CRATER_FROM_TEMPLE_FIRE -> OOT_DESERT_COLOSSUS_FROM_TEMPLE_SPIRIT
+  OOT_TEMPLE_WATER -> MM_BENEATH_THE_WELL_BACK
+  MM_IKANA_CASTLE_EXTERIOR_FROM_WELL -> OOT_LAKE_HYLIA_FROM_TEMPLE_WATER
+  MM_SPIDER_HOUSE_SWAMP -> MM_SPIDER_HOUSE_SWAMP
+  MM_SWAMP_FROM_SPIDER_HOUSE -> MM_SWAMP_FROM_SPIDER_HOUSE
+  OOT_BOTTOM_OF_THE_WELL -> OOT_GERUDO_TRAINING_GROUNDS
+  OOT_GERUDO_FORTRESS_FROM_GERUDO_TRAINING -> OOT_KAKARIKO_FROM_BOTTOM_OF_THE_WELL
+  MM_BENEATH_THE_WELL -> OOT_TEMPLE_FOREST
+  OOT_SACRED_MEADOW_FROM_TEMPLE_FOREST -> MM_IKANA_CANYON_FROM_WELL
+  OOT_GANON_CASTLE -> MM_BENEATH_THE_WELL
+  MM_IKANA_CANYON_FROM_WELL -> OOT_GANON_CASTLE_EXTERIOR_FROM_CASTLE
+  OOT_TEMPLE_SHADOW -> OOT_ICE_CAVERN
+  OOT_ZORA_FOUNTAIN_FROM_ICE_CAVERN -> OOT_GRAVEYARD_FROM_TEMPLE_SHADOW
+  OOT_GERUDO_TRAINING_GROUNDS -> MM_TEMPLE_WOODFALL
+  MM_WOODFALL_FROM_TEMPLE -> OOT_GERUDO_FORTRESS_FROM_GERUDO_TRAINING
+  OOT_TEMPLE_FIRE -> OOT_DEKU_TREE
+  OOT_KOKIRI_FOREST_FROM_DEKU_TREE -> OOT_DEATH_CRATER_FROM_TEMPLE_FIRE
+  MM_TEMPLE_SNOWHEAD -> OOT_TEMPLE_SHADOW
+  OOT_GRAVEYARD_FROM_TEMPLE_SHADOW -> MM_SNOWHEAD_FROM_TEMPLE
+  OOT_DEKU_TREE -> MM_SECRET_SHRINE
+  MM_IKANA_VALLEY_FROM_SHRINE -> OOT_KOKIRI_FOREST_FROM_DEKU_TREE
+  OOT_JABU_JABU -> OOT_DODONGO_CAVERN
+  OOT_MOUNTAIN_TRAIL_FROM_DODONGO_CAVERN -> OOT_ZORA_FOUNTAIN_FROM_JABU_JABU
+  MM_TEMPLE_GREAT_BAY -> OOT_BOTTOM_OF_THE_WELL
+  OOT_KAKARIKO_FROM_BOTTOM_OF_THE_WELL -> MM_GREAT_BAY_FROM_TEMPLE
+  OOT_BOSS_TEMPLE_WATER -> MM_BOSS_TEMPLE_WOODFALL
+  OOT_BOSS_DODONGO_CAVERN -> MM_BOSS_TEMPLE_SNOWHEAD
+  OOT_BOSS_TEMPLE_SPIRIT -> OOT_BOSS_TEMPLE_WATER
+  MM_BOSS_TEMPLE_GREAT_BAY -> OOT_BOSS_DODONGO_CAVERN
+  OOT_BOSS_TEMPLE_SHADOW -> OOT_BOSS_TEMPLE_SPIRIT
+  MM_BOSS_TEMPLE_WOODFALL -> OOT_BOSS_JABU_JABU
+  OOT_BOSS_TEMPLE_FOREST -> MM_BOSS_TEMPLE_GREAT_BAY
+  OOT_BOSS_JABU_JABU -> OOT_BOSS_TEMPLE_FIRE
+  OOT_BOSS_DEKU_TREE -> OOT_BOSS_TEMPLE_SHADOW
+  MM_BOSS_TEMPLE_SNOWHEAD -> MM_BOSS_TEMPLE_STONE_TOWER
+  OOT_BOSS_TEMPLE_FIRE -> OOT_BOSS_DEKU_TREE
+  MM_BOSS_TEMPLE_STONE_TOWER -> OOT_BOSS_TEMPLE_FOREST
+
+Hints
+  Foolish:
+    OOT Lake Hylia Gossip Southeast Lake
+      Pirates' Fortress Sewers
+    OOT Zora River Gossip Near Domain
+      Pirates' Fortress Sewers
+
+  Specific Hints:
+    MM Cucco Shack Gossip
+      MM Tourist Information Boat Archery (Purple Rupee)
+    MM Doggy Racetrack Gossip
+      OOT Lake Hylia Fire Arrow (Recovery Heart)
+    MM Great Bay Coast Gossip
+      MM Milk Bar Troupe Leader Mask (Key Ring (Snowhead))
+    MM Ikana Valley Gossip Lower
+      MM Milk Bar Troupe Leader Mask (Key Ring (Snowhead))
+    MM Ikana Valley Gossip Scrub
+      OOT Fire Temple Hammer (Red Rupee)
+    MM Milk Road Gossip
+      OOT Gerudo Fortress Archery Reward 1, OOT Gerudo Fortress Archery Reward 2 (Mask of Truth, Blue Rupee)
+    MM Moon Trial Goron Gossip West Left
+      OOT Fishing Pond Child, OOT Fishing Pond Adult (Circus Leader's Mask, Gold Skulltula Token)
+    MM Moon Trial Zora Gossip Inner Right
+      MM Road to Ikana Stone Mask (All-Night Mask)
+    MM Moon Trial Zora Gossip Middle Right
+      OOT Death Mountain Prescription, OOT Death Mountain Claim Check, OOT Death Mountain Biggoron Sword (Shared Bow, Green Potion (OoT), Bremen Mask)
+    MM Mountain Village Gossip Outside
+      OOT Lost Woods Odd Mushroom, OOT Lost Woods Poacher's Saw (Gold Skulltula Token, Green Potion (OoT))
+    MM Mountain Village Gossip Tunnel
+      MM Great Bay Temple Ice Arrow (10 Arrows)
+    MM Mountain Village Path Gossip
+      MM Ocean Spider House Chest HP (Silver Rupee Pouch (Spirit Temple - Child))
+    MM Road to Ikana Gossip
+      MM Goron Race Reward (Recovery Heart)
+    MM Romani Ranch Gossip Behind House
+      MM Mountain Village Frog Choir HP (Blue Fire)
+    MM Romani Ranch Gossip Near Tree
+      OOT Fire Temple Scarecrow Chest (Recovery Heart)
+    MM Southern Swamp Gossip
+      OOT Death Mountain Crater Scrub Child (Piece of Heart)
+    MM Swamp Spider House Gossip
+      MM Mountain Village Frog Choir HP (Blue Fire)
+    MM Termina Field Gossip Grotto Leftmost
+      OOT Kokiri Forest Cow (Serenade of Water)
+    MM Termina Field Gossip Grotto Right-Center
+      MM Termina Field Gossip Stones HP (Red Rupee)
+    MM Termina Field Gossip Grotto Rightmost
+      MM Blacksmith Razor Blade, MM Blacksmith Gilded Sword (Gold Rupee, Recovery Heart)
+    MM Termina Field Gossip Near Kamaro
+      OOT Kakariko Song Shadow (Gold Skulltula Token)
+    MM Termina Field Gossip Near Mountain
+      MM Kafei Hideout Pendant of Memories, MM Kafei Hideout Owner Reward 1, MM Kafei Hideout Owner Reward 2 (Lon Lon Milk (OoT), Ocean Skulltula Token, Deku Mask)
+    MM Termina Field Gossip Near Observatory
+      MM Termina Field Gossip Stones HP (Red Rupee)
+    MM Termina Field Gossip Northeast
+      OOT Haunted Wasteland Chest (Room Key)
+    MM Termina Field Gossip Southeast
+      MM Pinnacle Rock HP (Piece of Heart)
+    MM Termina Field Gossip Southwest
+      OOT Haunted Wasteland Chest (Room Key)
+    MM Zora Cape Gossip
+      MM Milk Bar Madame Aroma Bottle (Small Key (Shadow Temple))
+    OOT Death Mountain Crater Gossip Grotto
+      MM Deku Shrine Mask of Scents (5 Arrows)
+    OOT Death Mountain Crater Gossip Wall
+      MM Tourist Information Boat Archery (Purple Rupee)
+    OOT Death Mountain Gossip Grotto
+      MM Milk Bar Madame Aroma Bottle (Small Key (Shadow Temple))
+    OOT Death Mountain Gossip on Climb
+      OOT Zora River Frogs Game (Swamp Skulltula Token)
+    OOT Desert Colossus Gossip
+      MM Woodfall Temple Boss Key Chest (World Map of Great Bay)
+    OOT Dodongo Cavern Gossip
+      MM Kafei Hideout Pendant of Memories, MM Kafei Hideout Owner Reward 1, MM Kafei Hideout Owner Reward 2 (Lon Lon Milk (OoT), Ocean Skulltula Token, Deku Mask)
+    OOT Gerudo Valley Gossip
+      MM Stock Pot Inn Couple's Mask (20 Bombchu)
+    OOT Goron City Gossip Boulder Maze
+      MM Beneath The Graveyard Dampe Chest (Stray Fairy (Woodfall Temple))
+    OOT Goron City Gossip Near Medigoron
+      OOT Lake Hylia Fire Arrow (Recovery Heart)
+    OOT Graveyard Gossip
+      MM Great Bay Temple Ice Arrow (10 Arrows)
+    OOT Hyrule Castle Gossip After Climb
+      OOT Kokiri Forest Cow (Serenade of Water)
+    OOT Hyrule Castle Gossip Before Moat
+      OOT Zora Domain Tunic, OOT Zora Domain Eyeball Frog (10 Arrows, Fairy (MM))
+    OOT Hyrule Castle Gossip Grotto
+      OOT Zora River Frogs Game (Swamp Skulltula Token)
+    OOT Hyrule Field Gossip Near Castle Town
+      MM Mountain Village Don Gero Mask (Stray Fairy (Woodfall Temple))
+    OOT Hyrule Field Gossip Near Gerudo Valley
+      MM Stock Pot Inn Couple's Mask (20 Bombchu)
+    OOT Hyrule Field Gossip Near Lake Hylia
+      OOT Death Mountain Crater Scrub Child (Piece of Heart)
+    OOT Hyrule Field Gossip Southeast Grotto
+      OOT Gerudo Fortress Archery Reward 1, OOT Gerudo Fortress Archery Reward 2 (Mask of Truth, Blue Rupee)
+    OOT Kakariko Gossip Grotto
+      OOT Lost Woods Odd Mushroom, OOT Lost Woods Poacher's Saw (Gold Skulltula Token, Green Potion (OoT))
+    OOT Kokiri Gossip Left of Deku Tree
+      OOT Kakariko Song Shadow (Gold Skulltula Token)
+    OOT Kokiri Gossip Near Lost Woods Grotto
+      MM Mountain Village Don Gero Mask (Stray Fairy (Woodfall Temple))
+    OOT Kokiri Gossip Near Lost Woods Open
+      MM Ocean Spider House Chest HP (Silver Rupee Pouch (Spirit Temple - Child))
+    OOT Kokiri Gossip Right of Deku Tree
+      MM Romani Ranch Aliens, MM Romani Ranch Cremia Escort (Shared Fire Arrows, 10 Bombchu)
+    OOT Lake Hylia Gossip Near River
+      MM Blacksmith Razor Blade, MM Blacksmith Gilded Sword (Gold Rupee, Recovery Heart)
+    OOT Lost Woods Gossip Grotto
+      MM Pinnacle Rock HP (Piece of Heart)
+    OOT Lost Woods Gossip Under Bridge
+      MM Woodfall Temple Boss Key Chest (World Map of Great Bay)
+    OOT Market Gossip Outside Temple Left-Center
+      MM Deku Shrine Mask of Scents (5 Arrows)
+    OOT Market Gossip Outside Temple Right-Center
+      OOT Fire Temple Scarecrow Chest (Recovery Heart)
+    OOT Market Gossip Outside Temple Rightmost
+      OOT Treasure Chest Game HP (Piece of Heart)
+    OOT Sacred Meadow Gossip Atop Maze Temple Side
+      OOT Zora Domain Tunic, OOT Zora Domain Eyeball Frog (10 Arrows, Fairy (MM))
+    OOT Sacred Meadow Gossip Atop Maze Woods Side
+      MM Goron Race Reward (Recovery Heart)
+    OOT Sacred Meadow Gossip Near Forest Temple
+      MM Beneath The Graveyard Dampe Chest (Stray Fairy (Woodfall Temple))
+    OOT Zora Fountain Gossip Near Fairy
+      OOT Fire Temple Hammer (Red Rupee)
+    OOT Zora Fountain Gossip Northwest
+      MM Romani Ranch Aliens, MM Romani Ranch Cremia Escort (Shared Fire Arrows, 10 Bombchu)
+    OOT Zora River Gossip High Pillar
+      OOT Treasure Chest Game HP (Piece of Heart)
+
+  Regional Hints:
+    MM Moon Trial Deku Gossip Back
+      Kakariko (Captain's Hat)
+    MM Moon Trial Deku Gossip Front-Left
+      Death Mountain Crater (Romani's Mask)
+    MM Moon Trial Deku Gossip Front-Right
+      Water Temple (Keaton Mask)
+    MM Moon Trial Deku Gossip Mid-Left
+      Graveyard (Giant's Mask)
+    MM Moon Trial Deku Gossip Mid-Right
+      Goron Village (Great Fairy's Mask)
+    MM Moon Trial Goron Gossip By Heart Piece
+      Dodongo's Cavern (Mask of Scents)
+    MM Moon Trial Goron Gossip Center Left
+      Stone Tower Temple (Don Gero's Mask)
+    MM Moon Trial Goron Gossip Center Right
+      Gerudo's Training Ground (Gibdo Mask)
+    MM Moon Trial Goron Gossip West Right
+      Forest Temple (Kamaro's Mask)
+    MM Moon Trial Link Gossip 1
+      Lost Woods (Stone Mask)
+    MM Moon Trial Link Gossip 2
+      Lost Woods (Kafei's Mask)
+    MM Moon Trial Link Gossip Last
+      Gerudo's Fortress (Mask of Truth)
+    MM Moon Trial Link Gossip Left
+      Forest Temple (Bunny Hood)
+    MM Moon Trial Link Gossip Right
+      Shadow Temple (Couple's Mask)
+    MM Moon Trial Zora Gossip Middle Left
+      Haunted Wasteland (Garo's Mask)
+    MM Moon Trial Zora Gossip Outer Left
+      Great Bay Coast (Blast Mask)
+    MM Moon Trial Zora Gossip Outer Right
+      West Clock Town (Postman's Hat)
+    MM Road to Southern Swamp Gossip
+      South Clock Town (Progressive Ocarina)
+    MM Termina Field Gossip Grotto Left-Center
+      South Clock Town (Progressive Ocarina)
+    OOT Lake Hylia Gossip Southwest Lake
+      Great Bay Temple (Progressive Hookshot)
+    OOT Market Gossip Outside Temple Leftmost
+      Great Bay Temple (Progressive Hookshot)
+    OOT Zora Domain Gossip
+      Temple of Time (Song of Time)
+    OOT Zora River Gossip Grotto
+      Temple of Time (Song of Time)
+
+
+  Foolish Regions:
+    Pirates' Fortress Sewers: 4
+
+===========================================================================
+Location List (951)
+  Inside Eggs (2):
+    OOT Hatch Chicken: Small Key (Bottom of the Well)
+    OOT Hatch Pocket Cucco: Ocean Skulltula Token
+
+  Kokiri Forest (18):
+    OOT Kokiri Forest Cow: Serenade of Water
+    OOT Kokiri Forest Kokiri Sword Chest: Gold Skulltula Token
+    OOT Kokiri Forest GS Soil: 5 Bombs
+    OOT Kokiri Forest GS Night Child: Deku Stick
+    OOT Kokiri Forest GS Night Adult: Red Rupee
+    OOT Kokiri Shop Item 1: Stray Fairy (Woodfall Temple)
+    OOT Kokiri Shop Item 2: Red Rupee
+    OOT Kokiri Shop Item 3: Green Potion (OoT)
+    OOT Kokiri Shop Item 4: Farore's Wind
+    OOT Kokiri Shop Item 5: 10 Bombs
+    OOT Kokiri Shop Item 6: Ocean Skulltula Token
+    OOT Kokiri Shop Item 7: Blue Rupee
+    OOT Kokiri Shop Item 8: Stray Fairy (Great Bay Temple)
+    OOT Mido's House Top Left: Small Key (Water Temple)
+    OOT Mido's House Top Right: Swamp Skulltula Token
+    OOT Mido's House Bottom Left: Boss Key (Snowhead Temple)
+    OOT Mido's House Bottom Right: 10 Arrows
+    OOT Kokiri Forest Storms Grotto: Soul of Volvagia
+
+  Hyrule Field (10):
+    OOT Hyrule Field Ocarina of Time: Blue Rupee
+    OOT Hyrule Field Song of Time: Gold Skulltula Token
+    OOT Hyrule Field Grotto Scrub HP: Stray Fairy (Snowhead Temple)
+    OOT Hyrule Field Grotto Open: Recovery Heart
+    OOT Hyrule Field Grotto Southeast: Stone of Agony
+    OOT Hyrule Field Grotto Market: Piece of Heart
+    OOT Hyrule Field Grotto Tektite HP: Gold Skulltula Token
+    OOT Hyrule Field Grotto Near Gerudo GS: Piece of Heart
+    OOT Hyrule Field Cow: Gold Skulltula Token
+    OOT Hyrule Field Grotto Near Kakariko GS: Purple Rupee
+
+  Market (42):
+    OOT Market Bazaar Item 1: Gold Skulltula Token
+    OOT Market Bazaar Item 2: Blue Rupee
+    OOT Market Bazaar Item 3: Ocean Skulltula Token
+    OOT Market Bazaar Item 4: Empty Bottle (OoT)
+    OOT Market Bazaar Item 5: Requiem of Spirit
+    OOT Market Bazaar Item 6: Stray Fairy (Snowhead Temple)
+    OOT Market Bazaar Item 7: Soul of Barinade
+    OOT Market Bazaar Item 8: Romani Milk
+    OOT Market Potion Shop Item 1: Stray Fairy (Woodfall Temple)
+    OOT Market Potion Shop Item 2: Blue Potion (MM)
+    OOT Market Potion Shop Item 3: Red Rupee
+    OOT Market Potion Shop Item 4: Blue Rupee
+    OOT Market Potion Shop Item 5: Small Key (Ganon's Castle)
+    OOT Market Potion Shop Item 6: 5 Deku Nuts
+    OOT Market Potion Shop Item 7: 5 Deku Nuts
+    OOT Market Potion Shop Item 8: Red Rupee
+    OOT Market Bombchu Shop Item 1: Swamp Skulltula Token
+    OOT Market Bombchu Shop Item 2: Gold Skulltula Token
+    OOT Market Bombchu Shop Item 3: Deku Stick
+    OOT Market Bombchu Shop Item 4: 5 Bombs
+    OOT Market Bombchu Shop Item 5: Gold Skulltula Token
+    OOT Market Bombchu Shop Item 6: 5 Deku Nuts
+    OOT Market Bombchu Shop Item 7: Spin Attack
+    OOT Market Bombchu Shop Item 8: Red Rupee
+    OOT Market Pot House Big Poes: Blue Rupee
+    OOT Market Pot House GS: Map (Shadow Temple)
+    OOT Market Dog Lady HP: Piece of Heart
+    OOT Bombchu Bowling Reward 1: Piece of Heart
+    OOT Bombchu Bowling Reward 2: 10 Bombs
+    OOT Shooting Gallery Child: Silver Rupee
+    OOT Treasure Chest Game Buy Key: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 1 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 1 Chest Right: Green Rupee
+    OOT Treasure Chest Game Room 2 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 2 Chest Right: Green Rupee
+    OOT Treasure Chest Game Room 3 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 3 Chest Right: Blue Rupee
+    OOT Treasure Chest Game Room 4 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 4 Chest Right: Blue Rupee
+    OOT Treasure Chest Game Room 5 Chest Left: Small Key (Chest Game)
+    OOT Treasure Chest Game Room 5 Chest Right: Red Rupee
+    OOT Treasure Chest Game HP: Piece of Heart
+
+  Lon Lon Ranch (14):
+    OOT Lon Lon Ranch Malon Song: Magic Bean (MM)
+    OOT Lon Lon Ranch GS Tree: Silver Rupee Pouch (Ganon's Castle - Spirit Trial)
+    OOT Lon Lon Ranch GS House: Red Rupee
+    OOT Lon Lon Ranch GS Rain Shed: Letter to Mama
+    OOT Lon Lon Ranch GS Back Wall: Gold Skulltula Token
+    OOT Lon Lon Ranch Stables Cow Left: Stray Fairy (Stone Tower Temple)
+    OOT Lon Lon Ranch Stables Cow Right: Silver Rupee
+    OOT Lon Lon Ranch Silo HP: Ocean Skulltula Token
+    OOT Lon Lon Ranch Silo Cow Front: Silver Rupee Pouch (Ganon's Castle - Light Trial)
+    OOT Lon Lon Ranch Silo Cow Back: Gold Skulltula Token
+    OOT Lon Lon Ranch Talon Bottle: 10 Bombs
+    OOT Lon Lon Ranch Grotto Left Scrub: Heart Container
+    OOT Lon Lon Ranch Grotto Center Scrub: 30 Deku Seeds
+    OOT Lon Lon Ranch Grotto Right Scrub: Swamp Skulltula Token
+
+  Hyrule Castle (6):
+    OOT Malon Egg: Lon Lon Milk (OoT)
+    OOT Hyrule Castle GS Tree: Stray Fairy (Clock Town)
+    OOT Zelda's Letter: Swamp Skulltula Token
+    OOT Zelda's Song: Weird Egg
+    OOT Great Fairy Din's Fire: Gold Skulltula Token
+    OOT Hyrule Castle GS Grotto: Gold Skulltula Token
+
+  Outside Ganon's Castle (2):
+    OOT Ganon Castle Exterior GS: Piece of Heart
+    OOT Great Fairy Defense Upgrade: Mountain Title Deed
+
+  Lost Woods (17):
+    OOT Lost Woods Target: Ocean Skulltula Token
+    OOT Lost Woods Skull Kid: Stray Fairy (Woodfall Temple)
+    OOT Lost Woods Memory Game: Stone Mask
+    OOT Lost Woods Scrub Sticks Upgrade: Kafei's Mask
+    OOT Lost Woods Odd Mushroom: Gold Skulltula Token
+    OOT Lost Woods Poacher's Saw: Green Potion (OoT)
+    OOT Lost Woods GS Soil Bridge: 10 Bombs
+    OOT Lost Woods Grotto Generic: Swamp Skulltula Token
+    OOT Lost Woods Gift from Saria: Swamp Skulltula Token
+    OOT Lost Woods Scrub Near Theater Left: Progressive Ocarina
+    OOT Lost Woods Scrub Near Theater Right: Red Rupee
+    OOT Lost Woods GS Soil Theater: Red Rupee
+    OOT Lost Woods GS Bean Ride: Red Rupee
+    OOT Deku Theater Sticks Upgrade: Red Rupee
+    OOT Deku Theater Nuts Upgrade: Red Rupee
+    OOT Lost Woods Grotto Scrub Nuts Upgrade: Stray Fairy (Stone Tower Temple)
+    OOT Lost Woods Grotto Scrub Back: Red Rupee
+
+  Sacred Forest Meadow (6):
+    OOT Sacred Meadow Grotto: Bugs (OoT)
+    OOT Saria's Song: 10 Bombs
+    OOT Sacred Meadow Sheik Song: Compass (Woodfall Temple)
+    OOT Sacred Meadow GS Night Adult: Swamp Skulltula Token
+    OOT Sacred Meadow Storms Grotto Front Scrub: Small Key (Bottom of the Well)
+    OOT Sacred Meadow Storms Grotto Back Scrub: 10 Arrows
+
+  Kakariko (40):
+    OOT Kakariko Anju Bottle: Red Rupee
+    OOT Kakariko Anju Egg: Gold Skulltula Token
+    OOT Kakariko Anju Cojiro: 5 Arrows
+    OOT Kakariko Song Shadow: Gold Skulltula Token
+    OOT Kakariko Man on Roof: Silver Rupee
+    OOT Kakariko GS Shooting Gallery: Romani Milk
+    OOT Kakariko GS Tree: 10 Arrows
+    OOT Kakariko GS House of Skulltula: Blue Rupee
+    OOT Kakariko GS Bazaar: Red Rupee
+    OOT Kakariko GS Ladder: 20 Bombs
+    OOT Kakariko GS Roof: 10 Arrows
+    OOT Kakariko Bazaar Item 1: Stray Fairy (Woodfall Temple)
+    OOT Kakariko Bazaar Item 2: Red Rupee
+    OOT Kakariko Bazaar Item 3: Gold Skulltula Token
+    OOT Kakariko Bazaar Item 4: Red Rupee
+    OOT Kakariko Bazaar Item 5: Goron Tunic
+    OOT Kakariko Bazaar Item 6: Stray Fairy (Great Bay Temple)
+    OOT Kakariko Bazaar Item 7: Recovery Heart
+    OOT Kakariko Bazaar Item 8: Blue Rupee
+    OOT Kakariko Potion Shop Item 1: Gold Skulltula Token
+    OOT Kakariko Potion Shop Item 2: 10 Deku Nuts
+    OOT Kakariko Potion Shop Item 3: Map (Bottom of the Well)
+    OOT Kakariko Potion Shop Item 4: Gold Skulltula Token
+    OOT Kakariko Potion Shop Item 5: Gold Skulltula Token
+    OOT Kakariko Potion Shop Item 6: Gold Skulltula Token
+    OOT Kakariko Potion Shop Item 7: Eye Drops
+    OOT Kakariko Potion Shop Item 8: Shared Bomb Bag
+    OOT Kakariko Potion Shop Odd Potion: Silver Rupee
+    OOT Shooting Gallery Adult: Red Rupee
+    OOT Kakariko Cow: Blue Rupee
+    OOT Kakariko Impa House HP: Piece of Heart
+    OOT Windmill HP: Gold Skulltula Token
+    OOT Windmill Song of Storms: Piece of Heart
+    OOT Skulltula House 10 Tokens: Spooky Mask
+    OOT Skulltula House 20 Tokens: Gold Skulltula Token
+    OOT Skulltula House 30 Tokens: Silver Rupee Pouch (Gerudo Training Ground - Slopes)
+    OOT Skulltula House 40 Tokens: Heart Container
+    OOT Skulltula House 50 Tokens: Lens of Truth
+    OOT Kakariko Grotto Front: 30 Deku Seeds
+    OOT Kakariko Grotto Back: Captain's Hat
+
+  Graveyard (10):
+    OOT Graveyard Dampe Game: Giant's Mask
+    OOT Graveyard Crate HP: Ocean Skulltula Token
+    OOT Graveyard GS Soil: Gold Skulltula Token
+    OOT Graveyard GS Wall: Boss Key (Fire Temple)
+    OOT Graveyard Royal Tomb Song: Mirror Shield
+    OOT Graveyard Royal Tomb Chest: Deku Shield
+    OOT Graveyard Fairy Tomb: Swamp Skulltula Token
+    OOT Graveyard ReDead Tomb: Swamp Skulltula Token
+    OOT Graveyard Dampe Tomb Reward 1: 10 Arrows
+    OOT Graveyard Dampe Tomb Reward 2: Soul of Gyorg (MM)
+
+  Death Mountain Trail (12):
+    OOT Death Mountain Chest: Blue Rupee
+    OOT Death Mountain HP: Gold Skulltula Token
+    OOT Death Mountain GS Entrance: Ruto's Letter
+    OOT Death Mountain GS Soil: Blue Rupee
+    OOT Death Mountain GS Above Dodongo: 5 Deku Nuts
+    OOT Death Mountain Prescription: Shared Bow
+    OOT Death Mountain Claim Check: Green Potion (OoT)
+    OOT Death Mountain Biggoron Sword: Bremen Mask
+    OOT Death Mountain GS Before Climb: Bombchu
+    OOT Death Mountain Grotto: Swamp Skulltula Token
+    OOT Death Mountain Cow: Red Rupee
+    OOT Great Fairy Magic Upgrade: Blue Rupee
+
+  Goron City (21):
+    OOT Goron City Maze Center 1: Stray Fairy (Woodfall Temple)
+    OOT Goron City Maze Center 2: World Map of Clock Town
+    OOT Goron City Maze Left: Piece of Heart
+    OOT Goron City Big Pot HP: Soul of Morpha
+    OOT Goron City Tunic: Red Rupee
+    OOT Goron City Bomb Bag: Progressive Sword (MM)
+    OOT Goron City Medigoron Giant Knife: Map (Ice Cavern)
+    OOT Goron City GS Platform: Gold Skulltula Token
+    OOT Goron City GS Maze: Gold Skulltula Token
+    OOT Darunia: Gold Skulltula Token
+    OOT Goron Shop Item 1: Ocean Skulltula Token
+    OOT Goron Shop Item 2: Stray Fairy (Snowhead Temple)
+    OOT Goron Shop Item 3: Chicken
+    OOT Goron Shop Item 4: Progressive Sword (MM)
+    OOT Goron Shop Item 5: Swamp Skulltula Token
+    OOT Goron Shop Item 6: Ocean Skulltula Token
+    OOT Goron Shop Item 7: Nocturne of Shadow
+    OOT Goron Shop Item 8: Blue Rupee
+    OOT Goron City Grotto Left Scrub: Ocean Skulltula Token
+    OOT Goron City Grotto Center Scrub: Bombchu
+    OOT Goron City Grotto Right Scrub: World Map of Stone Tower
+
+  Zora's River (12):
+    OOT Zora River GS Tree: 5 Bombs
+    OOT Zora River Bean Seller: Ocean Skulltula Token
+    OOT Zora River HP Pillar: Swamp Skulltula Token
+    OOT Zora River HP Platform: Blue Rupee
+    OOT Zora River Frogs Storms: Red Rupee
+    OOT Zora River Frogs Game: Swamp Skulltula Token
+    OOT Zora River GS Ladder: 5 Arrows
+    OOT Zora River GS Near Grotto: 5 Bombs
+    OOT Zora River GS Near Bridge: Map (Snowhead Temple)
+    OOT Zora River Storms Grotto Front Scrub: Piece of Heart
+    OOT Zora River Storms Grotto Back Scrub: Lon Lon Milk (OoT)
+    OOT Zora River Grotto: Deku Shield
+
+  Zora's Domain (13):
+    OOT Zora Domain Waterfall Chest: Piece of Heart
+    OOT Zora Domain Diving Game: Shared Light Arrows
+    OOT Zora Domain Tunic: 10 Arrows
+    OOT Zora Domain Eyeball Frog: Fairy (MM)
+    OOT Zora Domain GS Waterfall: Map (Stone Tower Temple)
+    OOT Zora Shop Item 1: Hylian/Hero Shield
+    OOT Zora Shop Item 2: Blue Rupee
+    OOT Zora Shop Item 3: Stray Fairy (Great Bay Temple)
+    OOT Zora Shop Item 4: Hylian/Hero Shield
+    OOT Zora Shop Item 5: Purple Rupee
+    OOT Zora Shop Item 6: Eyeball Frog
+    OOT Zora Shop Item 7: Bottle of Chateau Romani
+    OOT Zora Shop Item 8: Silver Rupee
+
+  Lake Hylia (15):
+    OOT Lake Hylia Underwater Bottle: Gold Skulltula Token
+    OOT Lake Hylia Fire Arrow: Recovery Heart
+    OOT Lake Hylia HP: Stray Fairy (Great Bay Temple)
+    OOT Lake Hylia GS Lab Wall: Red Rupee
+    OOT Lake Hylia GS Island: Stray Fairy (Great Bay Temple)
+    OOT Lake Hylia GS Soil: Blue Rupee
+    OOT Lake Hylia GS Big Tree: Map (Water Temple)
+    OOT Laboratory Dive: Gold Skulltula Token
+    OOT Laboratory Eye Drops: Blue Rupee
+    OOT Laboratory GS Crate: Deku Shield
+    OOT Fishing Pond Child: Circus Leader's Mask
+    OOT Fishing Pond Adult: Gold Skulltula Token
+    OOT Lake Hylia Grotto Left Scrub: Soul of Twinrova
+    OOT Lake Hylia Grotto Center Scrub: Small Key (Stone Tower Temple)
+    OOT Lake Hylia Grotto Right Scrub: Gold Rupee
+
+  Zora's Fountain (6):
+    OOT Zora Fountain Iceberg HP: Recovery Heart
+    OOT Zora Fountain GS Wall: Blue Rupee
+    OOT Zora Fountain GS Tree: Piece of Heart
+    OOT Zora Fountain GS Upper: Bottle of Gold Dust
+    OOT Zora Fountain Bottom HP: Gold Skulltula Token
+    OOT Great Fairy Farore's Wind: Red Rupee
+
+  Temple of Time (3):
+    OOT Temple of Time Master Sword: Blue Rupee
+    OOT Temple of Time Sheik Song: Song of Time
+    OOT Temple of Time Light Arrows: Red Rupee
+
+  Sacred Realm (1):
+    OOT Temple of Time Medallion: Gyorg's Remains
+
+  Death Mountain Crater (11):
+    OOT Death Mountain Crater GS Crate: Romani's Mask
+    OOT Death Mountain Crater Alcove HP: Stray Fairy (Great Bay Temple)
+    OOT Death Mountain Crater Scrub Child: Piece of Heart
+    OOT Death Mountain Crater Volcano HP: 5 Bombchu
+    OOT Death Mountain Crater Sheik Song: Recovery Heart
+    OOT Death Mountain Crater GS Soil: Swamp Skulltula Token
+    OOT Death Mountain Crater Grotto: 10 Bombs
+    OOT Death Mountain Crater Grotto Left Scrub: Recovery Heart
+    OOT Death Mountain Crater Grotto Center Scrub: Progressive Wallet
+    OOT Death Mountain Crater Grotto Right Scrub: Map (Woodfall Temple)
+    OOT Great Fairy Magic Upgrade 2: Small Key (Shadow Temple)
+
+  Gerudo Valley (11):
+    OOT Gerudo Valley Crate HP: Gold Skulltula Token
+    OOT Gerudo Valley Waterfall HP: Romani Milk
+    OOT Gerudo Valley GS Soil: Ocean Skulltula Token
+    OOT Gerudo Valley GS Wall: Stray Fairy (Stone Tower Temple)
+    OOT Gerudo Valley Cow: Poe (OoT)
+    OOT Gerudo Valley Chest: Recovery Heart
+    OOT Gerudo Valley Broken Goron Sword: Red Rupee
+    OOT Gerudo Valley GS Tent: Boss Key (Water Temple)
+    OOT Gerudo Valley GS Pillar: Piece of Heart
+    OOT Gerudo Valley Grotto Front Scrub: 5 Bombs
+    OOT Gerudo Valley Grotto Back Scrub: Ice Trap (OoT)
+
+  Gerudo's Fortress (5):
+    OOT Gerudo Fortress Archery Reward 1: Mask of Truth
+    OOT Gerudo Fortress Archery Reward 2: Blue Rupee
+    OOT Gerudo Fortress GS Target: 5 Bombs
+    OOT Gerudo Fortress GS Wall: Stray Fairy (Stone Tower Temple)
+    OOT Gerudo Fortress Chest: 10 Arrows
+
+  Haunted Wasteland (2):
+    OOT Haunted Wasteland Chest: Room Key
+    OOT Haunted Wasteland GS: Garo's Mask
+
+  Desert Colossus (8):
+    OOT Desert Colossus HP: Stray Fairy (Stone Tower Temple)
+    OOT Desert Colossus GS Soil: Red Rupee
+    OOT Desert Colossus GS Tree: Red Rupee
+    OOT Desert Colossus GS Plateau: Piece of Heart
+    OOT Desert Colossus Song Spirit: Blue Rupee
+    OOT Great Fairy Nayru's Love: Fairy (OoT)
+    OOT Desert Colossus Grotto Front Scrub: World Map of Snowhead
+    OOT Desert Colossus Grotto Back Scrub: Ice Trap (OoT)
+
+  Fire Temple (21):
+    OOT Deku Tree Boss Container: Gold Skulltula Token
+    OOT Deku Tree Boss: Shadow Medallion
+    OOT Fire Temple Jail 1 Chest: Lon Lon Milk (OoT)
+    OOT Fire Temple GS Hammer Statues: Red Rupee
+    OOT Fire Temple Boss Key Side Chest: Small Key (Stone Tower Temple)
+    OOT Fire Temple Boss Key Chest: Ocean Skulltula Token
+    OOT Fire Temple Lava Room North Jail Chest: Compass (Bottom of the Well)
+    OOT Fire Temple Lava Room South Jail Chest: Small Key (Stone Tower Temple)
+    OOT Fire Temple GS Lava Side Room: Recovery Heart
+    OOT Fire Temple Maze Chest: Recovery Heart
+    OOT Fire Temple Maze Jail Chest: Odd Mushroom
+    OOT Fire Temple GS Maze: Ocean Skulltula Token
+    OOT Fire Temple Map: Red Rupee
+    OOT Fire Temple Above Maze Chest: Heart Container
+    OOT Fire Temple Below Maze Chest: Ice Trap (OoT)
+    OOT Fire Temple Scarecrow Chest: Recovery Heart
+    OOT Fire Temple GS Scarecrow Wall: Blue Rupee
+    OOT Fire Temple GS Scarecrow Top: Blue Rupee
+    OOT Fire Temple Compass: Romani Milk
+    OOT Fire Temple Ring Jail: Gold Skulltula Token
+    OOT Fire Temple Hammer: Red Rupee
+
+  Great Bay Temple (23):
+    OOT Dodongo Cavern Boss Chest: Piece of Heart
+    OOT Dodongo Cavern Boss Container: 10 Arrows
+    OOT Dodongo Cavern Boss: Zora's Sapphire
+    MM Great Bay Temple Entrance Chest: 10 Bombchu
+    MM Great Bay Temple SF Water Wheel Platform: Red Rupee
+    MM Great Bay Temple SF Water Wheel Skulltula: Red Potion (OoT)
+    MM Great Bay Temple SF Central Room Barrel: 30 Arrows
+    MM Great Bay Temple SF Central Room Underwater Pot: Red Rupee
+    MM Great Bay Temple Map: Small Key (Shadow Temple)
+    MM Great Bay Temple SF Map Room Pot: Piece of Heart
+    MM Great Bay Temple Baba Chest: Blue Potion (MM)
+    MM Great Bay Temple Compass: Red Rupee
+    MM Great Bay Temple Compass Room Underwater: Stray Fairy (Great Bay Temple)
+    MM Great Bay Temple SF Compass Room Pot: Piece of Heart
+    MM Great Bay Temple Ice Arrow: 10 Arrows
+    MM Great Bay Temple Boss Key: Red Rupee
+    MM Great Bay Temple Green Pipe 1 Chest: Red Rupee
+    MM Great Bay Temple Green Pipe 2 Lower Chest: Gold Skulltula Token
+    MM Great Bay Temple Green Pipe 2 Upper Chest: Red Potion (MM)
+    MM Great Bay Temple Green Pipe 3 Chest: Saria's Song
+    MM Great Bay Temple SF Green Pipe 3 Barrel: Progressive Hookshot
+    MM Great Bay Temple SF Pre-Boss Above Water: Compass (Deku Tree)
+    MM Great Bay Temple SF Pre-Boss Underwater: 5 Arrows (OoT)
+
+  Woodfall Temple (22):
+    OOT Jabu-Jabu Boss Container: Swamp Skulltula Token
+    OOT Jabu-Jabu Boss: Twinmold's Remains
+    MM Woodfall Temple Entrance Chest: Small Key (Water Temple)
+    MM Woodfall Temple SF Entrance: Key Ring (Fire)
+    MM Woodfall Temple SF Main Pot: Ocean Skulltula Token
+    MM Woodfall Temple SF Main Deku Baba: Soul of Twinmold (MM)
+    MM Woodfall Temple Water Chest: Map (Dodongo's Cavern)
+    MM Woodfall Temple SF Water Room Beehive: Red Rupee
+    MM Woodfall Temple Map: Bottle of Milk (OoT)
+    MM Woodfall Temple SF Maze Skulltula: Gold Skulltula Token
+    MM Woodfall Temple SF Maze Beehive: Red Rupee
+    MM Woodfall Temple SF Maze Bubble: Swamp Skulltula Token
+    MM Woodfall Temple Compass: Recovery Heart
+    MM Woodfall Temple Dark Chest: Recovery Heart
+    MM Woodfall Temple Center Chest: Red Potion (MM)
+    MM Woodfall Temple SF Main Bubble: 10 Bombs
+    MM Woodfall Temple Bow: Red Rupee
+    MM Woodfall Temple Boss Key Chest: World Map of Great Bay
+    MM Woodfall Temple SF Pre-Boss Bottom Right: Green Potion (MM)
+    MM Woodfall Temple SF Pre-Boss Left: Stray Fairy (Snowhead Temple)
+    MM Woodfall Temple SF Pre-Boss Top Right: Blue Rupee
+    MM Woodfall Temple SF Pre-Boss Pillar: 5 Deku Nuts
+
+  Stone Tower Temple (26):
+    OOT Forest Temple Boss: Kokiri's Emerald
+    OOT Forest Temple Boss Container: Red Rupee
+    MM Stone Tower Temple Entrance Chest: Recovery Heart
+    MM Stone Tower Temple Entrance Switch Chest: Swamp Skulltula Token
+    MM Stone Tower Temple Under West Garden Ledge Chest: 10 Arrows
+    MM Stone Tower Temple Under West Garden Lava Chest: Map (Spirit Temple)
+    MM Stone Tower Temple Map: Gold Skulltula Token
+    MM Stone Tower Temple Center Sun Block Chest: Gold Skulltula Token
+    MM Stone Tower Temple Center Across Water Chest: Gold Skulltula Token
+    MM Stone Tower Temple Compass: Gold Skulltula Token
+    MM Stone Tower Temple Water Sun Switch Chest: 5 Arrows
+    MM Stone Tower Temple Mirrors Room Center Chest: 5 Arrows
+    MM Stone Tower Temple Mirrors Room Right Chest: Iron Boots
+    MM Stone Tower Temple Wind Room Ledge Chest: Don Gero's Mask
+    MM Stone Tower Temple Wind Room Jail Chest: Fish (OoT)
+    MM Stone Tower Temple Light Arrow: Gold Skulltula Token
+    MM Stone Tower Temple Before Water Bridge Chest: 10 Arrows
+    MM Stone Tower Temple Water Bridge Chest: Purple Rupee
+    MM Stone Tower Temple Inverted Entrance Chest: Red Potion (OoT)
+    MM Stone Tower Temple Inverted East Lower Chest: Gold Rupee
+    MM Stone Tower Temple Inverted East Upper Chest: Red Rupee
+    MM Stone Tower Temple Inverted East Middle Chest: Prelude of Light
+    MM Stone Tower Temple Inverted Wizzrobe Chest: Red Rupee
+    MM Stone Tower Temple Inverted Death Armos Chest: Ocean Title Deed
+    MM Stone Tower Temple Inverted Boss Key: Ice Trap (OoT)
+    MM Stone Tower Temple Inverted Giant Mask: Ocean Skulltula Token
+
+  Jabu-Jabu's Belly (10):
+    OOT Fire Temple Boss Container: 10 Arrows
+    OOT Fire Temple Boss: Spirit Medallion
+    OOT Jabu-Jabu Map Chest: Sun's Song
+    OOT Jabu-Jabu Compass Chest: Red Rupee
+    OOT Jabu-Jabu Boomerang Chest: Piece of Heart
+    OOT Jabu-Jabu GS Bottom Lower: 30 Deku Seeds
+    OOT Jabu-Jabu GS Bottom Upper: Deku Stick Upgrade
+    OOT Jabu-Jabu GS Water Switch: Deku Stick
+    OOT Jabu-Jabu Scrub: Great Fairy's Sword
+    OOT Jabu-Jabu GS Near Boss: Gold Skulltula Token
+
+  Spirit Temple (41):
+    OOT Water Temple Boss HC: Silver Rupee Pouch (Spirit Temple - Boulders)
+    OOT Water Temple Boss: Fire Medallion
+    OOT Spirit Temple GS Child Fence: Compass (Fire Temple)
+    OOT Spirit Temple Child First Chest: Blue Rupee
+    OOT Spirit Temple Child Second Chest: Small Key (Ganon's Castle)
+    OOT Spirit Temple SR Child 1: 10 Bombs
+    OOT Spirit Temple SR Child 2: Nayru's Love
+    OOT Spirit Temple SR Child 3: Map (Deku Tree)
+    OOT Spirit Temple SR Child 4: Gold Skulltula Token
+    OOT Spirit Temple SR Child 5: Gold Skulltula Token
+    OOT Spirit Temple Child Climb 1: 20 Bombs
+    OOT Spirit Temple Child Climb 2: Purple Rupee
+    OOT Spirit Temple GS Child Climb: Blue Rupee
+    OOT Spirit Temple Sun Block Room Torches: Map (Great Bay Temple)
+    OOT Spirit Temple SR Sun 1: Ocean Skulltula Token
+    OOT Spirit Temple SR Sun 2: Boss Key (Stone Tower Temple)
+    OOT Spirit Temple SR Sun 3: Poacher's Saw
+    OOT Spirit Temple SR Sun 4: Hylian/Hero Shield
+    OOT Spirit Temple SR Sun 5: Deku Nut Upgrade
+    OOT Spirit Temple GS Iron Knuckle: Stray Fairy (Stone Tower Temple)
+    OOT Spirit Temple Silver Gauntlets: 10 Arrows
+    OOT Spirit Temple Adult Lullaby: Silver Rupee Pouch (Ganon's Castle - Fire Trial)
+    OOT Spirit Temple GS Boulders: Gerudo Mask
+    OOT Spirit Temple Adult Silver Rupees: Stray Fairy (Snowhead Temple)
+    OOT Spirit Temple SR Boulders 1: 10 Arrows
+    OOT Spirit Temple SR Boulders 2: Red Rupee
+    OOT Spirit Temple SR Boulders 3: Cojiro
+    OOT Spirit Temple SR Boulders 4: 5 Arrows
+    OOT Spirit Temple SR Boulders 5: Broken Goron's Sword
+    OOT Spirit Temple Adult Suns on Wall 1: Recovery Heart
+    OOT Spirit Temple Adult Suns on Wall 2: Double Defense
+    OOT Spirit Temple Statue Base: Red Rupee
+    OOT Spirit Temple GS Statue: Purple Rupee
+    OOT Spirit Temple Statue Hands: Gold Skulltula Token
+    OOT Spirit Temple Statue Upper Right: Blue Rupee
+    OOT Spirit Temple Adult Late Sun on Wall: Gold Skulltula Token
+    OOT Spirit Temple Adult Invisible 1: Blue Rupee
+    OOT Spirit Temple Adult Invisible 2: Gold Skulltula Token
+    OOT Spirit Temple Mirror Shield: Boss Key (Woodfall Temple)
+    OOT Spirit Temple Adult Boss Key Chest: Compass (Forest Temple)
+    OOT Spirit Temple Adult Topmost Sun on Wall: World Map of Woodfall
+
+  Shadow Temple (39):
+    OOT Spirit Temple Boss HC: Deku Stick
+    OOT Spirit Temple Boss: Water Medallion
+    OOT Shadow Temple Map: Ocean Skulltula Token
+    OOT Shadow Temple Hover Boots: Gold Skulltula Token
+    OOT Shadow Temple Compass: Lon Lon Milk (OoT)
+    OOT Shadow Temple SR Scythe 1: Lon Lon Milk (OoT)
+    OOT Shadow Temple SR Scythe 2: Red Rupee
+    OOT Shadow Temple SR Scythe 3: Red Potion (OoT)
+    OOT Shadow Temple SR Scythe 4: Stray Fairy (Stone Tower Temple)
+    OOT Shadow Temple SR Scythe 5: Piece of Heart
+    OOT Shadow Temple Silver Rupees: 5 Arrows (OoT)
+    OOT Shadow Temple Spinning Blades Visible: Stray Fairy (Snowhead Temple)
+    OOT Shadow Temple Spinning Blades Invisible: Red Potion (OoT)
+    OOT Shadow Temple GS Invisible Scythe: Small Key (Shadow Temple)
+    OOT Shadow Temple SR Pit 1: Piece of Heart
+    OOT Shadow Temple SR Pit 2: Red Rupee
+    OOT Shadow Temple SR Pit 3: Map (Fire Temple)
+    OOT Shadow Temple SR Pit 4: Gold Skulltula Token
+    OOT Shadow Temple SR Pit 5: Gold Skulltula Token
+    OOT Shadow Temple Falling Spikes Lower: Key Ring (Spirit)
+    OOT Shadow Temple Falling Spikes Upper 1: Gold Skulltula Token
+    OOT Shadow Temple Falling Spikes Upper 2: Red Potion (OoT)
+    OOT Shadow Temple GS Falling Spikes: Soul of Queen Gohma
+    OOT Shadow Temple SR Spikes Back Left: Swamp Skulltula Token
+    OOT Shadow Temple SR Spikes Right: Recovery Heart
+    OOT Shadow Temple SR Spikes Center: Gold Skulltula Token
+    OOT Shadow Temple SR Spikes Front Left: Compass (Great Bay Temple)
+    OOT Shadow Temple SR Spikes Midair: Compass (Jabu-Jabu's Belly)
+    OOT Shadow Temple Invisible Spike Room: Fairy Slingshot
+    OOT Shadow Temple Skull: 10 Arrows
+    OOT Shadow Temple GS Skull Pot: 30 Bombs
+    OOT Shadow Temple Wind Room Hint: Silver Rupee Pouch (Shadow Temple - Scythe)
+    OOT Shadow Temple After Wind: 10 Bombchu
+    OOT Shadow Temple After Wind Invisible: Couple's Mask
+    OOT Shadow Temple GS Near Boat: Gold Skulltula Token
+    OOT Shadow Temple Boss Key Room 1: Red Rupee
+    OOT Shadow Temple Boss Key Room 2: Deku Stick
+    OOT Shadow Temple Invisible Floormaster: Swamp Skulltula Token
+    OOT Shadow Temple GS Triple Skull Pot: Piece of Heart
+
+  Deku Tree (12):
+    OOT Shadow Temple Boss HC: Blue Rupee
+    OOT Shadow Temple Boss: Forest Medallion
+    OOT Deku Tree Map Chest: Red Rupee
+    OOT Deku Tree Compass Chest: Red Rupee
+    OOT Deku Tree Compass Room Side Chest: Red Rupee
+    OOT Deku Tree GS Compass: Skull Mask
+    OOT Deku Tree Slingshot Chest: 5 Arrows
+    OOT Deku Tree Slingshot Side Chest: Swamp Skulltula Token
+    OOT Deku Tree Basement Chest: Gold Skulltula Token
+    OOT Deku Tree GS Basement Gate: Piece of Heart
+    OOT Deku Tree GS Basement Vines: Blue Rupee
+    OOT Deku Tree GS Basement Back Room: Soul of Goht (MM)
+
+  Dodongo's Cavern (16):
+    OOT Dodongo Cavern Map Chest: 5 Bombs
+    OOT Dodongo Cavern Lobby Scrub: Hylian/Hero Shield
+    OOT Dodongo Cavern GS Scarecrow: Silver Rupee
+    OOT Dodongo Cavern GS Side Room: Piece of Heart
+    OOT Dodongo Cavern Green Side Room Scrub: 10 Arrows
+    OOT Dodongo Cavern GS Stairs Vines: Mask of Scents
+    OOT Dodongo Cavern GS Stairs Top: Gold Skulltula Token
+    OOT Dodongo Cavern Compass Chest: Hylian/Hero Shield
+    OOT Dodongo Cavern Bomb Bag Side Chest: Gold Skulltula Token
+    OOT Dodongo Cavern Bomb Bag Side Room Left Scrub: Swamp Skulltula Token
+    OOT Dodongo Cavern Bomb Bag Side Room Right Scrub: Pendant of Memories
+    OOT Dodongo Cavern Bomb Bag Chest: Romani Milk
+    OOT Dodongo Cavern Bridge Chest: 10 Bombs
+    OOT Dodongo Cavern GS Near Boss: Piece of Heart
+    MM Snowhead Temple Boss HC: Gerudo's Membership Card
+    MM Snowhead Temple Boss: Goht's Remains
+
+  Forest Temple (20):
+    OOT Forest Temple Tree Small Key: Bunny Hood
+    OOT Forest Temple GS Entrance: Giant's Knife
+    OOT Forest Temple GS Main: Red Rupee
+    OOT Forest Temple Mini-Boss Key: Epona's Song
+    OOT Forest Temple GS Garden West: Red Rupee
+    OOT Forest Temple Floormaster: Progressive Sword (MM)
+    OOT Forest Temple Map: Pictograph Box
+    OOT Forest Temple Garden: Small Key (Woodfall Temple)
+    OOT Forest Temple GS Garden East: Gold Rupee
+    OOT Forest Temple Well: Stray Fairy (Woodfall Temple)
+    OOT Forest Temple Maze: Kamaro's Mask
+    OOT Forest Temple Boss Key: Silver Rupee Pouch (Shadow Temple - Spikes)
+    OOT Forest Temple Poe Key: Red Rupee
+    OOT Forest Temple Bow: Gold Skulltula Token
+    OOT Forest Temple Compass: Goron Tunic
+    OOT Forest Temple Checkerboard: Blue Rupee
+    OOT Forest Temple Antichamber: 5 Arrows
+    OOT Forest Temple GS Antichamber: Piece of Heart
+    MM Great Bay Temple Boss HC: Powder Keg
+    MM Great Bay Temple Boss: Light Medallion
+
+  Water Temple (17):
+    OOT Water Temple Bombable Chest: Keaton Mask
+    OOT Water Temple Map: Deku Nut Upgrade
+    OOT Water Temple Shell Chest: Red Rupee
+    OOT Water Temple GS Center: Din's Fire
+    OOT Water Temple Under Center: Piece of Heart
+    OOT Water Temple Compass: Deku Stick Upgrade
+    OOT Water Temple Dragon Chest: Stray Fairy (Snowhead Temple)
+    OOT Water Temple Corridor Chest: Red Rupee
+    OOT Water Temple GS Waterfalls: Recovery Heart
+    OOT Water Temple Boss Key Chest: Ocean Skulltula Token
+    OOT Water Temple GS Large Pit: Blue Rupee
+    OOT Water Temple Longshot: Stray Fairy (Stone Tower Temple)
+    OOT Water Temple GS River: Green Potion (MM)
+    OOT Water Temple River Chest: Deku Shield
+    OOT Water Temple GS Cage: Boss Key (Shadow Temple)
+    MM Woodfall Temple Boss Container: 30 Arrows
+    MM Woodfall Temple Boss: Odolwa's Remains
+
+  Bottom of the Well (8):
+    OOT MQ Bottom of the Well Map Chest: Pocket Egg
+    OOT MQ Bottom of the Well Compass Chest: Stray Fairy (Woodfall Temple)
+    OOT MQ Bottom of the Well Lens Chest: Red Rupee
+    OOT MQ Bottom of the Well Dead Hand Key: Red Potion (OoT)
+    OOT MQ Bottom of the Well East Middle Room Key: 10 Bombchu
+    OOT MQ Bottom of the Well GS Basement: Gold Skulltula Token
+    OOT MQ Bottom of the Well GS West Middle Room: Recovery Heart
+    OOT MQ Bottom of the Well GS Coffin Room: Boss Key (Spirit Temple)
+
+  Ice Cavern (8):
+    OOT MQ Ice Cavern Map Chest: Gold Skulltula Token
+    OOT MQ Ice Cavern Compass Chest: 5 Bombs
+    OOT MQ Ice Cavern Piece of Heart: Goron Mask
+    OOT MQ Ice Cavern GS Compass Room: Lon Lon Milk (OoT)
+    OOT MQ Ice Cavern Iron Boots: Recovery Heart
+    OOT MQ Ice Cavern Sheik Song: Deku Shield
+    OOT MQ Ice Cavern GS Scarecrow: Ocean Skulltula Token
+    OOT MQ Ice Cavern GS Clear Blocks: Piece of Heart
+
+  Thieves' Hideout (5):
+    OOT Gerudo Fortress Jail 1: Bottle of Red Potion (MM)
+    OOT Gerudo Member Card: Shared Magic Upgrade
+    OOT Gerudo Fortress Jail 2: Megaton Hammer
+    OOT Gerudo Fortress Jail 4: Stray Fairy (Snowhead Temple)
+    OOT Gerudo Fortress Jail 3: Purple Rupee
+
+  Gerudo's Training Ground (37):
+    OOT Gerudo Training Grounds Entrance 1: Small Key (Shadow Temple)
+    OOT Gerudo Training Grounds Entrance 2: Stray Fairy (Stone Tower Temple)
+    OOT Gerudo Training Grounds Stalfos: Progressive Wallet
+    OOT Gerudo Training Grounds SR Slope Front Right: Gold Skulltula Token
+    OOT Gerudo Training Grounds SR Slope Front Left: Boss Key (Forest Temple)
+    OOT Gerudo Training Grounds SR Slope Front Above: Green Rupee
+    OOT Gerudo Training Grounds SR Slope Center: Soul of Igos (MM)
+    OOT Gerudo Training Grounds SR Slope Back: Compass (Ice Cavern)
+    OOT Gerudo Training Grounds Near Block: Green Potion (OoT)
+    OOT Gerudo Training Grounds Behind Block Invisible: Stray Fairy (Stone Tower Temple)
+    OOT Gerudo Training Grounds Behind Block Visible: Red Rupee
+    OOT Gerudo Training Grounds Behind Block Enemy Back: Recovery Heart
+    OOT Gerudo Training Grounds Behind Block Enemy Front: Gold Skulltula Token
+    OOT Gerudo Training Maze Upper Cage: Red Rupee
+    OOT Gerudo Training Grounds Lizalfos: 20 Bombs
+    OOT Gerudo Training Grounds SR Lava Front Left: Piece of Heart
+    OOT Gerudo Training Grounds SR Lava Front Right: Stray Fairy (Snowhead Temple)
+    OOT Gerudo Training Grounds SR Lava Back Left: 5 Arrows
+    OOT Gerudo Training Grounds SR Lava Back Center: Gold Skulltula Token
+    OOT Gerudo Training Grounds SR Lava Back Right: Ocean Skulltula Token
+    OOT Gerudo Training Freestanding Key: Gibdo Mask
+    OOT Gerudo Training Maze Side Chest 1: Compass (Water Temple)
+    OOT Gerudo Training Maze Side Chest 2: Zelda's Lullaby
+    OOT Gerudo Training Water: Progressive Goron Lullaby
+    OOT Gerudo Training Grounds SR Water 1: Romani Milk
+    OOT Gerudo Training Grounds SR Water 2: Zora Mask
+    OOT Gerudo Training Grounds SR Water 3: Land Title Deed
+    OOT Gerudo Training Grounds SR Water 4: Empty Bottle (MM)
+    OOT Gerudo Training Grounds SR Water 5: Recovery Heart
+    OOT Gerudo Training Grounds Hammer Room Switch: Blue Rupee
+    OOT Gerudo Training Grounds Hammer Room: Silver Rupee Pouch (Ganon's Castle - Forest Trial)
+    OOT Gerudo Training Grounds Eye Statue: Red Rupee
+    OOT Gerudo Training Maze Upper Fake Ceiling: Silver Rupee Pouch (Gerudo Training Ground - Lava)
+    OOT Gerudo Training Maze Chest 1: New Wave Bossa Nova
+    OOT Gerudo Training Maze Chest 2: Song of Storms
+    OOT Gerudo Training Maze Chest 3: Red Rupee
+    OOT Gerudo Training Maze Chest 4: Lon Lon Milk (OoT)
+
+  Ganon's Castle (40):
+    OOT Ganon Castle Leftmost Scrub: Blue Rupee
+    OOT Ganon Castle Left-Center Scrub: Hylian/Hero Shield
+    OOT Ganon Castle Right-Center Scrub: 5 Bombs
+    OOT Ganon Castle Rightmost Scrub: Soul of King Dodongo
+    OOT Ganon Castle Light Chest Around 1: 5 Bombchu
+    OOT Ganon Castle Light Chest Around 2: Green Potion (OoT)
+    OOT Ganon Castle Light Chest Around 3: Swamp Skulltula Token
+    OOT Ganon Castle Light Chest Around 4: Piece of Heart
+    OOT Ganon Castle Light Chest Around 5: Red Rupee
+    OOT Ganon Castle Light Chest Around 6: Swamp Skulltula Token
+    OOT Ganon Castle Light Chest Center: Red Rupee
+    OOT Ganon Castle Light Chest Lullaby: 5 Deku Nuts
+    OOT Ganon Castle SR Light Alcove Right: Soul of Bongo Bongo
+    OOT Ganon Castle SR Light Alcove Left: Red Rupee
+    OOT Ganon Castle SR Light Center Top: Gold Skulltula Token
+    OOT Ganon Castle SR Light Center Right: Blue Rupee
+    OOT Ganon Castle SR Light Center Left: Red Rupee
+    OOT Ganon Castle Forest Chest: 5 Arrows
+    OOT Ganon Castle SR Forest Center Right: Piece of Heart
+    OOT Ganon Castle SR Forest Front: Blue Rupee
+    OOT Ganon Castle SR Forest Back Right: Deku Shield
+    OOT Ganon Castle SR Forest Back Middle: Compass (Shadow Temple)
+    OOT Ganon Castle SR Forest Center Left: Romani Milk
+    OOT Ganon Castle SR Fire Back Right: Gold Skulltula Token
+    OOT Ganon Castle SR Fire Left: Red Rupee
+    OOT Ganon Castle SR Fire Far Right: Ocean Skulltula Token
+    OOT Ganon Castle SR Fire Front Right: Letter to Kafei
+    OOT Ganon Castle SR Fire Black Pillar: Map (Jabu-Jabu's Belly)
+    OOT Ganon Castle Water Chest 1: Compass (Spirit Temple)
+    OOT Ganon Castle Water Chest 2: Heart Container
+    OOT Ganon Castle SR Spirit Center Midair: Compass (Snowhead Temple)
+    OOT Ganon Castle SR Spirit Front Right: Shared Bomb Bag
+    OOT Ganon Castle SR Spirit Center Bottom: Stray Fairy (Stone Tower Temple)
+    OOT Ganon Castle SR Spirit Back Left: Ocean Skulltula Token
+    OOT Ganon Castle SR Spirit Back Right: Deku Stick
+    OOT Ganon Castle Spirit Chest 1: Recovery Heart
+    OOT Ganon Castle Spirit Chest 2: Purple Rupee
+    OOT Ganon Castle Shadow Chest 1: Recovery Heart
+    OOT Ganon Castle Shadow Chest 2: Soul of Odolwa (MM)
+    OOT Ganon Castle Boss Key: Moon's Tear
+
+  Tingle (6):
+    MM Tingle Map Clock Town: Recovery Heart
+    MM Tingle Map Woodfall: Shared Magic Upgrade
+    MM Tingle Map Snowhead: 10 Bombchu
+    MM Tingle Map Ranch: Recovery Heart
+    MM Tingle Map Great Bay: Soul of Phantom Ganon
+    MM Tingle Map Ikana: Red Rupee
+
+  South Clock Town (7):
+    MM Clock Town Owl Statue: Owl Statue (Clock Town)
+    MM Initial Song of Healing: Progressive Ocarina
+    MM Clock Town Platform HP: Stray Fairy (Great Bay Temple)
+    MM Clock Town South Chest Lower: Stray Fairy (Snowhead Temple)
+    MM Clock Town South Chest Upper: 20 Bombchu
+    MM Clock Town Business Scrub: Romani Milk
+    MM Clock Town Post Box: Gold Skulltula Token
+
+  Milk Road (3):
+    MM Milk Road Owl Statue: Owl Statue (Milk Road)
+    MM Gorman Track Garo Mask: Purple Rupee
+    MM Gorman Track Milk Purchase: 5 Deku Nuts
+
+  Southern Swamp (14):
+    MM Southern Swamp Owl Statue: Owl Statue (Southern Swamp)
+    MM Southern Swamp HP: Gold Skulltula Token
+    MM Southern Swamp Scrub Deed: 30 Deku Seeds
+    MM Southern Swamp Scrub Shop: Stray Fairy (Great Bay Temple)
+    MM Southern Swamp Song of Soaring: Piece of Heart
+    MM Southern Swamp Grotto: 10 Arrows
+    MM Tourist Information Pictobox: Shared Ice Arrows
+    MM Tourist Information Boat Archery: Purple Rupee
+    MM Tourist Information Tingle Picture: Recovery Heart
+    MM Swamp Potion Shop Kotake: Chateau Romani Refill (MM)
+    MM Woods of Mystery Grotto: Red Rupee
+    MM Swamp Potion Shop Item 1: Ocean Skulltula Token
+    MM Swamp Potion Shop Item 2: Red Rupee
+    MM Swamp Potion Shop Item 3: Recovery Heart
+
+  Woodfall (5):
+    MM Woodfall Owl Statue: Owl Statue (Woodfall)
+    MM Woodfall Near Owl Chest: Gold Rupee
+    MM Woodfall Entrance Chest: Stray Fairy (Great Bay Temple)
+    MM Woodfall HP Chest: Shared Bomb Bag
+    MM Woodfall Great Fairy: Swamp Skulltula Token
+
+  Mountain Village (8):
+    MM Mountain Village Owl Statue: Owl Statue (Mountain Village)
+    MM Mountain Village Waterfall Chest: Progressive Strength
+    MM Mountain Village Don Gero Mask: Stray Fairy (Woodfall Temple)
+    MM Mountain Village Frog Choir HP: Blue Fire
+    MM Mountain Village Tunnel Grotto: Red Rupee
+    MM Blacksmith Razor Blade: Gold Rupee
+    MM Blacksmith Gilded Sword: Recovery Heart
+    MM Goron Graveyard Mask: Piece of Heart
+
+  Snowhead (2):
+    MM Snowhead Owl Statue: Owl Statue (Snowhead)
+    MM Snowhead Great Fairy: Empty Bottle (MM)
+
+  Great Bay Coast (9):
+    MM Great Bay Coast Owl Statue: Owl Statue (Great Bay)
+    MM Great Bay Coast Zora Mask: Red Rupee
+    MM Great Bay Coast HP: 20 Bombs
+    MM Great Bay Coast Fisherman HP: Recovery Heart
+    MM Great Bay Coast Fisherman Grotto: Blast Mask
+    MM Great Bay Coast Cow Front: Blue Rupee
+    MM Great Bay Coast Cow Back: Recovery Heart
+    MM Laboratory Zora Song: Key Ring (Great Bay)
+    MM Laboratory Fish HP: Boss Key (Great Bay Temple)
+
+  Zora Cape (9):
+    MM Zora Cape Owl Statue: Owl Statue (Zora Cape)
+    MM Zora Cape Underwater Chest: Progressive Wallet
+    MM Zora Cape Waterfall HP: Gold Skulltula Token
+    MM Zora Cape Grotto: Blue Rupee
+    MM Great Bay Great Fairy: Small Key (Water Temple)
+    MM Zora Cape Ledge Chest 1: Green Potion (OoT)
+    MM Zora Cape Ledge Chest 2: Red Rupee
+    MM Waterfall Rapids Beaver Race 1: Red Rupee
+    MM Waterfall Rapids Beaver Race 2: Bombchu
+
+  Ikana Canyon (8):
+    MM Ikana Canyon Owl Statue: Owl Statue (Ikana Canyon)
+    MM Ikana Valley Scrub Rupee: Romani Milk
+    MM Ikana Valley Scrub HP: 5 Arrows (OoT)
+    MM Ikana Valley Scrub Shop: Gold Skulltula Token
+    MM Ikana Valley Grotto: Red Rupee
+    MM Ikana Great Fairy: 5 Deku Nuts
+    MM Music Box House Gibdo Mask: Stray Fairy (Stone Tower Temple)
+    MM Ghost Hut HP: 10 Arrows
+
+  Stone Tower (4):
+    MM Stone Tower Owl Statue: Owl Statue (Stone Tower)
+    MM Stone Tower Inverted Chest 1: Gold Skulltula Token
+    MM Stone Tower Inverted Chest 2: Gold Skulltula Token
+    MM Stone Tower Inverted Chest 3: Red Rupee
+
+  Giant's Dream (1):
+    MM Oath to Order: Sonata of Awakening
+
+  North Clock Town (8):
+    MM Clock Town Tree HP: 5 Deku Nuts
+    MM Clock Town Bomber Notebook: 20 Bombchu
+    MM Clock Town Blast Mask: Shared Bow
+    MM Clock Town Keaton HP: Gold Skulltula Token
+    MM Clock Town Great Fairy: Blue Rupee
+    MM Clock Town Great Fairy Alt: Gold Skulltula Token
+    MM Deku Playground Reward Any Day: Red Potion (MM)
+    MM Deku Playground Reward All Days: Gold Skulltula Token
+
+  West Clock Town (19):
+    MM Clock Town Bank Reward 1: Gold Skulltula Token
+    MM Clock Town Bank Reward 2: Gold Skulltula Token
+    MM Clock Town Bank Reward 3: Boomerang
+    MM Clock Town Rosa Sisters HP: 30 Deku Seeds
+    MM Bomb Shop Item 1: Piece of Heart
+    MM Bomb Shop Item 2: Stray Fairy (Snowhead Temple)
+    MM Bomb Shop Bomb Bag: Compass (Dodongo's Cavern)
+    MM Bomb Shop Bomb Bag 2: Gold Skulltula Token
+    MM Trading Post Item 1: Swamp Skulltula Token
+    MM Trading Post Item 2: Biggoron's Sword
+    MM Trading Post Item 3: Recovery Heart
+    MM Trading Post Item 4: Progressive Strength
+    MM Trading Post Item 5: 30 Deku Seeds
+    MM Trading Post Item 6: 5 Arrows
+    MM Trading Post Item 7: Stray Fairy (Great Bay Temple)
+    MM Trading Post Item 8: Stray Fairy (Great Bay Temple)
+    MM Curiosity Shop All-Night Mask: Postman's Hat
+    MM Post Office HP: 5 Bombchu
+    MM Swordsman School HP: Blue Rupee
+
+  East Clock Town (14):
+    MM Clock Town Silver Rupee Chest: Gold Skulltula Token
+    MM Clock Town Postman Hat: Blue Rupee
+    MM Astral Observatory Passage Chest: Progressive Hookshot
+    MM Mayor's Office Kafei's Mask: Magic Beans (OoT)
+    MM Mayor's Office HP: Stray Fairy (Woodfall Temple)
+    MM Milk Bar Troupe Leader Mask: Key Ring (Snowhead)
+    MM Milk Bar Madame Aroma Bottle: Small Key (Shadow Temple)
+    MM Milk Bar Purchase Milk: 10 Bombs
+    MM Milk Bar Purchase Chateau: Key Ring (Forest)
+    MM Town Archery Reward 1: Gold Skulltula Token
+    MM Town Archery Reward 2: 5 Deku Nuts
+    MM Chest Game HP: Stray Fairy (Woodfall Temple)
+    MM Honey & Darling Reward Any Day: Gold Skulltula Token
+    MM Honey & Darling Reward All Days: Purple Rupee
+
+  Laundry Pool (5):
+    MM Clock Town Guru Guru Mask Bremen: Recovery Heart
+    MM Clock Town Stray Fairy: Gold Skulltula Token
+    MM Kafei Hideout Pendant of Memories: Lon Lon Milk (OoT)
+    MM Kafei Hideout Owner Reward 1: Ocean Skulltula Token
+    MM Kafei Hideout Owner Reward 2: Deku Mask
+
+  Stock Pot Inn (8):
+    MM Stock Pot Inn Guest Room Chest: Key Ring (GTG)
+    MM Stock Pot Inn Staff Room Chest: Green Potion (MM)
+    MM Stock Pot Inn Room Key: Red Rupee
+    MM Stock Pot Inn Letter to Kafei: Romani Milk
+    MM Stock Pot Inn Couple's Mask: 20 Bombchu
+    MM Stock Pot Inn Grandma HP 1: Silver Rupee
+    MM Stock Pot Inn Grandma HP 2: 10 Bombchu
+    MM Stock Pot Inn ??? HP: World Map of Ranch
+
+  Termina Field (14):
+    MM Astral Observatory Moon Tear: Magic Bean (MM)
+    MM Termina Field Water Chest: Fairy (OoT)
+    MM Termina Field Tall Grass Chest: Claim Check
+    MM Termina Field Tree Stump Chest: Blue Rupee
+    MM Termina Field Kamaro Mask: Ocean Skulltula Token
+    MM Termina Field Tall Grass Grotto: Piece of Heart
+    MM Termina Field Peahat Grotto: 5 Arrows
+    MM Termina Field Bio Baba Grotto: Gold Rupee
+    MM Termina Field Dodongo Grotto: Gold Skulltula Token
+    MM Termina Field Pillar Grotto: Red Rupee
+    MM Termina Field Scrub: Red Rupee
+    MM Termina Field Cow Front: Progressive Scale
+    MM Termina Field Cow Back: Stray Fairy (Snowhead Temple)
+    MM Termina Field Gossip Stones HP: Red Rupee
+
+  Road to Southern Swamp (4):
+    MM Road to Southern Swamp HP: Silver Rupee Pouch (Spirit Temple - Sun Block)
+    MM Swamp Archery Reward 1: Red Rupee
+    MM Swamp Archery Reward 2: Piece of Heart
+    MM Road to Southern Swamp Grotto: Hover Boots
+
+  Deku Palace (4):
+    MM Deku Palace HP: Swamp Skulltula Token
+    MM Deku Palace Sonata of Awakening: Piece of Heart
+    MM Deku Palace Grotto Chest: Piece of Heart
+    MM Deku Shrine Mask of Scents: 5 Arrows
+
+  Twin Islands (6):
+    MM Twin Islands Underwater Chest 1: Ocean Skulltula Token
+    MM Twin Islands Underwater Chest 2: Gold Skulltula Token
+    MM Goron Elder: Fairy Slingshot
+    MM Twin Islands Ramp Grotto Chest: Gold Skulltula Token
+    MM Twin Islands Frozen Grotto Chest: Elegy of Emptiness
+    MM Goron Race Reward: Recovery Heart
+
+  Goron Village (11):
+    MM Goron Village HP: Great Fairy's Mask
+    MM Goron Village Scrub Deed: Red Potion (MM)
+    MM Goron Village Scrub Bomb Bag: Progressive Goron Lullaby
+    MM Goron Powder Keg: Recovery Heart
+    MM Lone Peak Shrine Lens Chest: 5 Deku Nuts
+    MM Lone Peak Shrine Boulder Chest: Heart Container
+    MM Lone Peak Shrine Invisible Chest: Purple Rupee
+    MM Goron Baby: 10 Arrows
+    MM Goron Shop Item 1: Blue Rupee
+    MM Goron Shop Item 2: Swamp Skulltula Token
+    MM Goron Shop Item 3: Red Rupee
+
+  Road to Snowhead (2):
+    MM Path to Snowhead HP: Gold Skulltula Token
+    MM Path to Snowhead Grotto: Purple Rupee
+
+  Romani Ranch (9):
+    MM Romani Ranch Epona Song: 10 Bombchu
+    MM Romani Ranch Aliens: Shared Fire Arrows
+    MM Romani Ranch Cremia Escort: 10 Bombchu
+    MM Cucco Shack Bunny Mask: Piece of Heart
+    MM Doggy Racetrack Chest: Stray Fairy (Snowhead Temple)
+    MM Doggy Racetrack HP: Blue Rupee
+    MM Romani Ranch Barn Cow Left: Gold Skulltula Token
+    MM Romani Ranch Barn Cow Right Front: Blue Rupee
+    MM Romani Ranch Barn Cow Right Back: Ice Trap (OoT)
+
+  Pinnacle Rock (3):
+    MM Pinnacle Rock Chest 1: Gold Skulltula Token
+    MM Pinnacle Rock Chest 2: Blue Rupee
+    MM Pinnacle Rock HP: Piece of Heart
+
+  Zora Hall (8):
+    MM Zora Hall Scene Lights: Red Rupee
+    MM Zora Shop Item 1: Blue Rupee
+    MM Zora Shop Item 2: Blue Rupee
+    MM Zora Shop Item 3: Bottle of Milk (MM)
+    MM Zora Hall Evan HP: Recovery Heart
+    MM Zora Hall Scrub HP: Fierce Deity's Mask
+    MM Zora Hall Scrub Shop: Gold Skulltula Token
+    MM Zora Hall Scrub Deed: Piece of Heart
+
+  Road to Ikana (3):
+    MM Road to Ikana Chest: Ocean Skulltula Token
+    MM Road to Ikana Grotto: Gold Skulltula Token
+    MM Road to Ikana Stone Mask: All-Night Mask
+
+  Ikana Graveyard (6):
+    MM Ikana Graveyard Captain Mask: Minuet of Forest
+    MM Ikana Graveyard Grotto: Small Key (Water Temple)
+    MM Beneath The Graveyard Chest: Blue Rupee
+    MM Beneath The Graveyard Song of Storms: Small Key (Stone Tower Temple)
+    MM Beneath The Graveyard HP: Stray Fairy (Great Bay Temple)
+    MM Beneath The Graveyard Dampe Chest: Stray Fairy (Woodfall Temple)
+
+  Snowhead Temple (24):
+    MM Snowhead Temple Bridge Room: 5 Bombs
+    MM Snowhead Temple SF Bridge Under Platform: Fish (OoT)
+    MM Snowhead Temple SF Bridge Pillar: Silver Rupee
+    MM Snowhead Temple Map: Red Rupee
+    MM Snowhead Temple SF Map Room: Purple Rupee
+    MM Snowhead Temple Map Alcove: Stray Fairy (Woodfall Temple)
+    MM Snowhead Temple Central Room Alcove: Red Rupee
+    MM Snowhead Temple Pillars Room: Red Rupee
+    MM Snowhead Temple Central Room Bottom: Red Potion (OoT)
+    MM Snowhead Temple Block Room: Gold Skulltula Token
+    MM Snowhead Temple Block Room Ledge: Swamp Skulltula Token
+    MM Snowhead Temple Compass: 5 Arrows (OoT)
+    MM Snowhead Temple Compass Room Ledge: Stray Fairy (Stone Tower Temple)
+    MM Snowhead Temple SF Compass Room Crate: Stray Fairy (Woodfall Temple)
+    MM Snowhead Temple Icicle Room Alcove: Piece of Heart
+    MM Snowhead Temple Icicle Room: Green Potion (OoT)
+    MM Snowhead Temple SF Dual Switches: Blue Rupee
+    MM Snowhead Temple Fire Arrow: Swamp Skulltula Token
+    MM Snowhead Temple SF Snow Room: Song of Healing
+    MM Snowhead Temple SF Dinolfos 1: Key Ring (Hideout)
+    MM Snowhead Temple SF Dinolfos 2: Red Rupee
+    MM Snowhead Temple Boss Key: Blue Rupee
+    MM Stone Tower Boss HC: Gold Skulltula Token
+    MM Stone Tower Boss: Goron's Ruby
+
+  Pirates' Fortress Exterior (3):
+    MM Pirate Fortress Entrance Chest 1: Gold Skulltula Token
+    MM Pirate Fortress Entrance Chest 2: Stray Fairy (Stone Tower Temple)
+    MM Pirate Fortress Entrance Chest 3: 5 Deku Nuts
+
+  Pirates' Fortress Sewers (4):
+    MM Pirate Fortress Sewers Chest 1: Purple Rupee
+    MM Pirate Fortress Sewers Chest 2: 20 Bombs
+    MM Pirate Fortress Sewers Chest 3: Deku Shield
+    MM Pirate Fortress Sewers HP: Heart Container
+
+  Pirates' Fortress Interior (5):
+    MM Pirate Fortress Interior Lower Chest: Gold Skulltula Token
+    MM Pirate Fortress Interior Upper Chest: Stray Fairy (Great Bay Temple)
+    MM Pirate Fortress Interior Hookshot: Red Rupee
+    MM Pirate Fortress Interior Aquarium: Compass (Stone Tower Temple)
+    MM Pirate Fortress Interior Silver Rupee Chest: Red Rupee
+
+  Ikana Castle (2):
+    MM Ancient Castle of Ikana HP: Swamp Title Deed
+    MM Ancient Castle of Ikana Song Emptiness: Bugs (OoT)
+
+  Beneath The Well (4):
+    MM Beneath The Well Keese Chest: Gold Skulltula Token
+    MM Beneath The Well Cow: Recovery Heart
+    MM Beneath The Well Skulltulla Chest: Blue Rupee
+    MM Beneath The Well Mirror Shield: Fairy Slingshot
+
+  Secret Shrine (5):
+    MM Secret Shrine HP Chest: 5 Deku Nuts
+    MM Secret Shrine Dinalfos Chest: Purple Rupee
+    MM Secret Shrine Wizzrobe Chest: Lon Lon Milk (OoT)
+    MM Secret Shrine Wart Chest: 5 Arrows (OoT)
+    MM Secret Shrine Garo Master Chest: Prescription
+
+  Swamp Spider House (31):
+    MM Swamp Spider House Mask of Truth: Oath to Order
+    MM Swamp Skulltula Main Room Near Ceiling: Ice Trap (OoT)
+    MM Swamp Skulltula Main Room Lower Right Soft Soil: 5 Bombs
+    MM Swamp Skulltula Main Room Lower Left Soft Soil: Fish (OoT)
+    MM Swamp Skulltula Main Room Upper Soft Soil: Purple Rupee
+    MM Swamp Skulltula Main Room Upper Pillar: Poe (OoT)
+    MM Swamp Skulltula Main Room Pillar: Stray Fairy (Great Bay Temple)
+    MM Swamp Skulltula Main Room Water: Silver Rupee Pouch (Gerudo Training Ground - Water)
+    MM Swamp Skulltula Main Room Jar: Stray Fairy (Woodfall Temple)
+    MM Swamp Skulltula Gold Room Hive: Red Potion (OoT)
+    MM Swamp Skulltula Gold Room Near Ceiling: Stray Fairy (Stone Tower Temple)
+    MM Swamp Skulltula Gold Room Pillar: Recovery Heart
+    MM Swamp Skulltula Gold Room Wall: Odd Potion
+    MM Swamp Skulltula Tree Room Hive: Ocean Skulltula Token
+    MM Swamp Skulltula Tree Room Grass 1: Blue Rupee
+    MM Swamp Skulltula Tree Room Grass 2: Zora Tunic
+    MM Swamp Skulltula Tree Room Tree 1: Gold Skulltula Token
+    MM Swamp Skulltula Tree Room Tree 2: Kokiri Sword (OoT)
+    MM Swamp Skulltula Tree Room Tree 3: 10 Arrows
+    MM Swamp Skulltula Monument Room Lower Wall: Bombchu
+    MM Swamp Skulltula Monument Room On Monument: 30 Arrows
+    MM Swamp Skulltula Monument Room Crate 1: Red Potion (OoT)
+    MM Swamp Skulltula Monument Room Crate 2: Purple Rupee
+    MM Swamp Skulltula Monument Room Torch: Gold Skulltula Token
+    MM Swamp Skulltula Pot Room Hive 1: 10 Bombchu
+    MM Swamp Skulltula Pot Room Hive 2: Red Rupee
+    MM Swamp Skulltula Pot Room Behind Vines: Map (Forest Temple)
+    MM Swamp Skulltula Pot Room Pot 1: Gold Skulltula Token
+    MM Swamp Skulltula Pot Room Pot 2: Silver Rupee Pouch (Shadow Temple - Large Pits)
+    MM Swamp Skulltula Pot Room Jar: Recovery Heart
+    MM Swamp Skulltula Pot Room Wall: 5 Arrows (OoT)
+
+  Ocean Spider House (32):
+    MM Ocean Spider House Wallet: 30 Deku Seeds
+    MM Ocean Skulltula Entrance Right Wall: Bombers' Notebook
+    MM Ocean Skulltula Entrance Left Wall: Silver Rupee
+    MM Ocean Skulltula Entrance Web: Ocean Skulltula Token
+    MM Ocean Skulltula 2nd Room Ceiling Edge: Shared Bow
+    MM Ocean Skulltula 2nd Room Ceiling Plank: Blue Rupee
+    MM Ocean Skulltula 2nd Room Jar: 10 Bombchu
+    MM Ocean Skulltula 2nd Room Webbed Hole: Piece of Heart
+    MM Ocean Skulltula 2nd Room Behind Skull 1: 10 Deku Nuts
+    MM Ocean Skulltula 2nd Room Behind Skull 2: Pocket Cucco
+    MM Ocean Skulltula 2nd Room Webbed Pot: Blue Fire
+    MM Ocean Skulltula 2nd Room Upper Pot: Red Rupee
+    MM Ocean Skulltula 2nd Room Lower Pot: Gold Skulltula Token
+    MM Ocean Skulltula Library Hole Behind Picture: Bolero of Fire
+    MM Ocean Skulltula Library Hole Behind Cabinet: Stray Fairy (Snowhead Temple)
+    MM Ocean Skulltula Library On Corner Bookshelf: Empty Bottle (OoT)
+    MM Ocean Skulltula Library Behind Picture: Blue Rupee
+    MM Ocean Skulltula Library Behind Bookcase 1: Recovery Heart
+    MM Ocean Skulltula Library Behind Bookcase 2: 20 Bombchu
+    MM Ocean Skulltula Library Ceiling Edge: Silver Rupee
+    MM Ocean Skulltula Colored Skulls Chandelier 1: Recovery Heart
+    MM Ocean Skulltula Colored Skulls Chandelier 2: Stray Fairy (Woodfall Temple)
+    MM Ocean Skulltula Colored Skulls Chandelier 3: Progressive Scale
+    MM Ocean Skulltula Colored Skulls Behind Picture: Blue Rupee
+    MM Ocean Skulltula Colored Skulls Pot: Red Rupee
+    MM Ocean Skulltula Colored Skulls Ceiling Edge: Ocean Skulltula Token
+    MM Ocean Spider House Chest HP: Silver Rupee Pouch (Spirit Temple - Child)
+    MM Ocean Skulltula Storage Room Behind Boat: 10 Arrows
+    MM Ocean Skulltula Storage Room Ceiling Web: Gold Skulltula Token
+    MM Ocean Skulltula Storage Room Behind Crate: Red Rupee
+    MM Ocean Skulltula Storage Room Crate: Gold Skulltula Token
+    MM Ocean Skulltula Storage Room Jar: 20 Bombchu
+
+  Clock Tower Roof (2):
+    MM Clock Tower Roof Skull Kid Ocarina: Progressive Strength
+    MM Clock Tower Roof Skull Kid Song of Time: Piece of Heart
+
+  The Moon (7):
+    MM Moon Fierce Deity Mask: Red Rupee
+    MM Moon Trial Deku HP: Zora Tunic
+    MM Moon Trial Goron HP: Stray Fairy (Snowhead Temple)
+    MM Moon Trial Zora HP: Small Key (Water Temple)
+    MM Moon Trial Link Garo Master Chest: Gold Skulltula Token
+    MM Moon Trial Link Iron Knuckle Chest: Gold Skulltula Token
+    MM Moon Trial Link HP: Swamp Skulltula Token
