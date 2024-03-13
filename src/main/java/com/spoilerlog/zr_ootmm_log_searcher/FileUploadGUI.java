@@ -66,10 +66,10 @@ public class FileUploadGUI {
                 String location = dropdownMenu2.getSelectedItem().toString();
                 if (itemList.locationsByEntrance.get(location).itemValues.contains(item)) {
                     System.out.println("Item Found");
-                    JOptionPane.showMessageDialog(null, item + " appears to be found in " + location);
+                    JOptionPane.showMessageDialog(null, item + " appears to be found in " + location + " Entrance");
                 } else {
                     System.out.println("Item Not Found");
-                    JOptionPane.showMessageDialog(null, item + " is not found in " + location);
+                    JOptionPane.showMessageDialog(null, item + " is not found in " + location + " Entrance");
 
                 }
             }

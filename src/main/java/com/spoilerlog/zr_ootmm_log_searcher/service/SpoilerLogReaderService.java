@@ -161,7 +161,7 @@ public class SpoilerLogReaderService {
         map.put("OOT_BOTTOM_OF_THE_WELL", "Bottom of the Well");
         map.put("OOT_DEKU_TREE", "Deku Tree");
         map.put("OOT_DODONGO_CAVERN", "Dodongo's Cavern");
-        map.put("OOT_JABU_JABU", "Jabu Jabu's Belly");
+        map.put("OOT_JABU_JABU", "Jabu-Jabu's Belly");
         map.put("OOT_GANON_CASTLE", "Ganon's Castle");
         map.put("OOT_GANON_TOWER", "Ganon's Tower");
         map.put("OOT_GERUDO_TRAINING_GROUNDS", "Gerudo's Training Ground");
