@@ -20,8 +20,10 @@ public class FileUploadGUI {
     private ItemList itemList;
     private JFrame frame;
     private JLabel fileNameLabel;
-    private JComboBox<String> dropdownMenu1;
-    private JComboBox<String> dropdownMenu2;
+    private JComboBox<String> itemDropdownMenu1;
+    private JComboBox<String> itemDropdownMenu2;
+    private JComboBox<String> locationDropdownMenu;
+
 
     public static void main(String[] args) {
         FileUploadGUI fileUploadGUI = new FileUploadGUI();
@@ -29,13 +31,33 @@ public class FileUploadGUI {
     }
 
     public FileUploadGUI() {
-        frame = new JFrame();
-        frame.setTitle("Spoiler Log Location Item Search");
-        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        JPanel panel = new JPanel(new GridLayout(6,1));
-        //panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
-        panel.setBorder(new EmptyBorder(10, 10, 10, 10));
+        frame = new JFrame();
+        frame.setTitle("Spoiler Log Utility Tool");
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
+        dim.setSize(dim.width/2.25, dim.height/2.25);
+        frame.setSize(dim);
+
+        JTabbedPane tabbedPane = new JTabbedPane();
+        tabbedPane.setTabLayoutPolicy(JTabbedPane.SCROLL_TAB_LAYOUT);
+        tabbedPane.setAutoscrolls(false);
+
+        JPanel uploadPanel = new JPanel(new GridLayout(6,1));
+        uploadPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
+
+        JPanel locationSearchPanel = new JPanel(new GridLayout(6,1));
+        locationSearchPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
+
+        JPanel itemSearchPanel = new JPanel(new GridLayout(6,1));
+        itemSearchPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
+        JPanel easyImpossibilitySearchPanel = new JPanel(new GridLayout(6,1));
+        easyImpossibilitySearchPanel.setBorder(new EmptyBorder(10, 10, 10, 10));
+
+        tabbedPane.addTab("Upload Spoiler Log", uploadPanel);
+        tabbedPane.addTab("Location Search", locationSearchPanel);
+        tabbedPane.addTab("Item Search", itemSearchPanel);
+        tabbedPane.addTab("\"Easy\" Impossibility Checker", easyImpossibilitySearchPanel);
 
         // File upload section
         fileNameLabel = new JLabel("No file selected", SwingConstants.CENTER);
@@ -54,16 +76,22 @@ public class FileUploadGUI {
             }
         });
 
-        dropdownMenu1 = new JComboBox<>();
-        dropdownMenu1.setPreferredSize(new Dimension(200, 30));
-        dropdownMenu2 = new JComboBox<>();
-        dropdownMenu2.setPreferredSize(new Dimension(200, 30));
+        itemDropdownMenu1 = new JComboBox<>();
+        itemDropdownMenu1.setPreferredSize(new Dimension(200, 30));
+        itemDropdownMenu2 = new JComboBox<>();
+        itemDropdownMenu2.setPreferredSize(new Dimension(200, 30));
+        locationDropdownMenu = new JComboBox<>();
+        locationDropdownMenu.setPreferredSize(new Dimension(200, 30));
+
+        itemDropdownMenu1.addItem("Please upload a Spoiler Log first");
+        itemDropdownMenu2.addItem("Please upload a Spoiler Log first");
+        locationDropdownMenu.addItem("Please upload a Spoiler Log first");
 
         JButton checkButton = new JButton("Check Location For Item");
         checkButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                String item = dropdownMenu1.getSelectedItem().toString();
-                String location = dropdownMenu2.getSelectedItem().toString();
+                String item = itemDropdownMenu1.getSelectedItem().toString();
+                String location = locationDropdownMenu.getSelectedItem().toString();
                 if (itemList.locationsByEntrance.get(location).itemValues.contains(item)) {
                     System.out.println("Item Found");
                     JOptionPane.showMessageDialog(null, item + " appears to be found in " + location + " Entrance");
@@ -75,7 +103,7 @@ public class FileUploadGUI {
             }
         });
 
-        JButton easyCheckButton = new JButton("Easy to Determine Impossible Checker");
+        JButton easyCheckButton = new JButton("Easily Determined Impossibility Checker");
         easyCheckButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 EasyCheckService easyCheckService = new EasyCheckService();
@@ -94,16 +122,43 @@ public class FileUploadGUI {
             }
         });
 
-        panel.add(uploadButton);
-        panel.add(fileNameLabel);
-        panel.add(dropdownMenu1);
-        panel.add(dropdownMenu2);
-        panel.add(checkButton);
-        panel.add(easyCheckButton);
+        uploadPanel.add(uploadButton);
+        uploadPanel.add(fileNameLabel);
 
-        frame.add(panel, BorderLayout.CENTER);
+        locationSearchPanel.add(itemDropdownMenu1);
+        locationSearchPanel.add(locationDropdownMenu);
+        locationSearchPanel.add(checkButton);
+
+        JButton itemLocationHintButton = new JButton("What Location is this item in?");
+        itemLocationHintButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                ArrayList<Location> locationsOfItem = new ArrayList<>();
+                String item = itemDropdownMenu2.getSelectedItem().toString();
+                for (Location tempLocation : itemList.locations.values()){
+                    if (tempLocation.itemValues.contains(item)){
+                        locationsOfItem.add(tempLocation);
+                    }
+                }
+                StringBuilder loc = new StringBuilder("The ");
+                loc.append(item);
+                loc.append( " can be found in:\n");
+                for (Location itemLocation : locationsOfItem){
+                       loc.append(itemLocation.entrance).append("\n");
+                }
+                JOptionPane.showMessageDialog(null, loc);
+            }
+        });
+
+        itemSearchPanel.add(itemDropdownMenu2);
+        itemSearchPanel.add(itemLocationHintButton);
+
+        easyImpossibilitySearchPanel.add(easyCheckButton);
+
+
+/*        frame.add(locationSearchPanel, BorderLayout.CENTER);
         frame.pack();
-        frame.setLocationRelativeTo(null);
+        frame.setLocationRelativeTo(null);*/
+        frame.getContentPane().add(tabbedPane);
     }
 
     public void show() {
@@ -114,24 +169,28 @@ public class FileUploadGUI {
         SpoilerLogReaderService spoilerLogReader = new SpoilerLogReaderService();
         this.itemList = spoilerLogReader.processFile(file);
         this.itemList.createEntranceLocationsMap();
-        dropdownMenu1.removeAllItems();
-        dropdownMenu2.removeAllItems();
-        dropdownMenu1.addItem("Is this item in");
-        dropdownMenu2.addItem("this location (dungeon entrance if shuffled)?");
+        itemDropdownMenu1.removeAllItems();
+        itemDropdownMenu2.removeAllItems();
+        locationDropdownMenu.removeAllItems();
+        itemDropdownMenu1.addItem("Items:");
+        itemDropdownMenu2.addItem("Items:");
+        locationDropdownMenu.addItem("Locations/Entrances:");
 
         TreeSet<String> allItems = new TreeSet<>();
         allItems.addAll(itemList.allItems.keySet());
         for (String item: allItems){
-            dropdownMenu1.addItem(item);
+            itemDropdownMenu1.addItem(item);
+            itemDropdownMenu2.addItem(item);
         }
         TreeSet<String> entrances = new TreeSet<>();
         for (Location location : itemList.locations.values()) {
             entrances.add(location.getEntrance());
         }
         for (String entrance: entrances){
-            dropdownMenu2.addItem(entrance);
+            locationDropdownMenu.addItem(entrance);
         }
 
     }
+
 }
 
