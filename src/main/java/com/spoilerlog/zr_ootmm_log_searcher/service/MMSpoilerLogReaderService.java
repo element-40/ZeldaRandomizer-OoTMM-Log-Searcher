@@ -3,10 +3,13 @@ package com.spoilerlog.zr_ootmm_log_searcher.service;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.ItemList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.Location;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.HashMap;
 
-public class SpoilerLogReaderService {
+public class MMSpoilerLogReaderService implements SpoilerLogReader{
 
     public ItemList processFile(File file) {
         ItemList itemList = new ItemList();
@@ -25,8 +28,8 @@ public class SpoilerLogReaderService {
             // Check if it contains the phrase "spoiler log" on the first line
             while ((line = reader.readLine()) != null) {
                 if (isFirstLine) {
-                    if (!line.trim().contains("Seed:")) {
-                        System.err.println("Error: File does not start with 'Seed:'.");
+                    if (!line.trim().contains("Version:")) {
+                        System.err.println("Error: File does not start with 'Version:'.");
                         return null;
                     }
                     isFirstLine = false;
@@ -44,6 +47,11 @@ public class SpoilerLogReaderService {
             e.printStackTrace();
         }
         return itemList;
+    }
+
+    @Override
+    public ItemList processFile(BufferedReader reader) {
+        return null;
     }
 
     public static void handleItem(ItemList itemList, Location location, String check, String itemValue){

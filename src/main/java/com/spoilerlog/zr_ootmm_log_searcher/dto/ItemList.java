@@ -12,6 +12,7 @@ public class ItemList {
     public HashSet<String> ootItems;
     public HashSet<String> mmItems;
     public HashMap<String, String> allItems;
+    public FairySkullList fairySkullList;
 
     public ItemList() {
         this.dayOneItems = new HashSet<>();
@@ -76,6 +77,14 @@ public class ItemList {
 
     public void setAllItems(HashMap<String, String> allItems) {
         this.allItems = allItems;
+    }
+
+    public FairySkullList getFairySkullList() {
+        return fairySkullList;
+    }
+
+    public void setFairySkullList(FairySkullList fairySkullList) {
+        this.fairySkullList = fairySkullList;
     }
 
     public void createEntranceLocationsMap(){
