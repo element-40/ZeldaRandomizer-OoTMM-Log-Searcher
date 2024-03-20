@@ -4,6 +4,7 @@ import com.spoilerlog.zr_ootmm_log_searcher.dto.ItemList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.Location;
 import com.spoilerlog.zr_ootmm_log_searcher.service.EasyCheckService;
 import com.spoilerlog.zr_ootmm_log_searcher.service.CombinedSpoilerLogReaderService;
+import com.spoilerlog.zr_ootmm_log_searcher.service.MMSpoilerLogReaderService;
 import com.spoilerlog.zr_ootmm_log_searcher.service.SpoilerLogReader;
 
 import javax.swing.*;
@@ -269,6 +270,7 @@ public class SpoilerLogUtilityTool {
     }
 
     private void processText(BufferedReader reader){
+        this.itemList= new ItemList();
         gameType = determineSpoilerLogType(reader);
         SpoilerLogReader spoilerLogReader = null;
         if (null == gameType){
@@ -279,7 +281,7 @@ public class SpoilerLogUtilityTool {
         } else if (gameType.equalsIgnoreCase("OOT")){
             throw new UnsupportedOperationException("Non-Compatible Spoiler Log Uploaded");
         } else if (gameType.equalsIgnoreCase("MM")){
-            throw new UnsupportedOperationException("Non-Compatible Spoiler Log Uploaded");
+            spoilerLogReader = new MMSpoilerLogReaderService();
         } else {
             throw new UnsupportedOperationException("Non-Compatible Spoiler Log Uploaded");
         }

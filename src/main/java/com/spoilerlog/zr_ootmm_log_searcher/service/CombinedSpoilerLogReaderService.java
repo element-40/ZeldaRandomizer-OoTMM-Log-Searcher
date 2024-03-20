@@ -41,7 +41,7 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
                 handleLocationShuffle(reader, locations, entranceMapper);
             } else if (line.contains("Location List")) {
                 itemList.setLocations(locations);
-                handleLocations(reader, locations, itemList, entranceMapper, fairySkullList);
+                handleLocations(reader, locations, itemList);
 
             }
         }
@@ -89,8 +89,8 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
         }
     }
 
-    public void handleLocations(BufferedReader reader, HashMap<String, Location> locations, ItemList itemList,
-                                       HashMap<String, String> entranceMapper, FairySkullList fairySkullList) throws IOException {
+    public void handleLocations(BufferedReader reader, HashMap<String, Location> locations,
+                                ItemList itemList) throws IOException {
         String line;
         Location location= new Location(null);
         boolean shuffledEntrances = !locations.isEmpty();
@@ -114,7 +114,7 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
                 } else {
                     String item = parts[1].trim();
                     item = item.replaceAll("\\s*\\d+\\s*", "").trim();
-                    handleItem(itemList, location, check, item, fairySkullList);
+                    handleItem(itemList, location, check, item);
 
                 }
             }
@@ -122,7 +122,7 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
     }
 
     public void handleItem(ItemList itemList, Location location, String check,
-                           String itemValue, FairySkullList fairySkullList){
+                           String itemValue){
         if (check.equalsIgnoreCase("OOT Ganon Castle Boss Key")){
             if (itemList.locations.containsKey("Ganon's Tower")){
                 itemList.locations.get("Ganon's Tower").itemValues.add(itemValue);
