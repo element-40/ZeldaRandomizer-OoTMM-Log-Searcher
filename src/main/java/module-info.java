@@ -6,4 +6,5 @@ module com.spoilerlog.ootmmrls {
     exports com.spoilerlog.zr_ootmm_log_searcher;
     exports com.spoilerlog.zr_ootmm_log_searcher.service;
     exports com.spoilerlog.zr_ootmm_log_searcher.dto;
+    exports com.spoilerlog.zr_ootmm_log_searcher.helper;
 }

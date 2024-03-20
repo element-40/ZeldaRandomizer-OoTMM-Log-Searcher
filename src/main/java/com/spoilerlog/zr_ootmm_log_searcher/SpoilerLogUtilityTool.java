@@ -174,6 +174,20 @@ public class SpoilerLogUtilityTool {
             }
         });
 
+        JButton itemCheckHintButton = new JButton("Which exact Check(s) contained this item?");
+        itemCheckHintButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String item = itemDropdownMenu2.getSelectedItem().toString();
+                StringBuilder loc = new StringBuilder("The ");
+                loc.append(item);
+                loc.append( " can be found in:\n");
+                for (String check : itemList.allItems.get(item)){
+                    loc.append(check).append("\n");
+                }
+                JOptionPane.showMessageDialog(null, loc);
+            }
+        });
+
         JButton strayFairyWoodfallLocationHintButton = new JButton("Where are the Woodfall Stray Fairies?");
         strayFairyWoodfallLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
@@ -252,6 +266,7 @@ public class SpoilerLogUtilityTool {
 
         itemSearchPanel.add(itemDropdownMenu2);
         itemSearchPanel.add(itemLocationHintButton);
+        itemSearchPanel.add(itemCheckHintButton);
 
         easyImpossibilitySearchPanel.add(easyCheckButton);
 

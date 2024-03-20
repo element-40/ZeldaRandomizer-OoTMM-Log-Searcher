@@ -4,8 +4,10 @@ import com.spoilerlog.zr_ootmm_log_searcher.dto.FairySkullList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.GreatBayStrayFairyList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.ItemList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.Location;
+import com.spoilerlog.zr_ootmm_log_searcher.helper.HelperUtility;
 
 import java.io.*;
+import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 
@@ -13,6 +15,7 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
 
     public FairySkullList fairySkullList;
     public ItemList itemList;
+    public HelperUtility helperUtility= new HelperUtility();
 
     public ItemList processFile(File file){
         // Check if it's a raw text file
@@ -126,33 +129,33 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
         if (check.equalsIgnoreCase("OOT Ganon Castle Boss Key")){
             if (itemList.locations.containsKey("Ganon's Tower")){
                 itemList.locations.get("Ganon's Tower").itemValues.add(itemValue);
-                itemList.allItems.put(itemValue, check);
+                helperUtility.handleAllItems(itemValue, check, itemList);
                 checkForCollectable(itemValue, itemList.locations.get("Ganon's Tower"));
             } else{
                 location.itemValues.add(itemValue);
-                itemList.allItems.put(itemValue, check);
+                helperUtility.handleAllItems(itemValue, check, itemList);
                 checkForCollectable(itemValue, location);
             }
         } else if (location.locationName.equalsIgnoreCase("Stone Tower Temple")){
             if (check.contains("Inverted")){
                 if (itemList.locations.containsKey("Inverted Stone Tower Temple")){
                     itemList.locations.get("Inverted Stone Tower Temple").itemValues.add(itemValue);
-                    itemList.allItems.put(itemValue, check);
+                    helperUtility.handleAllItems(itemValue, check, itemList);
                 } else {
                     Location istt = new Location("Inverted Stone Tower Temple");
                     istt.itemValues.add(check);
                     itemList.locations.put("Inverted Stone Tower Temple", istt);
-                    itemList.allItems.put(itemValue, check);
+                    helperUtility.handleAllItems(itemValue, check, itemList);
                 }
                 checkForCollectable(itemValue, itemList.locations.get("Inverted Stone Tower Temple"));
             } else {
                 location.itemValues.add(itemValue);
-                itemList.allItems.put(itemValue, check);
+                helperUtility.handleAllItems(itemValue, check, itemList);
                 checkForCollectable(itemValue, location);
             }
         } else {
             location.itemValues.add(itemValue);
-            itemList.allItems.put(itemValue, check);
+            helperUtility.handleAllItems(itemValue, check, itemList);
             checkForCollectable(itemValue, location);
         }
     }

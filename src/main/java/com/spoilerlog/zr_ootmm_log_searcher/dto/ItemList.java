@@ -1,5 +1,6 @@
 package com.spoilerlog.zr_ootmm_log_searcher.dto;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.HashSet;
 
@@ -11,7 +12,7 @@ public class ItemList {
     public HashSet<String> dayThreeItems;
     public HashSet<String> ootItems;
     public HashSet<String> mmItems;
-    public HashMap<String, String> allItems;
+    public HashMap<String, ArrayList<String>> allItems;
     public FairySkullList fairySkullList;
 
     public ItemList() {
@@ -71,11 +72,11 @@ public class ItemList {
         this.mmItems = mmItems;
     }
 
-    public HashMap<String, String> getAllItems() {
+    public HashMap<String, ArrayList<String>> getAllItems() {
         return allItems;
     }
 
-    public void setAllItems(HashMap<String, String> allItems) {
+    public void setAllItems(HashMap<String, ArrayList<String>> allItems) {
         this.allItems = allItems;
     }
 

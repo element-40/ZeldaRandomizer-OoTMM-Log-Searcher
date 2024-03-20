@@ -3,6 +3,7 @@ package com.spoilerlog.zr_ootmm_log_searcher.service;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.FairySkullList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.ItemList;
 import com.spoilerlog.zr_ootmm_log_searcher.dto.Location;
+import com.spoilerlog.zr_ootmm_log_searcher.helper.HelperUtility;
 
 import java.io.*;
 import java.util.Collections;
@@ -12,6 +13,7 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
 
     public FairySkullList fairySkullList;
     public ItemList itemList;
+    public HelperUtility helperUtility = new HelperUtility();
 
     public ItemList processFile(File file){
         // Check if it's a raw text file
@@ -113,11 +115,12 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
                 String item = parts[1].trim();
                 item = item.replaceAll("\\s*\\d+\\s*", "").trim();
                 item = item.replaceAll("\\*", "").trim();
+                item = item.replaceAll("\\(.*?\\)", "").trim();
                 if (item.contains("Trap")){
                     item = "Trap";
                 }
                 location.itemValues.add(item);
-                itemList.allItems.put(item, check);
+                helperUtility.handleAllItems(item, check, itemList);
                 checkForCollectable(item, location);
             }
         }
