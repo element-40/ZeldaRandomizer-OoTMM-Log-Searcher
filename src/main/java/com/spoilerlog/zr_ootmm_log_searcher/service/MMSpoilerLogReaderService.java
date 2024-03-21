@@ -15,25 +15,11 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
     public ItemList itemList;
     public HelperUtility helperUtility = new HelperUtility();
 
-    public ItemList processFile(File file){
-        // Check if it's a raw text file
-        if (!file.getName().endsWith(".txt")) {
-            System.err.println("Error: File is not a raw text file.");
-            return null;
-        }
-        try {
-            return processFile(new BufferedReader(new FileReader(file)));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
-
     public ItemList processFile(BufferedReader reader) {
         itemList = new ItemList();
         fairySkullList = new FairySkullList();
         HashMap<String, Location> locations = new HashMap<>();
-        HashMap<String, String> entranceMapper = makeEntranceMapper();
+        HashMap<String, String> entranceMapper = helperUtility.makeEntranceMapper("MM");
         String line;
         try {
             while ((line = reader.readLine()) != null) {
@@ -49,13 +35,7 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
             ioException.printStackTrace();
         }
 
-        Collections.sort(fairySkullList.woodfallStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.snowheadStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.greatBayStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.stoneTowerStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.swampSkullList.skulltulaLocations);
-        Collections.sort(fairySkullList.oceanSkullList.skulltulaLocations);
-
+        helperUtility.sortFairySkullList(fairySkullList);
         itemList.setFairySkullList(fairySkullList);
         return itemList;
     }
@@ -143,13 +123,5 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
         }
     }
 
-    public HashMap<String, String> makeEntranceMapper(){
-        HashMap<String, String> map = new HashMap<>();
-        map.put("Woodfall", "Woodfall Temple");
-        map.put("Snowhead", "Snowhead Temple");
-        map.put("Great Bay", "Great Bay Temple");
-        map.put("Inverted Stone Tower", "Stone Tower Temple");
-        return map;
-    }
 
 }

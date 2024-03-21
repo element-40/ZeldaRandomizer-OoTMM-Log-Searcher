@@ -6,6 +6,5 @@ import java.io.BufferedReader;
 import java.io.File;
 
 public interface SpoilerLogReader {
-    ItemList processFile(File file);
     ItemList processFile(BufferedReader reader);
 }

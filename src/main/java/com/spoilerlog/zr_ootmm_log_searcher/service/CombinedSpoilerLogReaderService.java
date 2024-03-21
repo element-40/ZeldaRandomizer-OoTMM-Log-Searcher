@@ -10,6 +10,8 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
 
@@ -17,48 +19,33 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
     public ItemList itemList;
     public HelperUtility helperUtility= new HelperUtility();
 
-    public ItemList processFile(File file){
-        // Check if it's a raw text file
-        if (!file.getName().endsWith(".txt")) {
-            System.err.println("Error: File is not a raw text file.");
-            return null;
-        }
-        try {
-            return processFile(new BufferedReader(new FileReader(file)));
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
-        }
-        return null;
-    }
 
     public ItemList processFile(BufferedReader reader) {
         itemList = new ItemList();
         fairySkullList = new FairySkullList();
         HashMap<String, Location> locations = new HashMap<>();
-        HashMap<String, String> entranceMapper = makeEntranceMapper();
+        HashMap<String, String> entranceMapper = helperUtility.makeEntranceMapper("OOTxMM");
         String line;
         try {
         // Check if it contains the phrase "spoiler log" on the first line
         while ((line = reader.readLine()) != null) {
+            if (line.contains("mode") && (line.contains("multi"))){
+                itemList.isMultiworld = true;
+            }
+            if (line.contains("distinctWorlds: true")){
+                throw new UnsupportedOperationException("'Distinct Worlds' setting is unsupported");
+            }
             if (line.equals("Entrances")) {
                 handleLocationShuffle(reader, locations, entranceMapper);
             } else if (line.contains("Location List")) {
                 itemList.setLocations(locations);
                 handleLocations(reader, locations, itemList);
-
             }
         }
     } catch (IOException ioException) {
             ioException.printStackTrace();
         }
-
-        Collections.sort(fairySkullList.woodfallStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.snowheadStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.greatBayStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.stoneTowerStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.swampSkullList.skulltulaLocations);
-        Collections.sort(fairySkullList.oceanSkullList.skulltulaLocations);
-
+        helperUtility.sortFairySkullList(fairySkullList);
         itemList.setFairySkullList(fairySkullList);
         return itemList;
     }
@@ -97,57 +84,72 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
         String line;
         Location location= new Location(null);
         boolean shuffledEntrances = !locations.isEmpty();
+        String worldPrefix = "";
+        Pattern pattern = Pattern.compile("(\\d+).*\\s+\\d+\\s*");
         while ((line = reader.readLine()) != null) {
+            if (line.trim().isBlank()){
+                continue;
+            }
             if (line.contains(":")){
                 String[] parts = line.split(":");
                 String check = parts[0].trim();
                 if (parts.length <=1){
                     check = check.replaceAll("\\s*\\(\\d+\\)", "");
+                    String worldCheck = worldPrefix + check;
                     if (shuffledEntrances){
-                        if (locations.containsKey(check.trim())){
-                            location = locations.get(check.trim());
+                        if (locations.containsKey(worldCheck.trim())){
+                            location = locations.get(worldCheck.trim());
                         } else {
-                            location = new Location(check);
-                            locations.put(check, location);
+                            location = new Location(worldCheck);
+                            locations.put(worldCheck, location);
                         }
                     } else {
-                        location = new Location(check);
-                        locations.put(check, location);
+                        location = new Location(worldCheck);
+                        locations.put(worldCheck, location);
                     }
                 } else {
                     String item = parts[1].trim();
-                    item = item.replaceAll("\\s*\\d+\\s*", "").trim();
-                    handleItem(itemList, location, check, item);
+                    if (!worldPrefix.equals("")){
+                        Matcher matcher = pattern.matcher(item);
+                        item = matcher.replaceFirst("$1 ").trim();
+                    } else{
+                        item = item.replaceAll("\\s*\\d+\\s*", "").trim();
+                    }
+                    String worldCheck = worldPrefix + check;
+                    handleItem(itemList, location, worldCheck, item, worldPrefix);
 
                 }
+            } else {
+                line = line.replaceAll("\\s*\\(\\d+\\)", "");
+                worldPrefix = line.trim() + '-';
             }
         }
     }
 
     public void handleItem(ItemList itemList, Location location, String check,
-                           String itemValue){
+                           String itemValue, String worldPrefix){
         if (check.equalsIgnoreCase("OOT Ganon Castle Boss Key")){
-            if (itemList.locations.containsKey("Ganon's Tower")){
-                itemList.locations.get("Ganon's Tower").itemValues.add(itemValue);
+            if (itemList.locations.containsKey(worldPrefix + '-' + "Ganon's Tower")){
+                itemList.locations.get(worldPrefix + '-' + "Ganon's Tower").itemValues.add(itemValue);
                 helperUtility.handleAllItems(itemValue, check, itemList);
-                checkForCollectable(itemValue, itemList.locations.get("Ganon's Tower"));
+                checkForCollectable(itemValue, itemList.locations.get(worldPrefix + '-' + "Ganon's Tower"));
             } else{
                 location.itemValues.add(itemValue);
                 helperUtility.handleAllItems(itemValue, check, itemList);
                 checkForCollectable(itemValue, location);
             }
-        } else if (location.locationName.equalsIgnoreCase("Stone Tower Temple")){
+        } else if (location.locationName.equalsIgnoreCase(worldPrefix + '-' + "Stone Tower Temple")){
             if (check.contains("Inverted")){
-                if (itemList.locations.containsKey("Inverted Stone Tower Temple")){
-                    itemList.locations.get("Inverted Stone Tower Temple").itemValues.add(itemValue);
+                if (itemList.locations.containsKey(worldPrefix + '-' + "Inverted Stone Tower Temple")){
+                    itemList.locations.get(worldPrefix + '-' + "Inverted Stone Tower Temple").itemValues.add(itemValue);
                     helperUtility.handleAllItems(itemValue, check, itemList);
                 } else {
-                    Location istt = new Location("Inverted Stone Tower Temple");
+                    Location istt = new Location(worldPrefix + '-' + "Inverted Stone Tower Temple");
                     istt.itemValues.add(check);
-                    itemList.locations.put("Inverted Stone Tower Temple", istt);
+                    itemList.locations.put(worldPrefix + '-' + "Inverted Stone Tower Temple", istt);
                     helperUtility.handleAllItems(itemValue, check, itemList);
                 }
-                checkForCollectable(itemValue, itemList.locations.get("Inverted Stone Tower Temple"));
+                checkForCollectable(itemValue, itemList.locations.get(worldPrefix + '-' + "Inverted Stone Tower Temple"));
             } else {
                 location.itemValues.add(itemValue);
                 helperUtility.handleAllItems(itemValue, check, itemList);
@@ -174,37 +176,6 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
         } else if (itemValue.equals("Ocean Skulltula Token")){
             this.fairySkullList.oceanSkullList.skulltulaLocations.add(location.entrance);
         }
-    }
-
-    public HashMap<String, String> makeEntranceMapper(){
-        HashMap<String, String> map = new HashMap<>();
-        map.put("MM_IKANA_CASTLE", "Ikana Castle");
-        map.put("MM_PIRATE_FORTRESS", "Pirates' Fortress");
-        map.put("MM_TEMPLE_WOODFALL", "Woodfall Temple");
-        map.put("MM_TEMPLE_SNOWHEAD", "Snowhead Temple");
-        map.put("MM_TEMPLE_GREAT_BAY", "Great Bay Temple");
-        map.put("MM_TEMPLE_STONE_TOWER", "Stone Tower Temple");
-        map.put("MM_TEMPLE_STONE_TOWER_INVERTED", "Inverted Stone Tower Temple");
-        map.put("MM_SPIDER_HOUSE_OCEAN", "Ocean Spider House");
-        map.put("MM_SPIDER_HOUSE_SWAMP", "Swamp Spider House");
-        map.put("MM_BENEATH_THE_WELL_BACK", "Beneath The Well");
-        map.put("MM_BENEATH_THE_WELL", "Beneath The Well");
-        map.put("MM_SECRET_SHRINE", "Secret Shrine");
-        map.put("MM_CLOCK_TOWER", "Clock Tower Roof");
-        map.put("OOT_TEMPLE_FOREST", "Forest Temple");
-        map.put("OOT_TEMPLE_FIRE", "Fire Temple");
-        map.put("OOT_TEMPLE_WATER", "Water Temple");
-        map.put("OOT_TEMPLE_SHADOW", "Shadow Temple");
-        map.put("OOT_TEMPLE_SPIRIT", "Spirit Temple");
-        map.put("OOT_ICE_CAVERN", "Ice Cavern");
-        map.put("OOT_BOTTOM_OF_THE_WELL", "Bottom of the Well");
-        map.put("OOT_DEKU_TREE", "Deku Tree");
-        map.put("OOT_DODONGO_CAVERN", "Dodongo's Cavern");
-        map.put("OOT_JABU_JABU", "Jabu-Jabu's Belly");
-        map.put("OOT_GANON_CASTLE", "Ganon's Castle");
-        map.put("OOT_GANON_TOWER", "Ganon's Tower");
-        map.put("OOT_GERUDO_TRAINING_GROUNDS", "Gerudo's Training Ground");
-        return map;
     }
 
 }

@@ -16,6 +16,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.TreeSet;
 
 public class SpoilerLogUtilityTool {
@@ -138,6 +139,11 @@ public class SpoilerLogUtilityTool {
         JButton easyCheckButton = new JButton("Easily Determined Impossibility Checker");
         easyCheckButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 EasyCheckService easyCheckService = new EasyCheckService();
                 ArrayList<String> issues = easyCheckService.checkItemList(itemList);
                 if (issues.isEmpty()){
@@ -154,7 +160,7 @@ public class SpoilerLogUtilityTool {
             }
         });
 
-        JButton itemLocationHintButton = new JButton("What Location is this item in?");
+        JButton itemLocationHintButton = new JButton("What Location(s) contained this item?");
         itemLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 ArrayList<Location> locationsOfItem = new ArrayList<>();
@@ -164,11 +170,15 @@ public class SpoilerLogUtilityTool {
                         locationsOfItem.add(tempLocation);
                     }
                 }
+                TreeSet<String> locationsToShow = new TreeSet<>();
                 StringBuilder loc = new StringBuilder("The ");
                 loc.append(item);
                 loc.append( " can be found in:\n");
                 for (Location itemLocation : locationsOfItem){
-                       loc.append(itemLocation.entrance).append("\n");
+                       locationsToShow.add(itemLocation.entrance);
+                }
+                for (String locName: locationsToShow){
+                    loc.append(locName).append("\n");
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -178,6 +188,7 @@ public class SpoilerLogUtilityTool {
         itemCheckHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String item = itemDropdownMenu2.getSelectedItem().toString();
+                Collections.sort(itemList.allItems.get(item));
                 StringBuilder loc = new StringBuilder("The ");
                 loc.append(item);
                 loc.append( " can be found in:\n");
@@ -191,6 +202,11 @@ public class SpoilerLogUtilityTool {
         JButton strayFairyWoodfallLocationHintButton = new JButton("Where are the Woodfall Stray Fairies?");
         strayFairyWoodfallLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Woodfall) are:\n");
                 for (String itemLocation : itemList.getFairySkullList().woodfallStrayFairyList.strayFairyLocations){
                     loc.append(itemLocation).append("\n");
@@ -202,6 +218,11 @@ public class SpoilerLogUtilityTool {
         JButton strayFairySnowheadLocationHintButton = new JButton("Where are the Snowhead Stray Fairies?");
         strayFairySnowheadLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Snowhead) are:\n");
                 for (String itemLocation : itemList.getFairySkullList().snowheadStrayFairyList.strayFairyLocations){
                     loc.append(itemLocation).append("\n");
@@ -213,6 +234,11 @@ public class SpoilerLogUtilityTool {
         JButton strayFairyGreatBayLocationHintButton = new JButton("Where are the Great Bay Stray Fairies?");
         strayFairyGreatBayLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Great Bay) are:\n");
                 for (String itemLocation : itemList.getFairySkullList().greatBayStrayFairyList.strayFairyLocations){
                     loc.append(itemLocation).append("\n");
@@ -224,6 +250,11 @@ public class SpoilerLogUtilityTool {
         JButton strayFairyStoneTowerLocationHintButton = new JButton("Where are the Stone Tower Stray Fairies?");
         strayFairyStoneTowerLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Stone Tower) are:\n");
                 for (String itemLocation : itemList.getFairySkullList().stoneTowerStrayFairyList.strayFairyLocations){
                     loc.append(itemLocation).append("\n");
@@ -235,6 +266,11 @@ public class SpoilerLogUtilityTool {
         JButton skullSwampLocationHintButton = new JButton("Where are the Swamp Skulltula Tokens?");
         skullSwampLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 StringBuilder loc = new StringBuilder("The Locations of Swamp Skulltula Token are:\n");
                 for (String itemLocation : itemList.getFairySkullList().swampSkullList.skulltulaLocations){
                     loc.append(itemLocation).append("\n");
@@ -246,6 +282,11 @@ public class SpoilerLogUtilityTool {
         JButton skullOceanLocationHintButton = new JButton("Where are the Ocean Skulltula Tokens?");
         skullOceanLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
+                if (itemList.isMultiworld){
+                    JOptionPane.showMessageDialog(null,
+                            "This Feature is not enable for Multiworld Seeds");
+                    return;
+                }
                 StringBuilder loc = new StringBuilder("The Locations of Ocean Skulltula Token are:\n");
                 for (String itemLocation : itemList.getFairySkullList().oceanSkullList.skulltulaLocations){
                     loc.append(itemLocation).append("\n");
@@ -325,8 +366,12 @@ public class SpoilerLogUtilityTool {
     }
 
     private void processFile(File file) {
+        // Check if it's a raw text file
+        if (!file.getName().endsWith(".txt")) {
+            throw new UnsupportedOperationException("Error: File is not a raw text file.");
+        }
         try (BufferedReader reader = new BufferedReader(new FileReader(file))) {
-            determineSpoilerLogType(reader);
+            processText(reader);
         } catch (IOException fileNotFoundException) {
             fileNotFoundException.printStackTrace();
         }

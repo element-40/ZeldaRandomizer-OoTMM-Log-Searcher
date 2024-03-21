@@ -14,6 +14,7 @@ public class ItemList {
     public HashSet<String> mmItems;
     public HashMap<String, ArrayList<String>> allItems;
     public FairySkullList fairySkullList;
+    public boolean isMultiworld = false;
 
     public ItemList() {
         this.dayOneItems = new HashSet<>();
