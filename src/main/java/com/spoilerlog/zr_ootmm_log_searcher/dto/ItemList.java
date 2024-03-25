@@ -5,16 +5,17 @@ import java.util.HashMap;
 import java.util.HashSet;
 
 public class ItemList {
-    public HashMap<String, Location> locations;
-    public HashMap<String, Location> locationsByEntrance;
-    public HashSet<String> dayOneItems;
-    public HashSet<String> dayTwoItems;
-    public HashSet<String> dayThreeItems;
-    public HashSet<String> ootItems;
-    public HashSet<String> mmItems;
-    public HashMap<String, ArrayList<String>> allItems;
-    public FairySkullList fairySkullList;
-    public boolean isMultiworld = false;
+    private HashMap<String, Location> locations;
+    private HashMap<String, Location> locationsByEntrance;
+    private HashSet<String> dayOneItems;
+    private HashSet<String> dayTwoItems;
+    private HashSet<String> dayThreeItems;
+    private HashSet<String> ootItems;
+    private HashSet<String> mmItems;
+    private HashMap<String, ArrayList<String>> allItems;
+    private FairySkullList fairySkullList;
+    private boolean multiworld = false;
+    private boolean distinctMultiworld = false;
 
     public ItemList() {
         this.dayOneItems = new HashSet<>();
@@ -31,6 +32,14 @@ public class ItemList {
 
     public void setLocations(HashMap<String, Location> locations) {
         this.locations = locations;
+    }
+
+    public HashMap<String, Location> getLocationsByEntrance() {
+        return locationsByEntrance;
+    }
+
+    public void setLocationsByEntrance(HashMap<String, Location> locationsByEntrance) {
+        this.locationsByEntrance = locationsByEntrance;
     }
 
     public HashSet<String> getDayOneItems() {
@@ -89,15 +98,31 @@ public class ItemList {
         this.fairySkullList = fairySkullList;
     }
 
+    public boolean isMultiworld() {
+        return multiworld;
+    }
+
+    public void setMultiworld(boolean multiworld) {
+        this.multiworld = multiworld;
+    }
+
+    public boolean isDistinctMultiworld() {
+        return distinctMultiworld;
+    }
+
+    public void setDistinctMultiworld(boolean distinctMultiworld) {
+        this.distinctMultiworld = distinctMultiworld;
+    }
+
     public void createEntranceLocationsMap(){
         this.locationsByEntrance = new HashMap<String, Location>();
         for (Location l: getLocations().values()){
-            if(this.locationsByEntrance.containsKey(l.entrance)){
-                locationsByEntrance.get(l.entrance).itemValues.addAll(l.itemValues);
+            if(this.locationsByEntrance.containsKey(l.getEntrance())){
+                locationsByEntrance.get(l.getEntrance()).getItemValues().addAll(l.getItemValues());
             } else {
-                Location locationEntrance = new Location(l.entrance);
-                locationEntrance.itemValues.addAll(l.itemValues);
-                locationsByEntrance.put(l.entrance, locationEntrance);
+                Location locationEntrance = new Location(l.getEntrance());
+                locationEntrance.getItemValues().addAll(l.getItemValues());
+                locationsByEntrance.put(l.getEntrance(), locationEntrance);
             }
         }
     }

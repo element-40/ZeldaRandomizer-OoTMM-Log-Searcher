@@ -1,12 +1,12 @@
 package com.spoilerlog.zr_ootmm_log_searcher.dto;
 
 public class FairySkullList {
-    public GreatBayStrayFairyList greatBayStrayFairyList;
-    public WoodfallStrayFairyList woodfallStrayFairyList;
-    public SnowheadStrayFairyList snowheadStrayFairyList;
-    public StoneTowerStrayFairyList stoneTowerStrayFairyList;
-    public SwampSkullList swampSkullList;
-    public OceanSkullList oceanSkullList;
+    private GreatBayStrayFairyList greatBayStrayFairyList;
+    private WoodfallStrayFairyList woodfallStrayFairyList;
+    private SnowheadStrayFairyList snowheadStrayFairyList;
+    private StoneTowerStrayFairyList stoneTowerStrayFairyList;
+    private SwampSkullList swampSkullList;
+    private OceanSkullList oceanSkullList;
 
     public FairySkullList() {
         this.greatBayStrayFairyList = new GreatBayStrayFairyList();

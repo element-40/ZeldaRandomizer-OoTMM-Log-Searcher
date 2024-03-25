@@ -10,22 +10,28 @@ import java.util.HashMap;
 public class HelperUtility {
 
     public void handleAllItems(String item, String check, ItemList itemList){
-        if (itemList.allItems.containsKey(item)){
-            itemList.allItems.get(item).add(check);
+        if (itemList.getAllItems().containsKey(item)){
+            itemList.getAllItems().get(item).add(check);
         } else {
             ArrayList<String> checkList = new ArrayList<>();
             checkList.add(check);
-            itemList.allItems.put(item, checkList);
+            itemList.getAllItems().put(item, checkList);
         }
     }
 
     public void sortFairySkullList(FairySkullList fairySkullList){
-        Collections.sort(fairySkullList.woodfallStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.snowheadStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.greatBayStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.stoneTowerStrayFairyList.strayFairyLocations);
-        Collections.sort(fairySkullList.swampSkullList.skulltulaLocations);
-        Collections.sort(fairySkullList.oceanSkullList.skulltulaLocations);
+        Collections.sort(fairySkullList.getWoodfallStrayFairyList().getLocationsByEntrance());
+        Collections.sort(fairySkullList.getSnowheadStrayFairyList().getLocationsByEntrance());
+        Collections.sort(fairySkullList.getGreatBayStrayFairyList().getLocationsByEntrance());
+        Collections.sort(fairySkullList.getStoneTowerStrayFairyList().getLocationsByEntrance());
+        Collections.sort(fairySkullList.getSwampSkullList().getLocationsByEntrance());
+        Collections.sort(fairySkullList.getOceanSkullList().getLocationsByEntrance());
+        Collections.sort(fairySkullList.getWoodfallStrayFairyList().getLocations());
+        Collections.sort(fairySkullList.getSnowheadStrayFairyList().getLocations());
+        Collections.sort(fairySkullList.getGreatBayStrayFairyList().getLocations());
+        Collections.sort(fairySkullList.getStoneTowerStrayFairyList().getLocations());
+        Collections.sort(fairySkullList.getSwampSkullList().getLocations());
+        Collections.sort(fairySkullList.getOceanSkullList().getLocations());
     }
 
     public HashMap<String, String> makeEntranceMapper(String game){

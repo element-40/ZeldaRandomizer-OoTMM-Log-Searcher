@@ -107,6 +107,9 @@ public class SpoilerLogUtilityTool {
             }
         });
 
+        JCheckBox useEntrances = new JCheckBox("Use Entrance for Dungeons?");
+        useEntrances.setSelected(true);
+
 
         //Dropdown item menu setup for both tabs
         itemDropdownMenu1 = new JComboBox<>();
@@ -125,21 +128,52 @@ public class SpoilerLogUtilityTool {
             public void actionPerformed(ActionEvent e) {
                 String item = itemDropdownMenu1.getSelectedItem().toString();
                 String location = locationDropdownMenu.getSelectedItem().toString();
-                if (itemList.locationsByEntrance.get(location).itemValues.contains(item)) {
-                    System.out.println("Item Found");
-                    JOptionPane.showMessageDialog(null, item + " appears to be found in " + location + " Entrance");
-                } else {
-                    System.out.println("Item Not Found");
-                    JOptionPane.showMessageDialog(null, item + " is not found in " + location + " Entrance");
+                if (useEntrances.isSelected()){
+                    if (itemList.getLocationsByEntrance().get(location).getItemValues().contains(item)) {
+                        System.out.println("Item Found");
+                        JOptionPane.showMessageDialog(null, item + " appears to be found in " + location + " Entrance");
+                    } else {
+                        System.out.println("Item Not Found");
+                        JOptionPane.showMessageDialog(null, item + " is not found in " + location + " Entrance");
 
+                    }
+                } else {
+                    if (itemList.getLocations().get(location).getItemValues().contains(item)) {
+                        System.out.println("Item Found");
+                        JOptionPane.showMessageDialog(null, item + " appears to be found in " + location);
+                    } else {
+                        System.out.println("Item Not Found");
+                        JOptionPane.showMessageDialog(null, item + " is not found in " + location);
+
+                    }
                 }
+
+            }
+        });
+
+        JButton checkLocationButton = new JButton("Show All Items in this Location");
+        checkLocationButton.addActionListener(new ActionListener() {
+            public void actionPerformed(ActionEvent e) {
+                String location = locationDropdownMenu.getSelectedItem().toString();
+                StringBuilder loc = new StringBuilder("The Item(s) in " + location);
+                loc.append( " are:\n");
+                if (useEntrances.isSelected()){
+                    for (String item : itemList.getLocationsByEntrance().get(location).getItemValues()){
+                        loc.append(item).append("\n");
+                    }
+                } else {
+                    for (String item : itemList.getLocations().get(location).getItemValues()){
+                        loc.append(item).append("\n");
+                    }
+                }
+                JOptionPane.showMessageDialog(null, loc);
             }
         });
 
         JButton easyCheckButton = new JButton("Easily Determined Impossibility Checker");
         easyCheckButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
@@ -165,8 +199,8 @@ public class SpoilerLogUtilityTool {
             public void actionPerformed(ActionEvent e) {
                 ArrayList<Location> locationsOfItem = new ArrayList<>();
                 String item = itemDropdownMenu2.getSelectedItem().toString();
-                for (Location tempLocation : itemList.locations.values()){
-                    if (tempLocation.itemValues.contains(item)){
+                for (Location tempLocation : itemList.getLocations().values()){
+                    if (tempLocation.getItemValues().contains(item)){
                         locationsOfItem.add(tempLocation);
                     }
                 }
@@ -174,8 +208,14 @@ public class SpoilerLogUtilityTool {
                 StringBuilder loc = new StringBuilder("The ");
                 loc.append(item);
                 loc.append( " can be found in:\n");
-                for (Location itemLocation : locationsOfItem){
-                       locationsToShow.add(itemLocation.entrance);
+                if (useEntrances.isSelected()){
+                    for (Location itemLocation : locationsOfItem){
+                        locationsToShow.add(itemLocation.getEntrance());
+                    }
+                } else {
+                    for (Location itemLocation : locationsOfItem){
+                        locationsToShow.add(itemLocation.getLocationName());
+                    }
                 }
                 for (String locName: locationsToShow){
                     loc.append(locName).append("\n");
@@ -188,11 +228,11 @@ public class SpoilerLogUtilityTool {
         itemCheckHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 String item = itemDropdownMenu2.getSelectedItem().toString();
-                Collections.sort(itemList.allItems.get(item));
+                Collections.sort(itemList.getAllItems().get(item));
                 StringBuilder loc = new StringBuilder("The ");
                 loc.append(item);
                 loc.append( " can be found in:\n");
-                for (String check : itemList.allItems.get(item)){
+                for (String check : itemList.getAllItems().get(item)){
                     loc.append(check).append("\n");
                 }
                 JOptionPane.showMessageDialog(null, loc);
@@ -202,14 +242,22 @@ public class SpoilerLogUtilityTool {
         JButton strayFairyWoodfallLocationHintButton = new JButton("Where are the Woodfall Stray Fairies?");
         strayFairyWoodfallLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
                 }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Woodfall) are:\n");
-                for (String itemLocation : itemList.getFairySkullList().woodfallStrayFairyList.strayFairyLocations){
-                    loc.append(itemLocation).append("\n");
+                if (useEntrances.isSelected()){
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getWoodfallStrayFairyList().getLocationsByEntrance()){
+                        loc.append(itemLocation).append("\n");
+                    }
+                } else {
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getWoodfallStrayFairyList().getLocations()){
+                        loc.append(itemLocation).append("\n");
+                    }
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -218,14 +266,22 @@ public class SpoilerLogUtilityTool {
         JButton strayFairySnowheadLocationHintButton = new JButton("Where are the Snowhead Stray Fairies?");
         strayFairySnowheadLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
                 }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Snowhead) are:\n");
-                for (String itemLocation : itemList.getFairySkullList().snowheadStrayFairyList.strayFairyLocations){
-                    loc.append(itemLocation).append("\n");
+                if (useEntrances.isSelected()){
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getSnowheadStrayFairyList().getLocationsByEntrance()){
+                        loc.append(itemLocation).append("\n");
+                    }
+                } else {
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getSnowheadStrayFairyList().getLocations()){
+                        loc.append(itemLocation).append("\n");
+                    }
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -234,14 +290,22 @@ public class SpoilerLogUtilityTool {
         JButton strayFairyGreatBayLocationHintButton = new JButton("Where are the Great Bay Stray Fairies?");
         strayFairyGreatBayLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
                 }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Great Bay) are:\n");
-                for (String itemLocation : itemList.getFairySkullList().greatBayStrayFairyList.strayFairyLocations){
-                    loc.append(itemLocation).append("\n");
+                if (useEntrances.isSelected()){
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getGreatBayStrayFairyList().getLocationsByEntrance()){
+                        loc.append(itemLocation).append("\n");
+                    }
+                } else {
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getGreatBayStrayFairyList().getLocations()){
+                        loc.append(itemLocation).append("\n");
+                    }
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -250,14 +314,22 @@ public class SpoilerLogUtilityTool {
         JButton strayFairyStoneTowerLocationHintButton = new JButton("Where are the Stone Tower Stray Fairies?");
         strayFairyStoneTowerLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
                 }
                 StringBuilder loc = new StringBuilder("The Locations of Stray Fairy (Stone Tower) are:\n");
-                for (String itemLocation : itemList.getFairySkullList().stoneTowerStrayFairyList.strayFairyLocations){
-                    loc.append(itemLocation).append("\n");
+                if (useEntrances.isSelected()){
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getStoneTowerStrayFairyList().getLocationsByEntrance()){
+                        loc.append(itemLocation).append("\n");
+                    }
+                } else {
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getStoneTowerStrayFairyList().getLocations()){
+                        loc.append(itemLocation).append("\n");
+                    }
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -266,14 +338,22 @@ public class SpoilerLogUtilityTool {
         JButton skullSwampLocationHintButton = new JButton("Where are the Swamp Skulltula Tokens?");
         skullSwampLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
                 }
                 StringBuilder loc = new StringBuilder("The Locations of Swamp Skulltula Token are:\n");
-                for (String itemLocation : itemList.getFairySkullList().swampSkullList.skulltulaLocations){
-                    loc.append(itemLocation).append("\n");
+                if (useEntrances.isSelected()){
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getSwampSkullList().getLocationsByEntrance()){
+                        loc.append(itemLocation).append("\n");
+                    }
+                } else {
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getSwampSkullList().getLocations()){
+                        loc.append(itemLocation).append("\n");
+                    }
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -282,14 +362,22 @@ public class SpoilerLogUtilityTool {
         JButton skullOceanLocationHintButton = new JButton("Where are the Ocean Skulltula Tokens?");
         skullOceanLocationHintButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                if (itemList.isMultiworld){
+                if (itemList.isMultiworld()){
                     JOptionPane.showMessageDialog(null,
                             "This Feature is not enable for Multiworld Seeds");
                     return;
                 }
                 StringBuilder loc = new StringBuilder("The Locations of Ocean Skulltula Token are:\n");
-                for (String itemLocation : itemList.getFairySkullList().oceanSkullList.skulltulaLocations){
-                    loc.append(itemLocation).append("\n");
+                if (useEntrances.isSelected()){
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getOceanSkullList().getLocationsByEntrance()){
+                        loc.append(itemLocation).append("\n");
+                    }
+                } else {
+                    for (String itemLocation : itemList.getFairySkullList()
+                            .getOceanSkullList().getLocations()){
+                        loc.append(itemLocation).append("\n");
+                    }
                 }
                 JOptionPane.showMessageDialog(null, loc);
             }
@@ -300,10 +388,12 @@ public class SpoilerLogUtilityTool {
         uploadPanel.add(orPasteHereLabel);
         uploadPanel.add(scrollPane);
         uploadPanel.add(readInputButton);
+        uploadPanel.add(useEntrances);
 
         locationSearchPanel.add(itemDropdownMenu1);
         locationSearchPanel.add(locationDropdownMenu);
         locationSearchPanel.add(checkButton);
+        locationSearchPanel.add(checkLocationButton);
 
         itemSearchPanel.add(itemDropdownMenu2);
         itemSearchPanel.add(itemLocationHintButton);
@@ -351,13 +441,13 @@ public class SpoilerLogUtilityTool {
         locationDropdownMenu.addItem("Locations/Entrances:");
 
         TreeSet<String> allItems = new TreeSet<>();
-        allItems.addAll(itemList.allItems.keySet());
+        allItems.addAll(itemList.getAllItems().keySet());
         for (String item: allItems){
             itemDropdownMenu1.addItem(item);
             itemDropdownMenu2.addItem(item);
         }
         TreeSet<String> entrances = new TreeSet<>();
-        for (Location location : itemList.locations.values()) {
+        for (Location location : itemList.getLocations().values()) {
             entrances.add(location.getEntrance());
         }
         for (String entrance: entrances){

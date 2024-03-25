@@ -4,4 +4,5 @@ import java.util.ArrayList;
 
 public interface CollectableItemsList {
     public ArrayList<String> getLocations();
+    public ArrayList<String> getLocationsByEntrance();
 }

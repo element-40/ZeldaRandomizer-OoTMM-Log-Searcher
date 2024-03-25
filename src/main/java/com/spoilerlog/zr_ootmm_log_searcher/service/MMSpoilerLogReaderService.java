@@ -70,7 +70,7 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
                 break;
             }
             if (line.trim().isBlank()){
-                if (null != location.locationName && location.locationName.equals("The Moon")){
+                if (null != location.getLocationName() && location.getLocationName().equals("The Moon")){
                     break;
                 }
                 continue;
@@ -99,7 +99,7 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
                 if (item.contains("Trap")){
                     item = "Trap";
                 }
-                location.itemValues.add(item);
+                location.getItemValues().add(item);
                 helperUtility.handleAllItems(item, check, itemList);
                 checkForCollectable(item, location);
             }
@@ -109,17 +109,23 @@ public class MMSpoilerLogReaderService implements SpoilerLogReader{
 
     public void checkForCollectable(String itemValue, Location location){
         if (itemValue.equals("Woodfall Stray Fairy")){
-            this.fairySkullList.woodfallStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getWoodfallStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getWoodfallStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Snowhead Stray Fairy")){
-            this.fairySkullList.snowheadStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getSnowheadStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getSnowheadStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Great Bay Stray Fairy")){
-            this.fairySkullList.greatBayStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getGreatBayStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getGreatBayStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Stone Tower Stray Fairy")){
-            this.fairySkullList.stoneTowerStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getStoneTowerStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getStoneTowerStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Swamp Skulltula Spirit")){
-            this.fairySkullList.swampSkullList.skulltulaLocations.add(location.entrance);
+            this.fairySkullList.getSwampSkullList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getSwampSkullList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Ocean Skulltula Spirit")){
-            this.fairySkullList.oceanSkullList.skulltulaLocations.add(location.entrance);
+            this.fairySkullList.getOceanSkullList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getOceanSkullList().getLocations().add(location.getLocationName());
         }
     }
 

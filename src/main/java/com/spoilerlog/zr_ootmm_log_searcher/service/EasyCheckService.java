@@ -9,23 +9,23 @@ public class EasyCheckService {
 
     public ArrayList<String> checkItemList(ItemList itemList){
         ArrayList<String> issues = new ArrayList<>();
-        if (itemList.locationsByEntrance.get("Woodfall Temple").itemValues.contains("Sonata of Awakening") ||
-                itemList.locationsByEntrance.get("Woodfall Temple").itemValues.contains("Deku Mask") ){
+        if (itemList.getLocationsByEntrance().get("Woodfall Temple").getItemValues().contains("Sonata of Awakening") ||
+                itemList.getLocationsByEntrance().get("Woodfall Temple").getItemValues().contains("Deku Mask") ){
             issues.add("Item Required to enter Woodfall Temple located in dungeon found at Woodfall Temple entrance");
         }
-        if (itemList.locationsByEntrance.get("Great Bay Temple").itemValues.contains("New Wave Bossa Nova") ||
-                itemList.locationsByEntrance.get("Great Bay Temple").itemValues.contains("Zora Mask (MM)") ||
-                itemList.locationsByEntrance.get("Great Bay Temple").itemValues.contains("Zora Mask") ){
+        if (itemList.getLocationsByEntrance().get("Great Bay Temple").getItemValues().contains("New Wave Bossa Nova") ||
+                itemList.getLocationsByEntrance().get("Great Bay Temple").getItemValues().contains("Zora Mask (MM)") ||
+                itemList.getLocationsByEntrance().get("Great Bay Temple").getItemValues().contains("Zora Mask") ){
             issues.add("Item Required to enter Great Bay Temple located in dungeon found at Great Bay Temple entrance");
         }
-        if (itemList.locationsByEntrance.get("The Moon").itemValues.contains("Oath to Order")){
+        if (itemList.getLocationsByEntrance().get("The Moon").getItemValues().contains("Oath to Order")){
             issues.add("Item Required to enter The Moon located in The Moon");
         }
-        if (getDekuOnlyChecks(itemList).contains(itemList.allItems.get("Deku Mask"))){
+        if (getDekuOnlyChecks(itemList).contains(itemList.getAllItems().get("Deku Mask"))){
             issues.add("Deku Mask is behind a Deku only check");
         }
-        if (getZoraOnlyChecks(itemList).contains(itemList.allItems.get("Zora Mask")) ||
-                getZoraOnlyChecks(itemList).contains(itemList.allItems.get("Zora Mask (MM)"))){
+        if (getZoraOnlyChecks(itemList).contains(itemList.getAllItems().get("Zora Mask")) ||
+                getZoraOnlyChecks(itemList).contains(itemList.getAllItems().get("Zora Mask (MM)"))){
             issues.add("Zora Mask is behind a Zora only check");
         }
         return issues;

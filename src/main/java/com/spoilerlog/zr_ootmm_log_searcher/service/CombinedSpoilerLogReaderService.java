@@ -30,10 +30,10 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
         // Check if it contains the phrase "spoiler log" on the first line
         while ((line = reader.readLine()) != null) {
             if (line.contains("mode") && (line.contains("multi"))){
-                itemList.isMultiworld = true;
+                itemList.setMultiworld(true);
             }
             if (line.contains("distinctWorlds: true")){
-                throw new UnsupportedOperationException("'Distinct Worlds' setting is unsupported");
+                itemList.setDistinctMultiworld(true);
             }
             if (line.equals("Entrances")) {
                 handleLocationShuffle(reader, locations, entranceMapper);
@@ -54,16 +54,27 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
                                       HashMap<String, String> entranceMapper) throws IOException {
         String line;
         boolean inEntranceShuffle = true;
+        String worldPrefix = "";
         while (inEntranceShuffle){
             line = reader.readLine();
-            if (line.trim().isEmpty() || line.trim().isBlank()){
+            if (line.trim().isBlank()){
+                continue;
+            }
+            if (line.contains("World")){
+                worldPrefix = line.trim() + '-';
+            }
+            if (line.contains("Hint")){
                 inEntranceShuffle = false;
             }
             if (line.contains("->") && !line.contains("BOSS") && !line.contains("FROM")) {
                 String[] parts = line.split("->");
                 String entranceValue = entranceMapper.get(parts[0].trim());
                 String locationName = entranceMapper.get(parts[1].trim());
-                if (locationName.equalsIgnoreCase("Pirates' Fortress")){
+                if (itemList.isMultiworld() && itemList.isDistinctMultiworld()){
+                    entranceValue = worldPrefix+entranceValue;
+                    locationName = worldPrefix+locationName;
+                }
+                if (locationName.contains("Pirates' Fortress")){
                     Location location = new Location(locationName + " Exterior", entranceValue);
                     locations.put(locationName + " Exterior", location);
                     location = new Location(locationName + " Sewers", entranceValue);
@@ -129,34 +140,34 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
     public void handleItem(ItemList itemList, Location location, String check,
                            String itemValue, String worldPrefix){
         if (check.equalsIgnoreCase("OOT Ganon Castle Boss Key")){
-            if (itemList.locations.containsKey(worldPrefix + '-' + "Ganon's Tower")){
-                itemList.locations.get(worldPrefix + '-' + "Ganon's Tower").itemValues.add(itemValue);
+            if (itemList.getLocations().containsKey(worldPrefix + '-' + "Ganon's Tower")){
+                itemList.getLocations().get(worldPrefix + '-' + "Ganon's Tower").getItemValues().add(itemValue);
                 helperUtility.handleAllItems(itemValue, check, itemList);
-                checkForCollectable(itemValue, itemList.locations.get(worldPrefix + '-' + "Ganon's Tower"));
+                checkForCollectable(itemValue, itemList.getLocations().get(worldPrefix + '-' + "Ganon's Tower"));
             } else{
-                location.itemValues.add(itemValue);
+                location.getItemValues().add(itemValue);
                 helperUtility.handleAllItems(itemValue, check, itemList);
                 checkForCollectable(itemValue, location);
             }
-        } else if (location.locationName.equalsIgnoreCase(worldPrefix + '-' + "Stone Tower Temple")){
+        } else if (location.getLocationName().equalsIgnoreCase(worldPrefix + '-' + "Stone Tower Temple")){
             if (check.contains("Inverted")){
-                if (itemList.locations.containsKey(worldPrefix + '-' + "Inverted Stone Tower Temple")){
-                    itemList.locations.get(worldPrefix + '-' + "Inverted Stone Tower Temple").itemValues.add(itemValue);
+                if (itemList.getLocations().containsKey(worldPrefix + '-' + "Inverted Stone Tower Temple")){
+                    itemList.getLocations().get(worldPrefix + '-' + "Inverted Stone Tower Temple").getItemValues().add(itemValue);
                     helperUtility.handleAllItems(itemValue, check, itemList);
                 } else {
                     Location istt = new Location(worldPrefix + '-' + "Inverted Stone Tower Temple");
-                    istt.itemValues.add(check);
-                    itemList.locations.put(worldPrefix + '-' + "Inverted Stone Tower Temple", istt);
+                    istt.getItemValues().add(check);
+                    itemList.getLocations().put(worldPrefix + '-' + "Inverted Stone Tower Temple", istt);
                     helperUtility.handleAllItems(itemValue, check, itemList);
                 }
-                checkForCollectable(itemValue, itemList.locations.get(worldPrefix + '-' + "Inverted Stone Tower Temple"));
+                checkForCollectable(itemValue, itemList.getLocations().get(worldPrefix + '-' + "Inverted Stone Tower Temple"));
             } else {
-                location.itemValues.add(itemValue);
+                location.getItemValues().add(itemValue);
                 helperUtility.handleAllItems(itemValue, check, itemList);
                 checkForCollectable(itemValue, location);
             }
         } else {
-            location.itemValues.add(itemValue);
+            location.getItemValues().add(itemValue);
             helperUtility.handleAllItems(itemValue, check, itemList);
             checkForCollectable(itemValue, location);
         }
@@ -164,17 +175,23 @@ public class CombinedSpoilerLogReaderService implements SpoilerLogReader {
 
     public void checkForCollectable(String itemValue, Location location){
         if (itemValue.equals("Stray Fairy (Woodfall Temple)")){
-            this.fairySkullList.woodfallStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getWoodfallStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getWoodfallStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Stray Fairy (Snowhead Temple)")){
-            this.fairySkullList.snowheadStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getSnowheadStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getSnowheadStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Stray Fairy (Great Bay Temple)")){
-            this.fairySkullList.greatBayStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getGreatBayStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getGreatBayStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Stray Fairy (Stone Tower Temple)")){
-            this.fairySkullList.stoneTowerStrayFairyList.strayFairyLocations.add(location.entrance);
+            this.fairySkullList.getStoneTowerStrayFairyList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getStoneTowerStrayFairyList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Swamp Skulltula Token")){
-            this.fairySkullList.swampSkullList.skulltulaLocations.add(location.entrance);
+            this.fairySkullList.getSwampSkullList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getSwampSkullList().getLocations().add(location.getLocationName());
         } else if (itemValue.equals("Ocean Skulltula Token")){
-            this.fairySkullList.oceanSkullList.skulltulaLocations.add(location.entrance);
+            this.fairySkullList.getOceanSkullList().getLocationsByEntrance().add(location.getEntrance());
+            this.fairySkullList.getOceanSkullList().getLocations().add(location.getLocationName());
         }
     }
 

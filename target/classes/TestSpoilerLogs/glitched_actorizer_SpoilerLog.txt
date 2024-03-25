@@ -1,0 +1,1867 @@
+Version:          1.16.0.5-beta + Isghj's Enemizer Test 60.2
+Settings:         {
+  "VictoryMode": "Default",
+  "PriceMode": "Purchases, Minigames, Misc, AccountForRoyalWallet",
+  "BossRemainsMode": "Default",
+  "BossKeyMode": "KeepThroughTime",
+  "SmallKeyMode": "KeepThroughTime",
+  "StrayFairyMode": "Default",
+  "DungeonNavigationMode": "MapRevealsLocation, CompassRevealsBoss",
+  "PreventDowngrades": true,
+  "UpdateShopAppearance": true,
+  "UpdateNPCText": true,
+  "UpdateWorldModels": true,
+  "QuestItemStorage": true,
+  "KeepQuestTradeThroughTime": true,
+  "DoubleArcheryRewards": true,
+  "AddSongs": true,
+  "BombchuDrops": true,
+  "SpeedupLabFish": true,
+  "UserLogicFileName": "",
+  "CloseCows": true,
+  "ArrowCycling": true,
+  "CritWiggleDisable": false,
+  "DrawHash": false,
+  "ElegySpeedup": true,
+  "FastPush": true,
+  "TrapQuirks": true,
+  "OcarinaUnderwater": true,
+  "ContinuousDekuHopping": true,
+  "IronGoron": true,
+  "ProgressiveUpgrades": true,
+  "TargetHealthBar": true,
+  "ClimbMostSurfaces": false,
+  "FreeScarecrow": true,
+  "FillWallet": true,
+  "AutoInvert": "Always",
+  "GiantMaskAnywhere": true,
+  "HiddenRupeesSparkle": true,
+  "ChestGameMinimap": "Spoiler",
+  "SaferGlitches": true,
+  "InstantTransform": true,
+  "BombArrows": true,
+  "FewerHealthDrops": false,
+  "EasyFrameByFrame": true,
+  "FairyMaskShimmer": true,
+  "SkulltulaTokenSounds": true,
+  "RequiredBossRemains": 4,
+  "LogicMode": "Glitched",
+  "ItemPlacement": "Bespoke",
+  "EnabledTricks": [
+    "Scarecrow's Song",
+    "Lensless Chests",
+    "Long Jump",
+    "Run Through Poisoned Water",
+    "Poisoned Water as Goron",
+    "Swim to Zora Hall as Human",
+    "Brute Force OSH Code",
+    "Climb Stone Tower with One Transformation",
+    "Deku Playground Rupee Displacement",
+    "Bomb Hovering",
+    "Lensless Jumping",
+    "Goron Roll Item Grabs",
+    "Melt Sun Blocks With Water",
+    "Powder Keg Storage",
+    "Hookshot Clip",
+    "Day 1 Grave Clip",
+    "Icicle Clip",
+    "Ocarina Dive",
+    "Item Dive",
+    "SHT BK Skip",
+    "Lensless Walking",
+    "Bomber Guard Skip",
+    "Deku Guard Skip",
+    "WFT 2nd Floor Skip",
+    "Kill Deku Shrine Big Octo",
+    "Deku Palace Bean Skip",
+    "Ikana Castle Falling Ceiling Skip",
+    "Goron Bomb Jump",
+    "GBT Fireless",
+    "Ikana Canyon Iceless",
+    "SHT Zora Jumps",
+    "Pinnacle Rock without Seahorse",
+    "Jump Slash through One Sided Geometry",
+    "Avoid Swamp Tree Bat",
+    "Goron Pound onto Ledges",
+    "Zora Hall Scrub Ledge Climb",
+    "Lensless Walls/Ceilings",
+    "Termina Stump with No Items",
+    "ISTT Hookshot to Eyegore",
+    "Ocean Skulltulas without Fire Arrows",
+    "SHT Jump to Stray Fairies",
+    "Clever Ice Platforms",
+    "Inn Balcony Jump",
+    "Shoot Goht",
+    "STT Water Tunnel as Human",
+    "Clever Bombchu Usage",
+    "STT Eyegore Bridge Jumps",
+    "Out of Bounds",
+    "Inn Balcony with Cucco",
+    "STT Updrafts without Deku Mask",
+    "Zora Boomerang Through Walls",
+    "Ocarina Items",
+    "Action Swap",
+    "Long Bomb Hovers",
+    "Keeta with Minimal Items",
+    "Time Stop",
+    "Blast Mask Hovers",
+    "Path to Snowhead without Magic",
+    "Recoil Flip Through Ice",
+    "Postman without Bunny Hood",
+    "Deku Recoil",
+    "Deliver Deku Princess Without Deku Mask",
+    "Restricted Items",
+    "Jump Slash Take Downs",
+    "STT BK Skip",
+    "Shoot Twinmold",
+    "SHT Pillar Skip",
+    "Lensless Climbing",
+    "ISTT Early Boss Key",
+    "Powder Kegs as Explosives",
+    "Recoil Flip",
+    "ISTT Lightless Boss Key",
+    "Superslide"
+  ],
+  "RandomizeDungeonEntrances": true,
+  "RandomizeBossRooms": true,
+  "RandomizeEnemies": true,
+  "StartingItemMode": "Random",
+  "CustomItemListString": "1ff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff-ffffffff",
+  "CustomStartingItemListString": "----",
+  "CustomJunkLocationsString": "-------------------------------------",
+  "TrapAmount": "Onslaught",
+  "TrapWeights": {},
+  "TrapAppearance": "Anything",
+  "DamageMode": "Default",
+  "DamageEffect": "Default",
+  "MovementMode": "Default",
+  "FloorType": "Default",
+  "NutandStickDrops": "Default",
+  "ClockSpeed": "Default",
+  "HideClock": false,
+  "BlastMaskCooldown": "Instant",
+  "EnableSunsSong": true,
+  "AllowFierceDeityAnywhere": true,
+  "ByoAmmo": false,
+  "DeathMoonCrash": false,
+  "HookshotAnySurface": false,
+  "VanillaMoonTrialAccess": false,
+  "ShortenCutsceneSettings": {
+    "General": "BlastMaskThief, BoatArchery, FishermanGame, MilkBarPerformance, HungryGoron, TatlInterrupts, FasterBankText, GoronVillageOwl, AutomaticCredits, PrincessDelivery, ShortChestOpening, SunMask, Tingle, JimRunning, Kotake, HoldAText, EverythingElse",
+    "BossIntros": "Odolwa, Goht, Gyorg, Twinmold, Majora, Wart, IgosDuIkana, Gomess"
+  },
+  "QuickTextEnabled": true,
+  "Character": "LinkMM",
+  "GossipHintStyle": "Random",
+  "GaroHintStyle": "Random",
+  "MixGossipAndGaroHints": true,
+  "FreeHints": true,
+  "FreeGaroHints": true,
+  "ClearHints": true,
+  "ClearGaroHints": true,
+  "TolerantGossipStones": true,
+  "HintsIndicateImportance": true,
+  "UpdateChests": true,
+  "FixEponaSword": true,
+  "EnablePictoboxSubject": true,
+  "LenientGoronSpikes": true,
+  "ImprovedCamera": true,
+  "SpeedupBeavers": true,
+  "SpeedupDampe": true,
+  "SpeedupDogRace": true,
+  "SpeedupBank": true,
+  "SpeedupBabyCuccos": true
+}
+Seed:             278526328
+
+ Entrance                 Destination
+
+Woodfall              -> Woodfall
+Snowhead              -> Great Bay
+Great Bay             -> Snowhead
+Inverted Stone Tower  -> Inverted Stone Tower
+Odolwa's Lair         -> Goht's Lair
+Goht's Lair           -> Twinmold's Lair
+Gyorg's Lair          -> Odolwa's Lair
+Twinmold's Lair       -> Gyorg's Lair
+
+ Location                                              Item
+
+ Misc
+Removed by Royal Wallet                            -> Nothing
+Starting Heart Container #1                        -> Piece of Heart
+Starting Heart Container #2                        -> Giant's Mask
+Starting Item                                      -> Great Bay Stray Fairy
+Starting Shield                                    -> Bomb Bag Upgrade**
+Starting Song                                      -> Piece of Heart
+Starting Sword                                     -> Snowhead Stray Fairy
+
+ Bottle Catch
+Bottle: Big Poe                                    -> Bottle: Deku Princess*
+Bottle: Bug                                        -> Bottle: Mushroom
+Bottle: Deku Princess                              -> Bottle: Hot Spring Water
+Bottle: Fairy                                      -> Bottle: Zora Egg
+Bottle: Fish                                       -> Bottle: Bug*
+Bottle: Hot Spring Water                           -> Bottle: Fairy
+Bottle: Mushroom                                   -> Bottle: Spring Water
+Bottle: Poe                                        -> Bottle: Fish
+Bottle: Spring Water                               -> Bottle: Big Poe
+Bottle: Zora Egg                                   -> Bottle: Poe
+
+ Beneath Clocktown
+Pre-Clocktown Chest                                -> Ice Trap
+
+ Clock Tower Roof
+Clock Tower Rooftop Pot                            -> Ocean Skulltula Spirit
+Clock Tower Rooftop Pot 2                          -> Ice Trap (Mask of Truth)
+Clock Tower Rooftop Pot 3                          -> Stone Tower Stray Fairy
+Clock Tower Rooftop Pot 4                          -> Nothing
+Skull Kid                                          -> Notebook: Thanks for the paper
+Skull Kid Song                                     -> Bomb Trap
+
+ South Clock Town
+Clock Tower Clock                                  -> Nothing
+Clock Tower Clock 2                                -> Ice Trap (Ice Arrow)
+Clock Tower Clock 3                                -> Bomb Trap (Notebook: Cremia)
+Clock Tower Entrance                               -> Nothing
+Clock Town Scrub Trade                             -> Swamp Skulltula Spirit
+Depositing the Letter to Kafei                     -> Bomb Trap
+Notebook Meeting: The Postman                      -> Ice Trap
+Postbox                                            -> Rupoor
+South Clock Town Final Day Chest                   -> Nothing
+South Clock Town Straw Roof Chest                  -> Piece of Heart
+Swamp Scrub Purchase                               -> Ocean Skulltula Spirit
+
+ North Clock Town
+Bombers' Hide and Seek                             -> Rupoor
+Bombers' Hide and Seek                             -> Stone Tower Stray Fairy
+Clock Town Map Purchase                            -> Bomb Trap (Mirror Shield)
+Deku Playground Any Day                            -> Rupoor
+Deku Playground Three Days                         -> Rupoor
+Depositing the Letter to Kafei                     -> Bomb Trap
+Keaton Quiz                                        -> Light Arrow*
+North Clock Town Keaton Grass                      -> Notebook: Gorman
+North Clock Town Keaton Grass 2                    -> Rupoor
+North Clock Town Keaton Grass 3                    -> Ice Trap (Snowhead Compass)
+North Clock Town Keaton Grass 4                    -> Rupoor
+North Clock Town Keaton Grass 5                    -> Ice Trap (Captain's Hat)
+North Clock Town Keaton Grass 6                    -> Ice Trap (Sonata of Awakening)
+North Clock Town Keaton Grass 7                    -> Rupoor
+North Clock Town Keaton Grass 8                    -> Rupoor
+North Clock Town Keaton Grass 9                    -> Nothing
+North Clock Town Tree                              -> Goht's Remains*
+Notebook Meeting: The Bombers                      -> Bomb Trap
+Notebook Meeting: The Old Lady                     -> Ocean Skulltula Spirit
+Notebook Meeting: The Postman                      -> Ice Trap
+Old Lady                                           -> Bomb Trap
+Old Lady                                           -> Ice Trap (Romani's Mask)
+Postbox                                            -> Rupoor
+Town Great Fairy                                   -> Notebook: Circus Leader's Mask
+Town Great Fairy Non-Human                         -> Rupoor
+Woodfall Map Purchase                              -> Piece of Heart
+
+ Deku Playground Items
+Deku Playground Day 1 Item                         -> Bomb Trap (Notebook: Promised to meet Kafei)
+Deku Playground Day 1 Item 2                       -> Bomb Trap (Crimson Rupee)
+Deku Playground Day 1 Item 3                       -> Swamp Skulltula Spirit
+Deku Playground Day 1 Item 4                       -> Piece of Heart
+Deku Playground Day 1 Item 5                       -> Zora Mask*
+Deku Playground Day 1 Item 6                       -> Nothing
+Deku Playground Day 2 Item                         -> Nothing
+Deku Playground Day 2 Item 2                       -> Rupoor
+Deku Playground Day 2 Item 3                       -> Ice Trap (Bottle of Chateau Romani)
+Deku Playground Day 2 Item 4                       -> Rupoor
+Deku Playground Day 2 Item 5                       -> Bomb Trap (Ocean Title Deed)
+Deku Playground Day 2 Item 6                       -> Notebook: Toto
+Deku Playground Day 3 Item                         -> Nothing
+Deku Playground Day 3 Item 2                       -> 10 Bombchu*
+Deku Playground Day 3 Item 3                       -> Notebook: Bombers' Notebook
+Deku Playground Day 3 Item 4                       -> Ice Trap (Notebook: Garo's Mask)
+Deku Playground Day 3 Item 5                       -> Rupoor
+Deku Playground Day 3 Item 6                       -> Nothing
+
+ East Clock Town
+Bombers' Hide and Seek                             -> Stone Tower Stray Fairy
+Bombers' Hideout Chest                             -> Ocean Skulltula Spirit
+Clock Town Stray Fairy                             -> Swamp Skulltula Spirit
+Depositing the Letter to Kafei                     -> Bomb Trap
+East Clock Town Basket                             -> Rupoor
+East Clock Town Basket 2                           -> Ice Trap (Notebook: Anju)
+East Clock Town Basket 3                           -> Elegy of Emptiness
+East Clock Town Chest                              -> Bomb Trap
+East Clock Town Crate                              -> Ice Trap (Gibdo Mask)
+East Clock Town Target                             -> Ice Trap (Garo's Mask)
+East Clock Town Target 2                           -> Ice Trap (Bottle of Chateau Romani)
+East Clock Town Target 3                           -> Rupoor
+East Clock Town Target 4                           -> Rupoor
+East Clock Town Target 5                           -> Rupoor
+East Clock Town Target 6                           -> Rupoor
+Gorman                                             -> Letter to Mama
+Gorman                                             -> Nothing
+Honey and Darling Any Day                          -> Rupoor
+Honey and Darling Three Days                       -> Piece of Heart
+Madame Aroma in Bar                                -> Ice Trap
+Madame Aroma in Bar                                -> Rupoor
+Madame Aroma in Office                             -> Stone Mask
+Madame Aroma in Office                             -> Ice Trap
+Mayor                                              -> Clock Town Stray Fairy
+Mayor                                              -> Bomb Trap
+Milk Bar Chateau                                   -> Fierce Deity's Mask**
+Milk Bar Milk                                      -> Heart Container
+Notebook Meeting: Gorman                           -> Rupoor
+Notebook Meeting: Madame Aroma                     -> Bomb Trap
+Notebook Meeting: Mayor Dotour                     -> Nothing
+Notebook Meeting: The Bombers                      -> Bomb Trap
+Notebook Meeting: The Postman                      -> Ice Trap
+Notebook Meeting: Toto                             -> Nothing
+Observatory Balloon Pot                            -> Rupoor
+Observatory Balloon Pot 2                          -> Ice Trap (Notebook: Training Award)
+Observatory Scarecrow Pot                          -> Nothing
+Observatory Scarecrow Pot 2                        -> Nothing
+Observatory Scarecrow Pot 3                        -> Rupoor
+Postbox                                            -> Rupoor
+Postman's Freedom Reward                           -> Ice Trap (Small Magic Jar)
+Postman's Freedom Reward                           -> Bomb Trap
+Town Archery #1                                    -> Piece of Heart
+Town Archery #2                                    -> Ice Trap
+Treasure Chest Game Deku                           -> Ice Trap
+Treasure Chest Game Goron                          -> Nothing
+Treasure Chest Game Human                          -> Bomb Trap
+Treasure Chest Game Zora                           -> Bomb Trap
+
+ Stock Pot Inn
+Anju and Kafei                                     -> Rupoor
+Anju and Kafei                                     -> Piece of Heart
+Deliver the Pendant of Memories                    -> Nothing
+Grandma Long Story                                 -> Heart Container
+Grandma Long Story                                 -> Ocean Skulltula Spirit
+Grandma Short Story                                -> Ocean Skulltula Spirit
+Grandma Short Story                                -> Rupoor
+Inn Guest Room Chest                               -> Rupoor
+Inn Reservation                                    -> Stone Tower Small Key
+Inn Reservation                                    -> Milk
+Inn Staff Room Chest                               -> Wallet Upgrade*
+Midnight Meeting                                   -> Ice Trap
+Midnight Meeting                                   -> Notebook: Mr. Dotour
+Notebook Meeting: Anju                             -> Nothing
+Notebook Meeting: Anju's Grandmother               -> Rupoor
+Notebook Meeting: Gorman                           -> Rupoor
+Notebook Meeting: Guru-Guru                        -> Bomb Trap
+Notebook Meeting: Kafei                            -> Ice Trap
+Notebook Meeting: The Postman                      -> Ice Trap
+Notebook Meeting: The Rosa Sisters                 -> Rupoor
+Notebook Meeting: The Toilet Hand                  -> Ice Trap
+Setting up Midnight Meeting                        -> Nothing
+Stock Pot Inn Mask                                 -> Ocean Skulltula Spirit
+Stock Pot Inn Mask 2                               -> Piece of Heart
+Stock Pot Inn Mask 3                               -> Notebook: Chateau Romani
+Toilet Hand                                        -> Stone Tower Boss Key
+Toilet Hand                                        -> Ice Trap
+
+ West Clock Town
+All-Night Mask Purchase                            -> Land Title Deed*
+All-Night Mask Purchase                            -> Bomb Trap (Deku Stick)
+Bank Reward #1                                     -> Nothing
+Bank Reward #2                                     -> Bomb Trap
+Bank Reward #3                                     -> Great Bay Stray Fairy
+Big Bomb Bag Purchase                              -> Ice Trap (5 Bombs)
+Bomb Bag Purchase                                  -> Bomb Trap (Deku Stick)
+Bomb Shop 10 Bombchu                               -> Sword Upgrade
+Bomb Shop 10 Bombs                                 -> Great Bay Stray Fairy
+Curiosity Shop Blue Rupee                          -> Nothing
+Curiosity Shop Gold Rupee                          -> Notebook: Shiro
+Curiosity Shop Purple Rupee                        -> Piece of Heart
+Curiosity Shop Red Rupee                           -> Ice Trap
+Lottery                                            -> Nothing
+Notebook Meeting: The Curiosity Shop Man           -> Red Potion
+Notebook Meeting: The Old Lady                     -> Ocean Skulltula Spirit
+Notebook Meeting: The Postman                      -> Ice Trap
+Notebook Meeting: The Rosa Sisters                 -> Rupoor
+Postman's Game                                     -> Swamp Skulltula Spirit
+Postman's Game                                     -> Ice Trap
+Rosa Sisters                                       -> Ice Trap
+Rosa Sisters                                       -> Ice Trap
+Swordsman School Gong                              -> Rupoor
+Swordsman's School                                 -> Nothing
+Swordsman's School Pot                             -> Bomb Trap (10 Bombchu)
+Swordsman's School Pot 2                           -> Rupoor
+Swordsman's School Pot 3                           -> Rupoor
+Swordsman's School Pot 4                           -> Piece of Heart
+Swordsman's School Pot 5                           -> Rupoor
+Trading Post 10 Deku Nuts                          -> Ice Trap (Bottle of Chateau Romani)
+Trading Post 30 Arrows                             -> Nothing
+Trading Post 50 Arrows                             -> Bomb Trap (Mountain Title Deed)
+Trading Post Deku Stick                            -> Ice Trap (Empty Bottle)
+Trading Post Fairy                                 -> Bow Upgrade*
+Trading Post Green Potion                          -> Odolwa's Remains*
+Trading Post Hero's Shield                         -> All-Night Mask
+Trading Post Red Potion                            -> Rupoor (Milk)
+
+ Laundry Pool
+Clock Town Stray Fairy                             -> Swamp Skulltula Spirit
+Curiosity Shop Man #1                              -> Ice Trap (Goron Lullaby)
+Curiosity Shop Man #1                              -> Ice Trap
+Curiosity Shop Man #2                              -> Swamp Skulltula Spirit
+Curiosity Shop Man #2                              -> Notebook: Keaton Mask
+Frog in the Laundry Pool                           -> Swamp Skulltula Spirit
+Guru Guru                                          -> Nothing
+Guru-Guru                                          -> Nothing
+Kafei                                              -> Rupoor
+Kafei                                              -> Bomb Trap (Green Potion)
+Laundry Pool Crate                                 -> Notebook: Became ranch hand
+Laundry Pool Item                                  -> Nothing
+Laundry Pool Item 2                                -> Bottle of Gold Dust*
+Laundry Pool Item 3                                -> Ocean Skulltula Spirit
+Notebook Meeting: Anju                             -> Nothing
+Notebook Meeting: Guru-Guru                        -> Bomb Trap
+Notebook Meeting: Kafei                            -> Ice Trap
+Notebook Meeting: The Curiosity Shop Man           -> Red Potion*
+Notebook Meeting: The Postman                      -> Ice Trap
+
+ Termina Field
+Astronomy Telescope                                -> Ice Trap (Snowhead Boss Key)
+Bio Baba Grotto                                    -> Woodfall Stray Fairy
+Bio Baba Grotto Hive                               -> Nothing
+Business Scrub Purchase                            -> Rupoor
+Dodongo Grotto                                     -> Nothing
+Gossip Grotto Fairy                                -> Nothing
+Gossip Stones                                      -> Milk
+Kamaro                                             -> Ice Trap
+Kamaro                                             -> Ice Trap
+Near Peahat Grotto Butterfly Fairy                 -> Rupoor
+Notebook Meeting: Kamaro                           -> Fairy
+Peahat Grotto                                      -> Bomb Trap
+Takkuri                                            -> Piece of Heart
+Termina Field Above Cow Grotto Invisible Item      -> Rupoor
+Termina Field Clam                                 -> Snowhead Stray Fairy
+Termina Field Clam 2                               -> Nothing
+Termina Field Clam 3                               -> Bomb Trap (Ocean Skulltula Spirit)
+Termina Field Cow Grotto Butterfly Fairy           -> Ice Trap (Goht's Remains)
+Termina Field East Gossip Fairy                    -> Bomb Trap (Milk Bottle)
+Termina Field Grass Chest                          -> Bomb Trap
+Termina Field Grass Grotto                         -> Postman's Hat
+Termina Field Guay #1                              -> Twinmold's Remains*
+Termina Field Guay #10                             -> Stone Tower Stray Fairy
+Termina Field Guay #10a                            -> Ice Trap (Milk Bottle)
+Termina Field Guay #11                             -> Bomb Trap (Silver Rupee)
+Termina Field Guay #12                             -> Snowhead Compass
+Termina Field Guay #13                             -> Piece of Heart
+Termina Field Guay #14                             -> Rupoor
+Termina Field Guay #15                             -> Bomb Trap (Kafei's Mask)
+Termina Field Guay #15a                            -> Bomb Trap (Green Potion)
+Termina Field Guay #16                             -> Rupoor
+Termina Field Guay #17                             -> Blast Mask*
+Termina Field Guay #18                             -> Bomb Trap (10 Deku Nuts)
+Termina Field Guay #19                             -> Rupoor
+Termina Field Guay #2                              -> Rupoor
+Termina Field Guay #20                             -> Great Bay Stray Fairy
+Termina Field Guay #3                              -> Ice Trap (Twinmold's Remains)
+Termina Field Guay #4                              -> Notebook: Madame Aroma
+Termina Field Guay #5                              -> Map of Romani Ranch
+Termina Field Guay #5a                             -> Swamp Skulltula Spirit
+Termina Field Guay #6                              -> Rupoor
+Termina Field Guay #7                              -> Ice Trap (Notebook: Received Room Key)
+Termina Field Guay #8                              -> Ice Trap (Snowhead Map)
+Termina Field Guay #9                              -> Garo's Mask*
+Termina Field Invisible Item 10                    -> Ice Trap (Stone Mask)
+Termina Field Invisible Item 11                    -> Nothing
+Termina Field Invisible Item 2                     -> Nothing
+Termina Field Invisible Item 3                     -> Ice Trap (Notebook: Protected milk delivery)
+Termina Field Invisible Item 4                     -> Rupoor
+Termina Field Invisible Item 5                     -> Bomb Trap (Hero's Bow)
+Termina Field Invisible Item 6                     -> Ice Trap (Map of Woodfall)
+Termina Field Invisible Item 7                     -> Ice Trap (10 Deku Nuts)
+Termina Field Invisible Item 8                     -> Nothing
+Termina Field Milk Gossip Fairy                    -> Nothing
+Termina Field North Gossip Fairy                   -> Piece of Heart
+Termina Field Northern Ramp Invisible Item         -> Red Potion*
+Termina Field Observatory Gossip Fairy             -> Bomb Trap (Deku Stick)
+Termina Field Observatory Soft Soil                -> Ice Trap (Ice Arrow)
+Termina Field Pillar Grotto                        -> Bomb Trap
+Termina Field Pillar Item                          -> Notebook: Training Award
+Termina Field Pillar Pot                           -> Fire Arrow*
+Termina Field Pillar Soft Soil                     -> Rupoor
+Termina Field Pillar Spawned Item                  -> Rupoor
+Termina Field Rock                                 -> Rupoor
+Termina Field Rock 2                               -> Bomb Trap (Bomb Bag)
+Termina Field Rock 3                               -> Nothing
+Termina Field Rock 4                               -> Nothing
+Termina Field Rock 5                               -> Nothing
+Termina Field Rock 6                               -> Notebook: Kamaro
+Termina Field Rock 7                               -> Hero's Shield*
+Termina Field Rock 8                               -> Ice Trap (Stone Tower Boss Key)
+Termina Field Rock 9                               -> Nothing
+Termina Field Skull Kid Drawing                    -> Rupoor
+Termina Field Skull Kid Drawing 2                  -> Ice Trap (Epona's Song)
+Termina Field Skull Kid Drawing 3                  -> Ice Trap (Goron Mask)
+Termina Field Song Wall 0 / 8 / 12 / 16            -> Nothing
+Termina Field Song Wall 0 / 8 / 12 / 16 2          -> Magic Power Upgrade*
+Termina Field Song Wall 0 / 8 / 12 / 16 3          -> Nothing
+Termina Field Song Wall 2 / 10 / 14 / 18 / 22      -> Nothing
+Termina Field Song Wall 2 / 10 / 14 / 18 / 22 2    -> Ice Trap (Fierce Deity's Mask)
+Termina Field Song Wall 2 / 10 / 14 / 18 / 22 3    -> Ice Trap (Notebook: Protected milk delivery)
+Termina Field Song Wall 4 / 20                     -> Magic Power Upgrade*
+Termina Field Song Wall 4 / 20 2                   -> 5 Bombchu*
+Termina Field Song Wall 4 / 20 3                   -> Bomb Trap (Empty Bottle)
+Termina Field Song Wall Dawn                       -> Ice Trap (5 Bombs)
+Termina Field Song Wall Dawn 2                     -> Nothing
+Termina Field Song Wall Dawn 3                     -> Nothing
+Termina Field Song Wall Odd Hours                  -> Ice Trap (Great Bay Stray Fairy)
+Termina Field Song Wall Odd Hours 2                -> Woodfall Stray Fairy
+Termina Field Song Wall Odd Hours 3                -> Romani's Mask**
+Termina Field South Gossip Fairy                   -> Ice Trap (Notebook: Stone Mask)
+Termina Field South Wall Soft Soil                 -> Nothing
+Termina Field Stump Chest                          -> Rupoor
+Termina Field Stump Soft Soil                      -> Bomb Trap (Blue Potion)
+Termina Field Telescope Guay                       -> Bomb Trap (Twinmold's Remains)
+Termina Field Tree Item                            -> Rupoor
+Termina Field Underwater Chest                     -> Nothing
+Termina Field Wall                                 -> Goron Lullaby Upgrade*
+Termina Field Wall 2                               -> Rupoor
+Termina Field Wall 3                               -> Rupoor
+Termina Field West Gossip Fairy                    -> Green Potion
+Termina Field West Gossip Grotto Butterfly Fairy   -> Milk
+Termina Grotto Cow #1                              -> Nothing
+Termina Grotto Cow #2                              -> Ice Trap
+
+ Road to Southern Swamp
+Path to Swamp Grotto                               -> Piece of Heart
+Path to Swamp Tree                                 -> Rupoor
+Road to Southern Swamp Gossip Fairy                -> Ice Trap (Notebook: Gorman Brothers)
+Snowhead Map Purchase                              -> Nothing
+Swamp Archery #1                                   -> Nothing
+Swamp Archery #2                                   -> Nothing
+Woodfall Map Purchase                              -> Piece of Heart
+
+ Southern Swamp
+Biggest Bomb Bag Purchase                          -> Captain's Hat
+Boat Archery                                       -> Blue Potion
+Cleared Swamp Owl Grass                            -> Ice Trap (Notebook: ???)
+Cleared Swamp Owl Grass 2                          -> Rupoor
+Cleared Swamp Potion Shop Pot                      -> Rupoor
+Cleared Swamp Potion Shop Pot 2                    -> Rupoor
+Frog in the Swamp                                  -> Bomb Trap
+Kotake                                             -> Bomb Trap
+Kotake Mushroom Sale                               -> Ice Trap
+Koume                                              -> Bomb Trap
+Mystery Woods Grotto                               -> Nothing
+Near Swamp Spider House Grotto                     -> Bomb Trap
+Pictograph Contest Good Photo                      -> Ocean Skulltula Spirit
+Pictograph Contest Standard Photo                  -> Rupoor
+Pictograph Contest Winner                          -> Piece of Heart
+Potion Shop Item                                   -> Rupoor
+Potion Shop Pot                                    -> Snowhead Stray Fairy
+Potion Shop Pot 2                                  -> Piece of Heart
+Southern Swamp Gossip Fairy                        -> Bomb Trap (Odolwa's Remains)
+Southern Swamp Owl Grass                           -> Great Bay Stray Fairy
+Southern Swamp Owl Grass 2                         -> Bomb Trap (Ice Arrow)
+Swamp Music Statue                                 -> Ice Trap
+Swamp Near Frog Hive                               -> Nothing
+Swamp Near Frog Item                               -> Rupoor
+Swamp Near Frog Item 2                             -> Bottle of Chateau Romani*
+Swamp Scrub Purchase                               -> Ocean Skulltula Spirit
+Swamp Scrub Trade                                  -> Bomb Trap
+Swamp Spider House Reward                          -> Great Bay Stray Fairy
+Swamp Tourist Center Roof                          -> Nothing
+Witch Shop Blue Potion                             -> Rupoor (Bunny Hood)
+Witch Shop Green Potion                            -> Hero's Shield*
+Witch Shop Red Potion                              -> Nothing
+
+ Swamp Spider House Items
+Swamp Skulltula Gold Room Hive                     -> Bomb Trap (Notebook: Chateau Romani)
+Swamp Skulltula Gold Room Near Ceiling             -> Ice Trap (Notebook: Kafei's Mask)
+Swamp Skulltula Gold Room Pillar                   -> Ice Trap (Notebook: Stone Mask)
+Swamp Skulltula Gold Room Wall                     -> Rupoor
+Swamp Skulltula Main Room Jar                      -> Bomb Trap (10 Deku Nuts)
+Swamp Skulltula Main Room Lower Left Soft Soil     -> Ice Trap (Room Key)
+Swamp Skulltula Main Room Lower Right Soft Soil    -> Rupoor
+Swamp Skulltula Main Room Near Ceiling             -> Rupoor
+Swamp Skulltula Main Room Pillar                   -> Nothing
+Swamp Skulltula Main Room Upper Pillar             -> Nothing
+Swamp Skulltula Main Room Upper Soft Soil          -> Snowhead Stray Fairy
+Swamp Skulltula Main Room Water                    -> Bomb Trap (Gyorg's Remains)
+Swamp Skulltula Monument Room Crate 1              -> Ice Trap (New Wave Bossa Nova)
+Swamp Skulltula Monument Room Crate 2              -> Snowhead Stray Fairy
+Swamp Skulltula Monument Room Lower Wall           -> Notebook: Bremen Mask
+Swamp Skulltula Monument Room On Monument          -> Bomb Trap (Small Magic Jar)
+Swamp Skulltula Monument Room Torch                -> Bomb Trap (Razor Sword)
+Swamp Skulltula Pot Room Behind Vines              -> Ice Trap (Fire Arrow)
+Swamp Skulltula Pot Room Hive 1                    -> Great Bay Stray Fairy
+Swamp Skulltula Pot Room Hive 2                    -> Ocean Skulltula Spirit
+Swamp Skulltula Pot Room Jar                       -> Nothing
+Swamp Skulltula Pot Room Pot 1                     -> Bomb Trap (Bombers' Notebook)
+Swamp Skulltula Pot Room Pot 2                     -> Snowhead Stray Fairy
+Swamp Skulltula Pot Room Wall                      -> Bomb Trap (10 Bombs)
+Swamp Skulltula Tree Room Grass 1                  -> Rupoor
+Swamp Skulltula Tree Room Grass 2                  -> Notebook: Anju
+Swamp Skulltula Tree Room Hive                     -> Bomb Trap (Odolwa's Remains)
+Swamp Skulltula Tree Room Tree 1                   -> Ice Trap (Large Quiver)
+Swamp Skulltula Tree Room Tree 2                   -> Nothing
+Swamp Skulltula Tree Room Tree 3                   -> Nothing
+Swamp Spider House Blue Gem                        -> Rupoor
+Swamp Spider House Blue Gem 10                     -> Rupoor
+Swamp Spider House Blue Gem 11                     -> Ice Trap (Notebook: Letter to Mama)
+Swamp Spider House Blue Gem 12                     -> Bomb Trap (Mirror Shield)
+Swamp Spider House Blue Gem 2                      -> Nothing
+Swamp Spider House Blue Gem 3                      -> Nothing
+Swamp Spider House Blue Gem 4                      -> Piece of Heart
+Swamp Spider House Blue Gem 5                      -> Rupoor
+Swamp Spider House Blue Gem 6                      -> Bomb Trap (Kokiri Sword)
+Swamp Spider House Blue Gem 7                      -> Rupoor
+Swamp Spider House Blue Gem 8                      -> Notebook: Anju's Grandmother
+Swamp Spider House Blue Gem 9                      -> Rupoor
+Swamp Spider House Gold Room Soft Soil             -> Nothing
+Swamp Spider House Gossip Fairy                    -> Ice Trap (Notebook: Postman)
+Swamp Spider House Invisible Item                  -> Sword Upgrade
+Swamp Spider House Invisible Item 2                -> Ice Trap (Pendant of Memories)
+Swamp Spider House Invisible Item 3                -> Woodfall Stray Fairy
+Swamp Spider House Invisible Item 4                -> Mask of Truth
+Swamp Spider House Invisible Item 5                -> Stone Tower Stray Fairy
+Swamp Spider House Rock Soft Soil                  -> Red Potion
+
+ Deku Palace
+Bean Grotto                                        -> Ice Trap
+Bean Grotto Soft Soil                              -> Nothing
+Bean Man                                           -> Ice Trap
+Bean Man Butterfly Fairy                           -> Rupoor
+Butler                                             -> Ice Trap
+Deku Palace Item                                   -> Ice Trap (Big Bomb Bag)
+Deku Palace Item 10                                -> Ice Trap (Chateau Romani)
+Deku Palace Item 11                                -> Swamp Skulltula Spirit
+Deku Palace Item 12                                -> Notebook: Grog
+Deku Palace Item 13                                -> Rupoor
+Deku Palace Item 14                                -> Swamp Skulltula Spirit
+Deku Palace Item 15                                -> Nothing
+Deku Palace Item 16                                -> Nothing
+Deku Palace Item 17                                -> Rupoor
+Deku Palace Item 2                                 -> Bomb Trap (Adult Wallet)
+Deku Palace Item 3                                 -> New Wave Bossa Nova**
+Deku Palace Item 4                                 -> Ice Trap (Couple's Mask)
+Deku Palace Item 5                                 -> Woodfall Stray Fairy
+Deku Palace Item 6                                 -> Rupoor
+Deku Palace Item 7                                 -> Swamp Skulltula Spirit
+Deku Palace Item 8                                 -> Rupoor
+Deku Palace Item 9                                 -> Bomb Trap (Twinmold's Remains)
+Deku Palace Out of Bounds Item                     -> Bomb Trap (5 Bombchu)
+Deku Palace Pot                                    -> Rupoor
+Deku Palace Pot 2                                  -> Bombers' Notebook
+Deku Palace Rupee Cluster                          -> Piece of Heart
+Deku Palace Rupee Cluster 2                        -> Bomb Trap (Land Title Deed)
+Deku Palace Rupee Cluster 3                        -> Empty Bottle
+Deku Palace Rupee Cluster 4                        -> Moon's Tear
+Deku Palace Rupee Cluster 5                        -> Bomb Trap (Goron Lullaby Intro)
+Deku Palace Rupee Cluster 6                        -> Bomb Bag Upgrade
+Deku Palace Rupee Cluster 7                        -> Nothing
+Deku Palace Soft Soil                              -> Ice Trap (Royal Wallet)
+Deku Palace West Garden                            -> Mirror Shield*
+Imprisoned Monkey                                  -> Bomb Trap
+
+ Butler Race Items
+Butler Race Dual Pot                               -> Bomb Trap (Notebook: Mr. Dotour)
+Butler Race Final Room Item                        -> Rupoor
+Butler Race Final Room Item 10                     -> Rupoor
+Butler Race Final Room Item 2                      -> Nothing
+Butler Race Final Room Item 3                      -> Ice Trap (10 Deku Nuts)
+Butler Race Final Room Item 4                      -> Blue Potion
+Butler Race Final Room Item 5                      -> Ocean Skulltula Spirit
+Butler Race Final Room Item 6                      -> Stone Tower Stray Fairy
+Butler Race Final Room Item 7                      -> Song of Time*
+Butler Race Final Room Item 8                      -> Bomb Trap (Great Fairy's Mask)
+Butler Race Final Room Item 9                      -> Ice Trap (Song of Healing)
+Butler Race Pillar Item                            -> Nothing
+Butler Race Pillar Item 2                          -> Bomb Trap (Goht's Remains)
+Butler Race Pillar Item 3                          -> Stone Tower Stray Fairy
+Butler Race Pillar Item 4                          -> Rupoor
+Butler Race Pillar Item 5                          -> Bombchu
+Butler Race Pillar Item 6                          -> Nothing
+Butler Race Pillar Item 7                          -> Snowhead Small Key
+Butler Race Pillar Item 8                          -> Ice Trap (Song of Soaring)
+Butler Race Right Path Item                        -> Swamp Skulltula Spirit
+Butler Race Right Path Item 2                      -> Nothing
+Butler Race Right Path Item 3                      -> Nothing
+Butler Race Right Path Item 4                      -> Ice Trap (Small Magic Jar)
+Butler Race Right Path Item 5                      -> Great Bay Stray Fairy
+Butler Race Right Path Item 6                      -> Rupoor
+Butler Race River Item                             -> Rupoor
+Butler Race River Item 2                           -> Map of Great Bay
+Butler Race River Item 3                           -> Ice Trap (Notebook: Pendant of Memories)
+Butler Race River Item 4                           -> Rupoor
+Butler Race River Item 5                           -> Nothing
+Butler Race River Item 6                           -> Bomb Trap (Notebook: Rosa Sisters)
+
+ Woodfall
+Behind Woodfall Owl Chest                          -> Great Bay Stray Fairy
+Entrance to Woodfall Chest                         -> Bomb Trap
+Woodfall Bridge Chest                              -> Rupoor
+Woodfall Great Fairy                               -> Rupoor
+Woodfall Item                                      -> Ice Trap (Fire Arrow)
+Woodfall Pot                                       -> Piece of Heart
+Woodfall Pot 2                                     -> Rupoor
+Woodfall Pot 3                                     -> Nothing
+
+ Woodfall Temple
+Boss Blue Warp                                     -> Pictograph Box
+Frog in Woodfall Temple                            -> Rupoor
+Hero's Bow Chest                                   -> Rupoor
+Woodfall Boss Key Chest                            -> Bomb Trap
+Woodfall Boss Warp                                 -> Nothing
+Woodfall Bridge Room Hive                          -> Ice Trap (Map of Snowhead)
+Woodfall Compass Chest                             -> Rupoor
+Woodfall Dark Room                                 -> Ice Trap (Magic Bean)
+Woodfall Deku Baba                                 -> Bomb Trap (Notebook: Gorman)
+Woodfall Entrance Fairy                            -> Stone Tower Small Key
+Woodfall Entrance Platform                         -> Woodfall Stray Fairy
+Woodfall Heart Container                           -> Ice Trap (Notebook: Old Lady from Bomb Shop)
+Woodfall Jar Fairy                                 -> Piece of Heart
+Woodfall Main Room Bubble                          -> Bomb Trap (10 Bombs)
+Woodfall Main Room Switch                          -> Bomb Trap (Notebook: Madame Aroma)
+Woodfall Map Chest                                 -> Bomb Trap
+Woodfall Platform Room Hive                        -> Bomb Trap (Pink Frog)
+Woodfall Poison Water Bubble                       -> Swamp Skulltula Spirit
+Woodfall Pre-Boss Lower Right Bubble               -> Piece of Heart
+Woodfall Pre-Boss Pillar Bubble                    -> Rupoor
+Woodfall Pre-Boss Upper Left Bubble                -> Bomb Trap (All-Night Mask)
+Woodfall Pre-Boss Upper Right Bubble               -> Rupoor
+Woodfall Skulltula                                 -> Bomb Trap (Kamaro's Mask)
+Woodfall Small Key Chest                           -> Bomb Trap
+Woodfall Temple Entrance Hive                      -> Ice Trap (Blast Mask)
+Woodfall Temple Entrance Pot                       -> Swamp Skulltula Spirit
+Woodfall Temple Gekko Room Pot                     -> Ocean Skulltula Spirit
+Woodfall Temple Gekko Room Pot 2                   -> Bomb Trap (10 Bombs)
+Woodfall Temple Gekko Room Pot 3                   -> Nothing
+Woodfall Temple Gekko Room Pot 4                   -> Ice Trap (Letter to Mama)
+Woodfall Temple Pre-Boss Left Pillar Item          -> Bomb Trap (Map of Clock Town)
+Woodfall Temple Pre-Boss Platform Item             -> Ice Trap (Notebook: Toto)
+Woodfall Temple Pre-Boss Platform Item 2           -> Nothing
+Woodfall Temple Pre-Boss Platform Item 3           -> Nothing
+Woodfall Temple Pre-Boss Platform Item 4           -> Snowhead Map
+Woodfall Temple Pre-Boss Right Pillar Item         -> Bomb Trap (Clock Town Stray Fairy)
+
+ Path to Mountain Village
+Path to Mountain Village Gossip Fairy              -> Swamp Skulltula Spirit
+Path to Mountain Village Small Snowball            -> Rupoor
+Path to Mountain Village Spring Snowball           -> Nothing
+Path to Mountain Village Spring Snowball 2         -> Ice Trap (Fairy)
+Path to Mountain Village Spring Snowball 3         -> Nothing
+
+ Mountain Village
+Darmani                                            -> Pink Frog
+Frog Choir                                         -> Bomb Trap
+Goron Elder                                        -> Rupoor
+Goron Graveyard Snowball                           -> Bomb Trap (Notebook: Thanks for the paper)
+Goron Graveyard Snowball 2                         -> Bomb Trap (Ocean Skulltula Spirit)
+Hungry Goron                                       -> Snowhead Small Key
+Keaton Quiz                                        -> Light Arrow*
+Mountain Smithy Day 1                              -> Rupoor (Moon's Tear)
+Mountain Smithy Day 2                              -> Ice Trap (Royal Wallet)
+Mountain Spring Grotto                             -> Ice Trap
+Mountain Village Day 1 Snowball                    -> Woodfall Small Key
+Mountain Village Day 2 Snowball                    -> Bomb Trap (Oath to Order)
+Mountain Village Day 2 Snowball 2                  -> Nothing
+Mountain Village Day 3 Snowball                    -> Ocean Skulltula Spirit
+Mountain Village Spring Butterfly Fairy            -> Notebook: Delivered Pendant
+Mountain Village Spring Butterfly Fairy 2          -> Map of Snowhead
+Mountain Village Spring Frog Gossip Fairy          -> Ice Trap (Biggest Bomb Bag)
+Mountain Village Spring Keaton Grass               -> Nothing
+Mountain Village Spring Keaton Grass 2             -> 10 Bombchu
+Mountain Village Spring Keaton Grass 3             -> Rupoor
+Mountain Village Spring Keaton Grass 4             -> Ice Trap (Land Title Deed)
+Mountain Village Spring Keaton Grass 5             -> Ice Trap (Map of Woodfall)
+Mountain Village Spring Keaton Grass 6             -> Ice Trap (Goron Lullaby Intro)
+Mountain Village Spring Keaton Grass 7             -> Nothing
+Mountain Village Spring Keaton Grass 8             -> Nothing
+Mountain Village Spring Keaton Grass 9             -> Nothing
+Mountain Village Spring Path Gossip Fairy          -> Bomb Trap (Small Magic Jar)
+Mountain Village Spring Pot                        -> Nothing
+Mountain Village Spring Snowball                   -> Notebook: Kamaro's Mask
+Mountain Village Spring Snowball 2                 -> Ice Trap (Large Magic Jar)
+Mountain Village Spring Snowball 3                 -> Milk
+Mountain Village Spring Snowball 4                 -> Map of Clock Town
+Mountain Village Spring Stair Item                 -> Nothing
+Mountain Village Winter Pot                        -> Rupoor
+Mountain Village Winter Small Snowball             -> Ice Trap (Notebook: Protected milk delivery)
+Mountain Village Winter Small Snowball 2           -> Nothing
+Mountain Village Winter Small Snowball 3           -> Stone Tower Small Key
+Mountain Village Winter Small Snowball 4           -> Mask of Scents
+Mountain Village Winter Small Snowball 5           -> Sword Upgrade
+Mountain Village Winter Small Snowball 6           -> Milk
+Mountain Waterfall Chest                           -> Ocean Skulltula Spirit
+
+ Twin Islands
+Goron Elder                                        -> Rupoor
+Goron Race                                         -> Bomb Trap
+Goron Racetrack Grotto                             -> Nothing
+Hot Spring Water Grotto                            -> Ice Trap
+Romani Ranch Map Purchase                          -> Rupoor
+Snowhead Map Purchase                              -> Nothing
+Twin Islands Cave Chest                            -> Piece of Heart
+Twin Islands Day 1 Snowball                        -> Piece of Heart
+Twin Islands Day 1 Snowball 2                      -> Ice Trap (New Wave Bossa Nova)
+Twin Islands Day 1 Snowball 3                      -> Ice Trap (Hero's Bow)
+Twin Islands Day 1 Snowball 4                      -> Bomb Trap (Song of Soaring)
+Twin Islands Day 1 Snowball 5                      -> Rupoor
+Twin Islands Day 2 Snowball                        -> Woodfall Stray Fairy
+Twin Islands Day 2 Snowball 2                      -> Rupoor
+Twin Islands Day 2 Snowball 3                      -> Rupoor
+Twin Islands Day 2 Snowball 4                      -> Ice Trap (Mask of Truth)
+Twin Islands Day 3 Snowball                        -> Stone Tower Stray Fairy
+Twin Islands Day 3 Snowball 2                      -> Nothing
+Twin Islands Day 3 Snowball 3                      -> Bomb Trap (Notebook: Madame Aroma)
+Twin Islands Day 3 Snowball 4                      -> Nothing
+Twin Islands Day 3 Snowball 5                      -> Ice Trap (Room Key)
+Twin Islands Item                                  -> Ice Trap (Elegy of Emptiness)
+Twin Islands Item 2                                -> Rupoor
+Twin Islands Item 3                                -> Stone Tower Stray Fairy
+Twin Islands Item 4                                -> Bomb Trap (Gibdo Mask)
+Twin Islands Ramp Snowball                         -> Rupoor
+Twin Islands Small Snowball                        -> Ice Trap (Green Potion)
+Twin Islands Small Snowball 2                      -> Rupoor
+Twin Islands Underwater Ramp Chest                 -> Rupoor
+
+ Goron Race Items
+Goron Racetrack Pot                                -> Nothing
+Goron Racetrack Pot 10                             -> Nothing
+Goron Racetrack Pot 11                             -> Ice Trap (Blue Rupee)
+Goron Racetrack Pot 12                             -> Woodfall Stray Fairy
+Goron Racetrack Pot 13                             -> Rupoor
+Goron Racetrack Pot 14                             -> Nothing
+Goron Racetrack Pot 15                             -> Nothing
+Goron Racetrack Pot 16                             -> Bomb Trap (Notebook: Pendant of Memories)
+Goron Racetrack Pot 17                             -> Bomb Trap (Notebook: Chateau Romani)
+Goron Racetrack Pot 18                             -> Rupoor
+Goron Racetrack Pot 19                             -> Nothing
+Goron Racetrack Pot 2                              -> Nothing
+Goron Racetrack Pot 20                             -> Nothing
+Goron Racetrack Pot 21                             -> Piece of Heart
+Goron Racetrack Pot 22                             -> Ice Trap (Mirror Shield)
+Goron Racetrack Pot 23                             -> Nothing
+Goron Racetrack Pot 24                             -> Notebook: Escaped from Sakon's Hideout
+Goron Racetrack Pot 25                             -> Rupoor
+Goron Racetrack Pot 26                             -> Bomb Trap (Romani's Mask)
+Goron Racetrack Pot 27                             -> Bomb Trap (Bombchu)
+Goron Racetrack Pot 28                             -> Rupoor
+Goron Racetrack Pot 29                             -> Goron Mask*
+Goron Racetrack Pot 3                              -> Rupoor
+Goron Racetrack Pot 30                             -> Ice Trap (Small Magic Jar)
+Goron Racetrack Pot 4                              -> Bomb Trap (Notebook: Mr. Dotour)
+Goron Racetrack Pot 5                              -> Stone Tower Stray Fairy
+Goron Racetrack Pot 6                              -> Great Bay Compass
+Goron Racetrack Pot 7                              -> Rupoor
+Goron Racetrack Pot 8                              -> Ice Trap (5 Bombs)
+Goron Racetrack Pot 9                              -> Nothing
+
+ Goron Village
+Baby Goron                                         -> Piece of Heart
+Biggest Bomb Bag Purchase                          -> Captain's Hat*
+Goron Shop 10 Arrows                               -> Bomb Trap (Sonata of Awakening)
+Goron Shop 10 Arrows                               -> Bomb Trap (Sonata of Awakening)
+Goron Shop 10 Bombs                                -> Rupoor (Deku Mask)
+Goron Shop 10 Bombs                                -> Rupoor (Deku Mask)
+Goron Shop Red Potion                              -> Ice Trap (Biggest Bomb Bag)
+Goron Shop Red Potion                              -> Ice Trap (Biggest Bomb Bag)
+Goron Shrine Pot                                   -> Nothing
+Goron Shrine Pot 10                                -> Nothing
+Goron Shrine Pot 11                                -> Ice Trap (Elegy of Emptiness)
+Goron Shrine Pot 2                                 -> Bomb Trap (Ocean Title Deed)
+Goron Shrine Pot 3                                 -> Powder Keg*
+Goron Shrine Pot 4                                 -> Bomb Trap (Notebook: Deposit Letter to Kafei)
+Goron Shrine Pot 5                                 -> Rupoor
+Goron Shrine Pot 6                                 -> Ice Trap (Great Fairy's Sword)
+Goron Shrine Pot 7                                 -> Piece of Heart
+Goron Shrine Pot 8                                 -> Bomb Trap (Royal Wallet)
+Goron Shrine Pot 9                                 -> Ocean Skulltula Spirit
+Goron Village Large Snowball                       -> Deku Mask*
+Goron Village Large Snowball 2                     -> Bomb Trap (Cyan Frog)
+Goron Village Large Snowball 3                     -> Rupoor
+Goron Village Large Snowball 4                     -> Ocean Skulltula Spirit
+Goron Village Large Snowball 5                     -> Notebook: Deposit Letter to Kafei
+Goron Village Large Snowball 6                     -> Rupoor
+Goron Village Ledge                                -> Bomb Trap (10 Bombs)
+Goron Village Small Snowball                       -> Red Potion
+Goron Village Small Snowball 10                    -> Bomb Trap (Pictograph Box)
+Goron Village Small Snowball 2                     -> Piece of Heart
+Goron Village Small Snowball 3                     -> Ice Trap (Song of Soaring)
+Goron Village Small Snowball 4                     -> Great Fairy's Mask
+Goron Village Small Snowball 5                     -> Notebook: Letter to Mama
+Goron Village Small Snowball 6                     -> Bomb Trap (Stone Tower Stray Fairy)
+Goron Village Small Snowball 7                     -> Bomb Trap (Small Magic Jar)
+Goron Village Small Snowball 8                     -> Notebook: Bunny Hood
+Goron Village Small Snowball 9                     -> Rupoor
+Lens Cave Invisible Chest                          -> Bomb Trap
+Lens Cave Rock Chest                               -> Nothing
+Lens of Truth Chest                                -> Swamp Skulltula Spirit
+Mountain Scrub Trade                               -> Nothing
+Ocean Scrub Purchase                               -> Epona's Song
+Powder Keg Challenge                               -> Ice Trap (Notebook: Chateau Romani)
+
+ Path to Snowhead
+Path to Snowhead Grotto                            -> Ice Trap
+Path to Snowhead Large Snowball                    -> Ocean Skulltula Spirit
+Path to Snowhead Large Snowball 2                  -> Nothing
+Path to Snowhead Large Snowball 3                  -> Ocean Skulltula Spirit
+Path to Snowhead Large Snowball 4                  -> Piece of Heart
+Path to Snowhead Pillar                            -> Bomb Trap (Bottle of Gold Dust)
+Path to Snowhead Spring Snowball                   -> Piece of Heart
+Path to Snowhead Spring Snowball 2                 -> Rupoor
+Path to Snowhead Spring Snowball 3                 -> Magic Bean
+Path to Snowhead Spring Snowball 4                 -> Woodfall Stray Fairy
+
+ Snowhead
+Snowhead Great Fairy                               -> Bomb Trap
+Snowhead Large Snowball                            -> Great Bay Stray Fairy
+Snowhead Large Snowball 2                          -> Ice Trap (Seahorse)
+Snowhead Large Snowball 3                          -> Rupoor
+Snowhead Large Snowball 4                          -> Nothing
+Snowhead Large Snowball 5                          -> Swamp Skulltula Spirit
+Snowhead Large Snowball 6                          -> Ocean Skulltula Spirit
+Snowhead Small Snowball                            -> Magic Bean*
+Snowhead Small Snowball 2                          -> Nothing
+Snowhead Small Snowball 3                          -> Bomb Trap (Red Rupee)
+Snowhead Small Snowball 4                          -> Rupoor
+
+ Snowhead Temple
+Boss Blue Warp                                     -> Pictograph Box
+Fire Arrow Chest                                   -> Swamp Skulltula Spirit
+Snowhead Basement                                  -> Ice Trap (Mask of Truth)
+Snowhead Block Room Chest                          -> Rupoor
+Snowhead Boss Key Chest                            -> Rupoor
+Snowhead Boss Warp                                 -> Bomb Trap (Goron Lullaby)
+Snowhead Bridge Room Chest                         -> Piece of Heart
+Snowhead Bridge Room Ledge Bubble                  -> Bomb Trap (Notebook: Kamaro's Mask)
+Snowhead Bridge Room Pillar Bubble                 -> Rupoor
+Snowhead Ceiling Bubble                            -> Nothing
+Snowhead Compass Chest                             -> Bomb Trap
+Snowhead Crate                                     -> Kafei's Mask
+Snowhead Dinolfos 1                                -> Rupoor
+Snowhead Dinolfos 2                                -> Milk Bottle
+Snowhead Heart Container                           -> Stone Tower Stray Fairy
+Snowhead Ice Puzzle                                -> Nothing
+Snowhead Icicle Room Chest                         -> Bomb Trap
+Snowhead Icicle Room Wall                          -> Nothing
+Snowhead Main Room Pot                             -> Bomb Trap (Bottle of Chateau Romani)
+Snowhead Main Room Wall                            -> Bomb Trap (Fire Arrow)
+Snowhead Map Chest                                 -> Rupoor
+Snowhead Map Room Fairy                            -> Ice Trap (Largest Quiver)
+Snowhead Map Room Ledge                            -> Bomb Trap (5 Bombs)
+Snowhead Pillar Freezards                          -> Ice Trap (Notebook: Protected milk delivery)
+Snowhead Snow Room Bubble                          -> Don Gero's Mask
+Snowhead Temple Elevator Room Crate                -> Rupoor
+Snowhead Temple Elevator Room Crate 2              -> Woodfall Map
+Snowhead Temple Elevator Room Crate 3              -> Nothing
+Snowhead Temple Elevator Room Crate 4              -> Snowhead Stray Fairy
+Snowhead Temple Elevator Room Crate 5              -> Bomb Trap (Notebook: Delivered Pendant)
+Snowhead Temple Icicle Room Frozen Item            -> Nothing
+Snowhead Temple Icicle Room Frozen Item 2          -> Rupoor
+Snowhead Temple Icicle Room Frozen Item 3          -> Heart Container
+Snowhead Temple Icicle Room Snowball               -> Nothing
+Snowhead Temple Icicle Room Snowball 2             -> 50 Arrows
+Snowhead Temple Icicle Room Snowball 3             -> Bomb Trap (Seahorse)
+Snowhead Temple Icicle Room Snowball 4             -> Ice Trap (Bombchu)
+Snowhead Temple Icicle Room Snowball 5             -> Rupoor
+Snowhead Temple Safety Bridge Pot                  -> Rupoor
+Snowhead Temple Safety Bridge Pot 2                -> Rupoor
+Snowhead Twin Block                                -> Rupoor
+
+ Milk Road
+Gorman Bros Milk Purchase                          -> Bomb Trap (All-Night Mask)
+Gorman Bros Race                                   -> Ice Arrow*
+Gorman Bros Race                                   -> Rupoor
+Great Bay Map Purchase                             -> Notebook: Postman
+Keaton Quiz                                        -> Light Arrow*
+Milk Road Gossip Fairy                             -> Ocean Skulltula Spirit
+Milk Road Grass                                    -> Rupoor
+Milk Road Grass 2                                  -> Snowhead Stray Fairy
+Milk Road Grass 3                                  -> Stone Tower Stray Fairy
+Milk Road Keaton Grass                             -> Gyorg's Remains*
+Milk Road Keaton Grass 2                           -> Ice Trap (Stone Tower Stray Fairy)
+Milk Road Keaton Grass 3                           -> Notebook: Gorman Brothers
+Milk Road Keaton Grass 4                           -> Nothing
+Milk Road Keaton Grass 5                           -> Nothing
+Milk Road Keaton Grass 6                           -> Nothing
+Milk Road Keaton Grass 7                           -> Milk
+Milk Road Keaton Grass 8                           -> Rupoor
+Milk Road Keaton Grass 9                           -> Snowhead Stray Fairy
+Notebook Meeting: The Gorman Brothers              -> Nothing
+Romani Ranch Map Purchase                          -> Rupoor
+
+ Romani Ranch
+Aliens Defense                                     -> Kamaro's Mask
+Aliens Defense                                     -> Bomb Trap
+Cremia                                             -> Woodfall Stray Fairy
+Cremia                                             -> Ice Trap
+Cucco Shack Crate                                  -> Piece of Heart
+Cucco Shack Diamond Hole                           -> Nothing
+Cucco Shack Diamond Hole 2                         -> Rupoor
+Cucco Shack Diamond Hole 3                         -> Rupoor
+Cucco Shack Diamond Hole 4                         -> Nothing
+Cucco Shack Diamond Hole 5                         -> Rupoor
+Cucco Shack Diamond Hole 6                         -> Ice Trap (Notebook: Bombers)
+Cucco Shack Gossip Fairy                           -> Rupoor
+Cucco Shack Potted Plant                           -> Rupoor
+Dog Race                                           -> Nothing
+Doggy Racetrack Gossip Fairy                       -> Stone Tower Stray Fairy
+Doggy Racetrack Pot                                -> Ocean Title Deed**
+Doggy Racetrack Pot 2                              -> Swamp Skulltula Spirit
+Doggy Racetrack Pot 3                              -> Rupoor
+Doggy Racetrack Pot 4                              -> Bomb Trap (Notebook: Chateau Romani)
+Doggy Racetrack Roof Chest                         -> Swamp Skulltula Spirit
+Doggy Racetrack Soft Soil                          -> Empty Bottle
+Grog                                               -> Ocean Skulltula Spirit
+Grog                                               -> Rupoor
+Notebook Meeting: Anju                             -> Nothing
+Notebook Meeting: Anju's Grandmother               -> Rupoor
+Notebook Meeting: Cremia                           -> Snowhead Stray Fairy
+Notebook Meeting: Grog                             -> Bomb Trap
+Notebook Meeting: Romani                           -> Ice Trap
+Ranch Barn Gossip Fairy                            -> Rupoor
+Ranch Barn Hay Item                                -> Ice Trap (Ocarina of Time)
+Ranch Barn Hay Item 2                              -> Ice Trap (Snowhead Small Key)
+Ranch Cow #1                                       -> Snowhead Stray Fairy
+Ranch Cow #2                                       -> Rupoor
+Ranch Cow #3                                       -> Rupoor
+Ranch Crate                                        -> Nothing
+Ranch Day 1 Soil                                   -> Rupoor
+Ranch Day 2 or 3 Soil                              -> Bomb Trap (Silver Rupee)
+Ranch Entrance Gossip Fairy                        -> Bomb Trap (Notebook: Dotour's Thanks)
+Ranch Fence Item                                   -> Ice Trap (Notebook: Promised to meet Kafei)
+Ranch Fence Item 2                                 -> Nothing
+Ranch Fence Item 3                                 -> Ice Trap (Giant's Mask)
+Ranch Fence Item 4                                 -> Bomb Trap (Don Gero's Mask)
+Ranch Fence Item 5                                 -> Bomb Trap (Recovery Heart)
+Ranch Fence Item 6                                 -> Ice Trap (30 Arrows)
+Ranch Tree Gossip Fairy                            -> Rupoor
+Romani's Game                                      -> Ice Trap (Notebook: Deposit Letter to Kafei)
+Romani's Game                                      -> White Frog
+
+ Great Bay Coast
+Baby Zoras                                         -> Nothing
+Fisherman Game                                     -> Green Potion
+Fisherman Pictograph                               -> Nothing
+Great Bay Coast Butterfly Fairy                    -> Nothing
+Great Bay Coast Cow Grotto Butterfly Fairy         -> Piece of Heart
+Great Bay Coast Gossip Fairy                       -> Milk
+Great Bay Coast Grotto                             -> Ice Trap
+Great Bay Coast Grotto Cow #1                      -> Ice Trap
+Great Bay Coast Grotto Cow #2                      -> Ice Trap
+Great Bay Coast Ledge                              -> Nothing
+Great Bay Coast Ledge Pot                          -> Ice Trap (Notebook: Letter to Mama)
+Great Bay Coast Ledge Pot 2                        -> Rupoor
+Great Bay Coast Ledge Pot 3                        -> Chateau Romani
+Great Bay Coast Pot                                -> Ice Trap (Letter to Mama)
+Great Bay Coast Pot 2                              -> Ocean Skulltula Spirit
+Great Bay Coast Pot 3                              -> Ice Trap (Bomb Bag)
+Great Bay Coast Pot 4                              -> Sonata of Awakening*
+Great Bay Coast Pot 5                              -> Stone Tower Small Key
+Great Bay Coast Pot 6                              -> Piece of Heart
+Great Bay Coast Pot 7                              -> Ice Trap (Blast Mask)
+Great Bay Coast Pot 8                              -> Rupoor
+Great Bay Coast Soft Soil                          -> Ice Trap (Bombers' Notebook)
+Great Bay Map Purchase                             -> Notebook: Postman
+Lab Fish                                           -> Rupoor
+Mikau                                              -> Rupoor
+Ocean Spider House Chest                           -> Notebook: Rosa Sisters' Thanks
+Ocean Spider House Day 1 Reward                    -> Bomb Trap (Great Bay Small Key)
+Ocean Spider House Day 2 Reward                    -> Ice Trap (Land Title Deed)
+Ocean Spider House Day 3 Reward                    -> Snowhead Stray Fairy
+Stone Tower Map Purchase                           -> Bombchu*
+
+ Ocean Spider House Items
+Ocean Skulltula 2nd Room Behind Skull 1            -> Rupoor
+Ocean Skulltula 2nd Room Behind Skull 2            -> Piece of Heart
+Ocean Skulltula 2nd Room Ceiling Edge              -> Rupoor
+Ocean Skulltula 2nd Room Ceiling Plank             -> Ice Trap (Map of Romani Ranch)
+Ocean Skulltula 2nd Room Jar                       -> Bomb Trap (Zora Mask)
+Ocean Skulltula 2nd Room Lower Pot                 -> Nothing
+Ocean Skulltula 2nd Room Upper Pot                 -> Ice Trap (Woodfall Stray Fairy)
+Ocean Skulltula 2nd Room Webbed Hole               -> Nothing
+Ocean Skulltula 2nd Room Webbed Pot                -> Rupoor
+Ocean Skulltula Colored Skulls Behind Picture      -> Cyan Frog
+Ocean Skulltula Colored Skulls Ceiling Edge        -> Great Bay Stray Fairy
+Ocean Skulltula Colored Skulls Chandelier 1        -> Rupoor
+Ocean Skulltula Colored Skulls Chandelier 2        -> Hero's Shield
+Ocean Skulltula Colored Skulls Chandelier 3        -> Bomb Trap (Snowhead Boss Key)
+Ocean Skulltula Colored Skulls Pot                 -> Nothing
+Ocean Skulltula Entrance Left Wall                 -> Nothing
+Ocean Skulltula Entrance Right Wall                -> Rupoor
+Ocean Skulltula Entrance Web                       -> Ice Trap (Pink Frog)
+Ocean Skulltula Library Behind Bookcase 1          -> Rupoor
+Ocean Skulltula Library Behind Bookcase 2          -> Green Potion
+Ocean Skulltula Library Behind Picture             -> Great Bay Boss Key*
+Ocean Skulltula Library Ceiling Edge               -> Bomb Trap (5 Bombs)
+Ocean Skulltula Library Hole Behind Cabinet        -> Nothing
+Ocean Skulltula Library Hole Behind Picture        -> Great Fairy's Sword
+Ocean Skulltula Library On Corner Bookshelf        -> Ice Trap (Map of Great Bay)
+Ocean Skulltula Storage Room Behind Boat           -> Ocean Skulltula Spirit
+Ocean Skulltula Storage Room Behind Crate          -> Nothing
+Ocean Skulltula Storage Room Ceiling Web           -> Rupoor
+Ocean Skulltula Storage Room Crate                 -> Ice Trap (Biggest Bomb Bag)
+Ocean Skulltula Storage Room Jar                   -> Rupoor
+Oceanside Spider House Entrance Pot                -> Oath to Order*
+Oceanside Spider House Entrance Pot 2              -> Stone Tower Stray Fairy
+Oceanside Spider House Entrance Pot 3              -> Ice Trap (Notebook: Delivered Pendant)
+Oceanside Spider House Main Room Pot               -> Woodfall Stray Fairy
+Oceanside Spider House Main Room Pot 2             -> Rupoor
+Oceanside Spider House Mask                        -> Rupoor
+Oceanside Spider House Mask 2                      -> Ice Trap (Great Bay Compass)
+Oceanside Spider House Mask 3                      -> Song of Storms
+Oceanside Spider House Mask 4                      -> Rupoor
+Oceanside Spider House Mask 5                      -> Nothing
+Oceanside Spider House Mask 6                      -> Rupoor
+Oceanside Spider House Mask 7                      -> Nothing
+Oceanside Spider House Mask 8                      -> Ice Trap (Fire Arrow)
+Oceanside Spider House Mask 9                      -> Rupoor
+Oceanside Spider House Mask Room Pot               -> Mountain Title Deed*
+Oceanside Spider House Mask Room Pot 2             -> Ice Trap (Great Bay Small Key)
+Oceanside Spider House Storage Room Pot            -> Bomb Trap (Notebook: Couple's Mask)
+
+ Zora Cape
+Beaver Race #1                                     -> Notebook: Pendant of Memories
+Beaver Race #2                                     -> Notebook: ???
+Ocean Great Fairy                                  -> Notebook: Bombers
+Zora Cape Gossip Fairy                             -> Goron Lullaby Upgrade*
+Zora Cape Grotto                                   -> Ice Trap
+Zora Cape Jar Game                                 -> Ocean Skulltula Spirit
+Zora Cape Ledge With Tree Chest                    -> Swamp Skulltula Spirit
+Zora Cape Ledge Without Tree Chest                 -> Snowhead Small Key
+Zora Cape Like-Like                                -> Rupoor
+Zora Cape Owl Pot                                  -> Wallet Upgrade*
+Zora Cape Owl Pot 2                                -> Swamp Skulltula Spirit
+Zora Cape Owl Pot 3                                -> Ice Trap (Mask of Scents)
+Zora Cape Owl Pot 4                                -> Ice Trap (Goron Lullaby)
+Zora Cape Underwater Chest                         -> Piece of Heart
+Zora Cape Waterfall Pot                            -> Fairy
+
+ Zora Hall
+Bad Pictograph of Lulu                             -> Rupoor
+Canyon Scrub Purchase                              -> Bomb Trap (Woodfall Boss Key)
+Evan                                               -> Wallet Upgrade*
+Good Pictograph of Lulu                            -> Snowhead Stray Fairy
+Lulu's Room Ledge                                  -> Nothing
+Ocean Scrub Purchase                               -> Epona's Song*
+Ocean Scrub Trade                                  -> Nothing
+Zora Hall Stage Lights                             -> Bomb Trap
+Zora Shop 10 Arrows                                -> Nothing
+Zora Shop Hero's Shield                            -> Ice Trap (Notebook: Postman)
+Zora Shop Red Potion                               -> Nothing
+
+ Pirates' Fortress Exterior
+Pirates' Fortress Exterior Corner Chest            -> Notebook: Postman's Hat
+Pirates' Fortress Exterior Log Chest               -> Ice Trap
+Pirates' Fortress Exterior Sand Chest              -> Nothing
+
+ Pirates' Fortress Sewer
+Pirates' Fortress Cage                             -> Nothing
+Pirates' Fortress Cage Pot                         -> Nothing
+Pirates' Fortress Cage Room Barrel                 -> Piece of Heart
+Pirates' Fortress Cage Room Barrel 2               -> Room Key
+Pirates' Fortress Cage Room Barrel 3               -> Bomb Trap (Snowhead Boss Key)
+Pirates' Fortress Cage Room Barrel 4               -> Piece of Heart
+Pirates' Fortress Cage Room Barrel 5               -> Swamp Skulltula Spirit
+Pirates' Fortress Cage Room Deep Chest             -> Bomb Trap
+Pirates' Fortress Cage Room Shallow Chest          -> Bomb Trap
+Pirates' Fortress Maze Chest                       -> Ice Trap
+Pirates' Fortress Sewer Exit Barrel                -> Nothing
+Pirates' Fortress Sewer Exit Barrel 2              -> Bomb Trap (Notebook: Gorman Brothers)
+Pirates' Fortress Sewer Exit Barrel 3              -> Rupoor
+Pirates' Fortress Sewer Exit Pot                   -> Bombchu*
+Pirates' Fortress Sewer Exit Pot 2                 -> Bomb Trap (Room Key)
+Pirates' Fortress Sewer Gate Pot                   -> Bomb Trap (10 Bombchu)
+
+ Pirates' Fortress Interior
+Hookshot Chest                                     -> Bomb Trap
+Hookshot Room Pot                                  -> Rupoor
+Hookshot Room Pot 2                                -> Nothing
+Hookshot Room Skull Flag Forehead                  -> Bomb Trap (Great Fairy's Sword)
+Hookshot Room Skull Flag Forehead 2                -> Nothing
+Hookshot Room Skull Flag Forehead 3                -> Nothing
+Pirates' Fortress Barrel Maze Egg Pot              -> Swamp Skulltula Spirit
+Pirates' Fortress Barrel Maze Egg Pot 2            -> Notebook: Garo's Mask
+Pirates' Fortress Guarded Egg Pot                  -> Bomb Trap (Map of Romani Ranch)
+Pirates' Fortress Interior Guard Room Chest        -> Bomb Trap
+Pirates' Fortress Interior Lower Chest             -> Nothing
+Pirates' Fortress Interior Tank Chest              -> Woodfall Stray Fairy
+Pirates' Fortress Interior Upper Chest             -> Nothing
+Pirates' Fortress Item                             -> Bomb Trap (Postman's Hat)
+Pirates' Fortress Item 2                           -> Notebook: Kafei's Mask
+Pirates' Fortress Item 3                           -> Milk
+Pirates' Fortress Lone Guard Egg Pot               -> Ice Trap (Purple Rupee)
+Pirates' Fortress Skull Flag Left Eye              -> Piece of Heart
+Pirates' Fortress Skull Flag Left Eye 2            -> Rupoor
+Pirates' Fortress Skull Flag Left Eye 3            -> Rupoor
+Pirates' Fortress Skull Flag Right Eye             -> Rupoor
+Pirates' Fortress Skull Flag Right Eye 2           -> Rupoor
+Pirates' Fortress Skull Flag Right Eye 3           -> Nothing
+
+ Pinnacle Rock
+Pinnacle Rock Lower Chest                          -> Ice Trap
+Pinnacle Rock Pot                                  -> Ice Trap (Magic Power)
+Pinnacle Rock Pot 2                                -> Bomb Trap (Snowhead Map)
+Pinnacle Rock Pot 3                                -> Ice Trap (Snowhead Boss Key)
+Pinnacle Rock Pot 4                                -> Piece of Heart
+Pinnacle Rock Upper Chest                          -> Rupoor
+Seahorses                                          -> Nothing
+
+ Great Bay Temple
+Boss Blue Warp                                     -> Pictograph Box
+Frog in Great Bay Temple                           -> Piece of Heart
+Great Bay Bio Babas                                -> Notebook: Reading Prize 2
+Great Bay Boss Key Chest                           -> Notebook: Man from Curiosity Shop
+Great Bay Boss Warp                                -> Nothing
+Great Bay Compass Chest                            -> Piece of Heart
+Great Bay Dexihands Jar                            -> Bomb Trap (Bottle of Red Potion)
+Great Bay Entrance Torches                         -> Rupoor
+Great Bay Green Valve                              -> Bomb Trap (Giant's Mask)
+Great Bay Heart Container                          -> Bomb Trap (Woodfall Stray Fairy)
+Great Bay Ledge Jar                                -> Bow Upgrade
+Great Bay Map Chest                                -> Notebook: Guru-Guru
+Great Bay Pre-Boss Room Bubble                     -> Bomb Trap (Magic Power)
+Great Bay Pre-Boss Room Underwater Bubble          -> Nothing
+Great Bay Seesaw Room                              -> Nothing
+Great Bay Skulltula                                -> Ice Trap (Hero's Shield)
+Great Bay Small Key Chest                          -> Rupoor
+Great Bay Temple Dexihand Item                     -> Rupoor
+Great Bay Temple Dexihand Item 2                   -> Ice Trap (Gyorg's Remains)
+Great Bay Temple Entrance Room Barrel              -> Ice Trap (Notebook: Stone Mask)
+Great Bay Temple Green Pump Barrel                 -> Ice Trap (Moon's Tear)
+Great Bay Temple Green Pump Barrel 2               -> Rupoor
+Great Bay Temple Green Pump Item                   -> Piece of Heart
+Great Bay Temple Green Pump Item 2                 -> Rupoor
+Great Bay Temple Red Valve Barrel                  -> Stone Tower Map
+Great Bay Temple Red Valve Barrel 2                -> Song of Healing
+Great Bay Temple Red Valve Crate                   -> Rupoor
+Great Bay Temple Seesaw Room Pot                   -> Bomb Trap (Snowhead Boss Key)
+Great Bay Temple Water Control Room Item           -> Double Defense
+Great Bay Temple Water Control Room Item 2         -> Woodfall Stray Fairy
+Great Bay Temple Water Control Room Item 3         -> 5 Bombchu
+Great Bay Temple Water Control Room Item 4         -> Rupoor
+Great Bay Temple Water Control Room Item 5         -> Couple's Mask
+Great Bay Underwater Barrel                        -> Nothing
+Great Bay Water Control Room Underwater Bubble     -> Woodfall Stray Fairy
+Great Bay Waterwheel Room Lower                    -> Notebook: Promised to meet Kafei
+Great Bay Waterwheel Room Upper                    -> Bomb Trap (Fierce Deity's Mask)
+Great Bay Whirlpool Barrel                         -> Piece of Heart
+Great Bay Whirlpool Jar                            -> Bomb Trap (Notebook: Became ranch hand)
+Ice Arrow Chest                                    -> Piece of Heart
+
+ Road to Ikana
+Invisible Soldier                                  -> Bomb Trap
+Invisible Soldier                                  -> Bomb Trap
+Notebook Meeting: Shiro                            -> Nothing
+Path to Ikana Grotto                               -> Rupoor
+Path to Ikana Pillar Chest                         -> Bomb Trap
+Road to Ikana Gossip Fairy                         -> Nothing
+Road to Ikana Pot                                  -> Bomb Trap (Ocean Title Deed)
+
+ Ikana Graveyard
+Captain Keeta's Chest                              -> Bomb Trap
+Dampe Digging                                      -> Bomb Trap (Large Quiver)
+Dampe's Basement Pot                               -> Bomb Trap (Ocean Title Deed)
+Dampe's Basement Pot 2                             -> Ice Trap (Moon's Tear)
+Dampe's Basement Pot 3                             -> Map of Stone Tower
+Dampe's Basement Pot 4                             -> Great Bay Stray Fairy
+Dampe's Basement Pot 5                             -> Rupoor
+Dampe's Basement Pot 6                             -> Notebook: Cremia
+Dampe's Basement Pot 7                             -> Rupoor
+Dampe's Basement Pot 8                             -> Hookshot*
+Day 1 Grave Bats                                   -> Map of Woodfall
+Day 1 Grave Tablet                                 -> Nothing
+Ikana Graveyard 2nd Highest Rock                   -> Ice Trap (Swamp Title Deed)
+Ikana Graveyard 2nd Lowest Rock                    -> Ice Trap (5 Bombchu)
+Ikana Graveyard Day 2 Bats                         -> Nothing
+Ikana Graveyard Grass                              -> Ice Trap (Goron Lullaby)
+Ikana Graveyard Grass 2                            -> Rupoor
+Ikana Graveyard Grass 3                            -> Rupoor
+Ikana Graveyard Grotto                             -> Great Bay Stray Fairy
+Ikana Graveyard Highest Rock                       -> Ice Trap (Notebook: Thanks for the paper)
+Ikana Graveyard Lantern                            -> Swamp Skulltula Spirit
+Ikana Graveyard Lantern 10                         -> Notebook: All-Night Mask
+Ikana Graveyard Lantern 11                         -> Rupoor
+Ikana Graveyard Lantern 12                         -> Rupoor
+Ikana Graveyard Lantern 2                          -> Swamp Skulltula Spirit
+Ikana Graveyard Lantern 3                          -> Ice Trap (Red Potion)
+Ikana Graveyard Lantern 4                          -> Ice Trap (Spin Attack Mastery)
+Ikana Graveyard Lantern 5                          -> Nothing
+Ikana Graveyard Lantern 6                          -> Bremen Mask
+Ikana Graveyard Lantern 7                          -> Bomb Trap (Swamp Skulltula Spirit)
+Ikana Graveyard Lantern 8                          -> Bomb Trap (Notebook: Grog)
+Ikana Graveyard Lantern 9                          -> Stone Tower Stray Fairy
+Ikana Graveyard Lowest Rock                        -> Ocean Skulltula Spirit
+Ikana Graveyard Middle Rock                        -> Ice Trap (Great Bay Compass)
+Ikana Graveyard Rupee Cluster                      -> Bomb Trap (All-Night Mask)
+Ikana Graveyard Rupee Cluster 2                    -> Keaton Mask*
+Ikana Graveyard Rupee Cluster 3                    -> Pendant of Memories*
+Ikana Graveyard Rupee Cluster 4                    -> Ice Trap (Deku Stick)
+Ikana Graveyard Rupee Cluster 5                    -> Rupoor
+Ikana Graveyard Rupee Cluster 6                    -> Rupoor
+Ikana Graveyard Rupee Cluster 7                    -> Bomb Trap (Notebook: Kafei)
+Iron Knuckle Chest                                 -> Ice Trap (Great Fairy's Mask)
+Night 1 Grave Pot                                  -> Nothing
+Night 1 Grave Pot 2                                -> Rupoor
+Night 2 Grave Pot                                  -> Rupoor
+Night 2 Grave Pot 2                                -> Rupoor
+
+ Ikana Canyon
+Canyon Scrub Purchase                              -> Bomb Trap (Woodfall Boss Key)
+Canyon Scrub Trade                                 -> Rupoor
+Clock Town Map Purchase                            -> Bomb Trap (Mirror Shield)
+Escaping from Sakon's Hideout                      -> Rupoor
+Ikana Canyon Cleared Grass                         -> Bomb Trap (Notebook: Mr. Dotour)
+Ikana Canyon Cleared Grass 2                       -> Rupoor
+Ikana Canyon Cleared Grass 3                       -> Bomb Trap (Magic Bean)
+Ikana Canyon Cleared Grass 4                       -> Rupoor
+Ikana Canyon Dock Gossip Fairy                     -> Ice Trap (Recovery Heart)
+Ikana Canyon Grass                                 -> Nothing
+Ikana Canyon Grass 2                               -> Snowhead Boss Key
+Ikana Canyon Grass 3                               -> Bomb Trap (Magic Power)
+Ikana Canyon Grass 4                               -> Ice Trap (Gold Rupee)
+Ikana Canyon Ledge                                 -> Notebook: Secret Night Meeting
+Ikana Canyon Ravine Gossip Fairy                   -> Ice Trap (Stone Mask)
+Ikana Canyon Spirit House Gossip Fairy             -> Bomb Trap (Swamp Skulltula Spirit)
+Ikana Great Fairy                                  -> Nothing
+Notebook Meeting: Kafei                            -> Ice Trap
+Pamela's Father                                    -> Rupoor
+Poe Hut                                            -> Piece of Heart
+Secret Shrine Grotto                               -> Heart Container
+Stone Tower Map Purchase                           -> Bombchu*
+
+ Beneath the Well
+Cow Beneath the Well                               -> Nothing
+Mirror Shield Chest                                -> Nothing
+Well Fountain Fairy 1                              -> Nothing
+Well Fountain Fairy 2                              -> Stone Tower Compass
+Well Fountain Fairy 3                              -> Rupoor
+Well Fountain Fairy 4                              -> Crimson Rupee
+Well Fountain Fairy 5                              -> Nothing
+Well Fountain Fairy 6                              -> Nothing
+Well Fountain Fairy 7                              -> Rupoor
+Well Fountain Fairy 8                              -> Ocean Skulltula Spirit
+Well Left Path Chest                               -> Bomb Trap
+Well Left Path Pot                                 -> Ice Trap (Crimson Rupee)
+Well Left Path Pot 2                               -> Rupoor
+Well Left Path Pot 3                               -> Rupoor
+Well Left Path Pot 4                               -> Ice Trap (Ocarina of Time)
+Well Left Path Pot 5                               -> Rupoor
+Well Right Path Chest                              -> Bomb Trap
+
+ Ikana Castle
+Ikana Castle Courtyard Grass                       -> Heart Container
+Ikana Castle Courtyard Grass 2                     -> Ice Trap (10 Arrows)
+Ikana Castle Courtyard Grass 3                     -> Ice Trap (Mountain Title Deed)
+Ikana Castle Courtyard Grass 4                     -> Snowhead Stray Fairy
+Ikana Castle Courtyard Pot                         -> Bomb Trap (Gibdo Mask)
+Ikana Castle Fire Ceiling Room Pot                 -> Bomb Trap (Pink Frog)
+Ikana Castle Hole Room Pot                         -> Great Bay Map
+Ikana Castle Hole Room Pot 2                       -> Notebook: Received Room Key
+Ikana Castle Hole Room Pot 3                       -> Notebook: Couple's Mask
+Ikana Castle Hole Room Pot 4                       -> Ocarina of Time*
+Ikana Castle Left Staircase Pot                    -> Nothing
+Ikana Castle Pillar                                -> Seahorse
+Ikana King                                         -> Blue Frog
+Ikana King Entry Pot                               -> Rupoor
+Ikana King Entry Pot 2                             -> Nothing
+Ikana King Entry Pot 3                             -> Gibdo Mask*
+Ikana King Pot                                     -> Ice Trap (Odolwa's Remains)
+Ikana King Pot 2                                   -> Letter to Kafei
+Ikana King Pot 3                                   -> Rupoor
+
+ Stone Tower
+Inverted Stone Tower Left Chest                    -> Woodfall Stray Fairy
+Inverted Stone Tower Middle Chest                  -> Bomb Trap
+Inverted Stone Tower Pot                           -> Swamp Skulltula Spirit
+Inverted Stone Tower Pot 2                         -> Notebook: Dotour's Thanks
+Inverted Stone Tower Pot 3                         -> Bomb Trap (Goht's Remains)
+Inverted Stone Tower Right Chest                   -> Notebook: Stone Mask
+Stone Tower Lower Scarecrow Pot                    -> Nothing
+Stone Tower Lower Scarecrow Pot 2                  -> Piece of Heart
+Stone Tower Lower Scarecrow Pot 3                  -> Great Bay Stray Fairy
+Stone Tower Lower Scarecrow Pot 4                  -> Rupoor
+Stone Tower Lower Scarecrow Pot 5                  -> Nothing
+Stone Tower Owl Pot                                -> Rupoor
+Stone Tower Owl Pot 2                              -> Ice Trap (5 Bombchu)
+Stone Tower Owl Pot 3                              -> Bomb Trap (10 Bombchu)
+Stone Tower Owl Pot 4                              -> Ice Trap (Deku Mask)
+Stone Tower Soft Soil Lower                        -> Swamp Title Deed
+Stone Tower Soft Soil Upper                        -> Ice Trap (Notebook: Toto)
+Stone Tower Upper Scarecrow Pot                    -> Bow Upgrade
+Stone Tower Upper Scarecrow Pot 2                  -> Nothing
+Stone Tower Upper Scarecrow Pot 3                  -> Rupoor
+Stone Tower Upper Scarecrow Pot 4                  -> Bomb Trap (Notebook: Old Lady from Bomb Shop)
+Stone Tower Upper Scarecrow Pot 5                  -> Rupoor
+
+ Stone Tower Temple
+Boss Blue Warp                                     -> Pictograph Box
+Giant's Mask Chest                                 -> Bomb Trap
+Inverted Stone Tower Temple Dexihand Item          -> Rupoor
+Inverted Stone Tower Temple Dexihand Item 2        -> Ice Trap (White Frog)
+Inverted Stone Tower Temple Dexihand Item 3        -> Bomb Bag Upgrade
+Inverted Stone Tower Temple Pre-Boss 2nd Closest Item -> Ice Trap (Notebook: Pendant of Memories)
+Inverted Stone Tower Temple Pre-Boss 2nd Closest Item 2 -> Ice Trap (Notebook: Delivered Pendant)
+Inverted Stone Tower Temple Pre-Boss 2nd Furthest Item -> Ice Trap (Letter to Mama)
+Inverted Stone Tower Temple Pre-Boss 2nd Furthest Item 2 -> Nothing
+Inverted Stone Tower Temple Pre-Boss Closest Item  -> Bomb Trap (Snowhead Compass)
+Inverted Stone Tower Temple Pre-Boss Closest Item 2 -> Swamp Skulltula Spirit
+Inverted Stone Tower Temple Pre-Boss Furthest Item -> Woodfall Stray Fairy
+Inverted Stone Tower Temple Pre-Boss Furthest Item 2 -> Ice Trap (Empty Bottle)
+Inverted Stone Tower Temple Pre-Boss Item          -> Ice Trap (Notebook: Secret Night Meeting)
+Inverted Stone Tower Temple Pre-Boss Item 2        -> Swamp Skulltula Spirit
+Inverted Stone Tower Temple Pre-Boss Item 3        -> Nothing
+Inverted Stone Tower Temple Updraft Room Item      -> Bomb Trap (Biggest Bomb Bag)
+Inverted Stone Tower Temple Updraft Room Item 2    -> Rupoor
+Light Arrow Chest                                  -> Bomb Trap
+Stone Tower Armos Room Chest                       -> Rupoor
+Stone Tower Basement Ledge                         -> Ocean Skulltula Spirit
+Stone Tower Boss Key Chest                         -> Ice Trap
+Stone Tower Boss Warp                              -> Notebook: Blast Mask
+Stone Tower Bridge Crystal                         -> Ice Trap (Green Potion)
+Stone Tower Compass Chest                          -> Rupoor
+Stone Tower Death Armos                            -> Bomb Trap (Spin Attack Mastery)
+Stone Tower Death Armos Maze Chest                 -> Ice Trap
+Stone Tower Entrance Sun Switch                    -> Ocean Skulltula Spirit
+Stone Tower Eyegore                                -> Nothing
+Stone Tower Eyegore Room Chest                     -> Bomb Trap
+Stone Tower Heart Container                        -> Notebook: Kafei
+Stone Tower Lava Room Fire Ring                    -> Bomb Trap (5 Bombs)
+Stone Tower Lava Room Ledge                        -> Nothing
+Stone Tower Map Chest                              -> Bottle of Red Potion
+Stone Tower Mirror Sun Block                       -> Great Bay Small Key
+Stone Tower Mirror Sun Switch                      -> Piece of Heart
+Stone Tower Statue Eye                             -> Nothing
+Stone Tower Temple Eyegore Room Item               -> Rupoor
+Stone Tower Temple Eyegore Room Item 2             -> Notebook: Rosa Sisters
+Stone Tower Temple Lava Room Item                  -> Rupoor
+Stone Tower Temple Lava Room Item 2                -> Milk
+Stone Tower Temple Lava Room Item 3                -> Piece of Heart
+Stone Tower Temple Lava Room Item 4                -> Ice Trap (Great Bay Stray Fairy)
+Stone Tower Temple Lava Room Item 5                -> Rupoor
+Stone Tower Temple Lava Room Item 6                -> Bomb Trap (10 Deku Nuts)
+Stone Tower Temple Mirror Room Crate               -> Bomb Trap (Great Fairy's Sword)
+Stone Tower Temple Mirror Room Crate 2             -> Ocean Skulltula Spirit
+Stone Tower Temple Thin Bridge Item                -> Ice Trap (Captain's Hat)
+Stone Tower Temple Thin Bridge Item 2              -> Notebook: Reading Prize 1
+Stone Tower Temple Thin Bridge Item 3              -> Circus Leader's Mask
+Stone Tower Temple Thin Bridge Item 4              -> Rupoor
+Stone Tower Temple Thin Bridge Item 5              -> Ice Trap (Great Bay Map)
+Stone Tower Temple Thin Bridge Item 6              -> Great Bay Stray Fairy
+Stone Tower Temple Thin Bridge Item 7              -> Ice Trap (Circus Leader's Mask)
+Stone Tower Temple Thin Bridge Item 8              -> Swamp Skulltula Spirit
+Stone Tower Temple Wizzrobe Pot                    -> Bomb Trap (Pictograph Box)
+Stone Tower Thin Bridge                            -> Rupoor
+Stone Tower Underwater                             -> Nothing
+Stone Tower Updraft Fire Ring                      -> Nothing
+Stone Tower Updraft Frozen Eye                     -> Magic Bean
+Stone Tower Updraft Room Chest                     -> Rupoor
+Stone Tower Wizzrobe                               -> Nothing
+
+ Secret Shrine
+Secret Shrine Dinolfos Chest                       -> Rupoor
+Secret Shrine Final Chest                          -> Rupoor
+Secret Shrine Floating Item                        -> Ice Trap (Notebook: Guru-Guru)
+Secret Shrine Floating Item 10                     -> Notebook: Old Lady from Bomb Shop
+Secret Shrine Floating Item 11                     -> Ice Trap (Spin Attack Mastery)
+Secret Shrine Floating Item 12                     -> Rupoor
+Secret Shrine Floating Item 13                     -> Nothing
+Secret Shrine Floating Item 14                     -> Bombchu*
+Secret Shrine Floating Item 15                     -> Ice Trap (Milk)
+Secret Shrine Floating Item 16                     -> Nothing
+Secret Shrine Floating Item 17                     -> Bomb Trap (Cyan Frog)
+Secret Shrine Floating Item 2                      -> Milk
+Secret Shrine Floating Item 3                      -> Bomb Trap (Notebook: Circus Leader's Mask)
+Secret Shrine Floating Item 4                      -> Ice Trap (Notebook: Training Award)
+Secret Shrine Floating Item 5                      -> 10 Bombchu*
+Secret Shrine Floating Item 6                      -> Heart Container
+Secret Shrine Floating Item 7                      -> Ocean Skulltula Spirit
+Secret Shrine Floating Item 8                      -> Woodfall Boss Key
+Secret Shrine Floating Item 9                      -> Bomb Trap (Pendant of Memories)
+Secret Shrine Garo Master Chest                    -> Rupoor
+Secret Shrine Soft Soil                            -> Piece of Heart
+Secret Shrine Underwater Pot                       -> Piece of Heart
+Secret Shrine Underwater Pot 2                     -> Notebook: Protected milk delivery
+Secret Shrine Underwater Pot 3                     -> Song of Soaring
+Secret Shrine Underwater Pot 4                     -> Piece of Heart
+Secret Shrine Underwater Pot 5                     -> Rupoor
+Secret Shrine Wart Chest                           -> Notebook: Romani
+Secret Shrine Wizzrobe Chest                       -> Ice Trap
+
+ The Moon
+Deku Trial Bonus                                   -> Nothing
+Deku Trial Left Closer Gossip Fairy                -> Stone Tower Stray Fairy
+Deku Trial Left Middle Gossip Fairy                -> Snowhead Stray Fairy
+Deku Trial Right Closer Gossip Fairy               -> Ice Trap (Kafei's Mask)
+Deku Trial Right Further Gossip Fairy              -> Rupoor
+Deku Trial Right Middle Gossip Fairy               -> Lens of Truth
+Goron Trial Bonus                                  -> Bomb Trap (Snowhead Compass)
+Goron Trial End Gossip Fairy                       -> Nothing
+Goron Trial First Set Gossip Fairy                 -> Swamp Skulltula Spirit
+Goron Trial First Set Gossip Fairy 2               -> Rupoor
+Goron Trial Second Set Gossip Fairy                -> Ice Trap (5 Bombs)
+Goron Trial Second Set Gossip Fairy 2              -> Bunny Hood
+Link Trial Bonus                                   -> Woodfall Compass
+Link Trial First Gossip Fairy                      -> Ice Trap (Notebook: Kafei)
+Link Trial Garo Master Chest                       -> Bomb Trap
+Link Trial Iron Knuckle Chest                      -> Bomb Trap
+Link Trial Iron Knuckle Fairy                      -> Notebook: Saved cows from "them"
+Link Trial Iron Knuckle Fairy 2                    -> Bomb Trap (White Frog)
+Link Trial Last Gossip Fairy                       -> Nothing
+Link Trial Pot                                     -> Rupoor
+Link Trial Pot 2                                   -> Nothing
+Link Trial Pot 3                                   -> Ice Trap (Map of Snowhead)
+Link Trial Pot 4                                   -> Nothing
+Link Trial Second Gossip Fairy                     -> Nothing
+Majora Child                                       -> Rupoor
+Zora Trial Bonus                                   -> Rupoor
+Zora Trial Gossip Fairy                            -> Rupoor
+Zora Trial Gossip Fairy 2                          -> Ice Trap (Woodfall Small Key)
+Zora Trial Gossip Fairy 3                          -> Rupoor
+Zora Trial Gossip Fairy 4                          -> Bomb Trap (Notebook: Toto)
+Zora Trial Gossip Fairy 5                          -> Spin Attack Mastery
+
+ Name                                                  Cost
+Honey and Darling                                  -> 61
+Town Archery                                       -> 203
+Night Withdraw                                     -> 81
+Bomb Shop Keg                                      -> 51
+Treasure Chest Game Deku                           -> 134
+Treasure Chest Game Human                          -> 303
+Treasure Chest Game Goron                          -> 42
+Treasure Chest Game Zora                           -> 119
+Boat Ride Adult                                    -> 216
+Boat Ride Child                                    -> 83
+Boat Archery                                       -> 157
+Bean Salesman                                      -> 99
+Swamp Archery                                      -> 92
+Mountain Smithy Day 1                              -> 55
+Goron Village Powder Keg                           -> 263
+Fisherman Game                                     -> 291
+Swamp Scrub Purchase                               -> 105
+Biggest Bomb Bag Purchase                          -> 223
+Ocean Scrub Purchase                               -> 153
+Canyon Scrub Purchase                              -> 85
+Business Scrub Purchase 1                          -> 350
+Business Scrub Purchase 2                          -> 87
+Clock Town Map Purchase (InTown)                   -> 121
+Woodfall Map Purchase (InTown)                     -> 497
+Woodfall Map Purchase (InSwamp)                    -> 251
+Snowhead Map Purchase (InSwamp)                    -> 67
+Snowhead Map Purchase (InMountain)                 -> 98
+Romani Ranch Map Purchase (InMountain)             -> 160
+Romani Ranch Map Purchase (InRanch)                -> 127
+Great Bay Map Purchase (InRanch)                   -> 83
+Great Bay Map Purchase (InOcean)                   -> 26
+Stone Tower Map Purchase (InOcean)                 -> 50
+Stone Tower Map Purchase (InCanyon)                -> 16
+Clock Town Map Purchase (InCanyon)                 -> 274
+Swordsman's School Novice                          -> 45
+Swordsman's School                                 -> 372
+Postman Game Retry                                 -> 96
+Deku Playground                                    -> 23
+Milk Bar Milk                                      -> 97
+Milk Bar Chateau                                   -> 71
+Lottery                                            -> 65
+Gorman Bros Milk Purchase                          -> 90
+Gorman Bros Race                                   -> 312
+Bomb Shop 10 Bombs                                 -> 202
+Bomb Shop 10 Bombchu                               -> 146
+Bomb Bag Purchase                                  -> 462
+Big Bomb Bag Purchase                              -> 261
+Trading Post Red Potion                            -> 214
+Trading Post Hero's Shield                         -> 536
+Trading Post 10 Deku Nuts                          -> 65
+Trading Post Green Potion                          -> 145
+Trading Post Deku Stick                            -> 279
+Trading Post Fairy                                 -> 84
+Trading Post 30 Arrows                             -> 10
+Trading Post 50 Arrows                             -> 28
+Trading Post Red Potion                            -> 75
+Trading Post Hero's Shield                         -> 76
+Trading Post 10 Deku Nuts                          -> 62
+Trading Post Green Potion                          -> 103
+Trading Post Deku Stick                            -> 36
+Trading Post Fairy                                 -> 27
+Trading Post 30 Arrows                             -> 14
+Trading Post 50 Arrows                             -> 93
+Witch Shop Red Potion                              -> 75
+Witch Shop Green Potion                            -> 23
+Witch Shop Blue Potion                             -> 92
+Goron Shop 10 Bombs (InWinter)                     -> 143
+Goron Shop 10 Arrows (InWinter)                    -> 78
+Goron Shop Red Potion (InWinter)                   -> 184
+Goron Shop 10 Bombs (InSpring)                     -> 76
+Goron Shop 10 Arrows (InSpring)                    -> 81
+Goron Shop Red Potion (InSpring)                   -> 219
+Zora Shop Hero's Shield                            -> 77
+Zora Shop 10 Arrows                                -> 19
+Zora Shop Red Potion                               -> 401
+All-Night Mask Purchase                            -> 191
+Curiosity Shop Big Bomb Bag                        -> 133
+Curiosity Shop Nice Sword                          -> 82
+Curiosity Shop Good Sword                          -> 418
+Curiosity Shop Cool Bottle                         -> 348
+Poe Hut                                            -> 104
+Healed Poe Hut                                     -> 59
+
+
+ Gossip Stone                 Message
+CanyonDock                -> It seems Goron Shrine Pot 3 brings a Powder Keg...
+CanyonRavine              -> They say Twin Islands Cave Chest possesses a Piece of Heart...
+CanyonRoad                -> They say Evan yields a Wallet Upgrade...
+CanyonSpiritHouse         -> It appears Woodfall Temple Gekko Room Pot conceals an Ocean Skulltula Spirit...
+GaroCanyonLower1          -> Apparently Beaver Races possesses the Notebook Pendant of Memories then the Notebook ...
+GaroCanyonLower2          -> Apparently Deku Palace Rupee Cluster 6 possesses a Bomb Bag Upgrade...
+GaroCanyonUpper1          -> I hear Secret Shrine Underwater Pot 4 possesses a Piece of Heart...
+GaroCanyonUpper1WithStorms -> They say Ikana Castle Hole Room Pot 3 yields the Notebook Couple's Mask...
+GaroCanyonUpper2          -> They say Goron Village Large Snowball 4 yields an Ocean Skulltula Spirit...
+GaroCanyonUpper2WithStorms -> It appears Inn Reservation conceals Milk then a Stone Tower Small Key...
+GaroCanyonUpper3          -> They say Frog in the Laundry Pool holds a Swamp Skulltula Spirit...
+GaroCanyonUpper3WithStorms -> It appears Mountain Village Spring Snowball 4 possesses a Map of Clock Town...
+GaroCanyonUpper4          -> It appears Goron Racetrack Pot 5 yields a Stone Tower Stray Fairy...
+GaroCanyonUpper4WithStorms -> I hear Secret Shrine Floating Item 7 holds an Ocean Skulltula Spirit...
+GaroCastleLower1          -> It appears Potion Shop Pot yields a Snowhead Stray Fairy...
+GaroCastleLower2          -> Apparently Laundry Pool Item 3 brings an Ocean Skulltula Spirit...
+GaroCastleLower3          -> It appears Great Bay Compass Chest brings a Piece of Heart...
+GaroCastleUpper           -> It seems Swamp Spider House Invisible Item 3 leads to a Woodfall Stray Fairy...
+GaroMaster                -> They say Trading Post Fairy leads to a Bow Upgrade...
+GaroWithIgosDefeated      -> They say Deku Trial Right Middle Gossip Fairy leads to the Lens of Truth...
+MilkRoad                  -> It seems Ikana Graveyard Rupee Cluster 2 holds a Keaton Mask...
+MoonMaskAllNight          -> Apparently Trading Post Hero's Shield brings an All-Night Mask...
+MoonMaskAllNightClear     -> They say Trading Post Hero's Shield leads to an All-Night Mask...
+MoonMaskBlast             -> It seems Termina Field Guay 17 possesses a Blast Mask...
+MoonMaskBlastClear        -> It appears Termina Field Guay 17 conceals a Blast Mask...
+MoonMaskBremen            -> Apparently Ikana Graveyard Lantern 6 leads to a Bremen Mask...
+MoonMaskBremenClear       -> It seems Ikana Graveyard Lantern 6 holds a Bremen Mask...
+MoonMaskBunnyHood         -> It seems Goron Trial Second Set Gossip Fairy 2 holds a Bunny Hood...
+MoonMaskBunnyHoodClear    -> I hear Goron Trial Second Set Gossip Fairy 2 leads to a Bunny Hood...
+MoonMaskCaptainHat        -> It seems Biggest Bomb Bag Purchase leads to the Captain's Hat...
+MoonMaskCaptainHatClear   -> It appears Biggest Bomb Bag Purchase holds the Captain's Hat...
+MoonMaskCircusLeader      -> They say Stone Tower Temple Thin Bridge Item 3 possesses the Circus Leader's Mask...
+MoonMaskCircusLeaderClear -> Apparently Stone Tower Temple Thin Bridge Item 3 yields the Circus Leader's Mask...
+MoonMaskCouple            -> Apparently Great Bay Temple Water Control Room Item 5 possesses the Couple's Mask...
+MoonMaskCoupleClear       -> It appears Great Bay Temple Water Control Room Item 5 conceals the Couple's Mask...
+MoonMaskDonGero           -> It seems Snowhead Snow Room Bubble conceals Don Gero's Mask...
+MoonMaskDonGeroClear      -> It appears Snowhead Snow Room Bubble conceals Don Gero's Mask...
+MoonMaskGaro              -> They say Termina Field Guay 9 yields the Garo's Mask...
+MoonMaskGaroClear         -> Apparently Termina Field Guay 9 yields the Garo's Mask...
+MoonMaskGiant             -> Apparently Termina Field Rock 7 possesses a Hero's Shield...
+MoonMaskGiantClear        -> Apparently Great Bay Temple Water Control Room Item 5 leads to the Couple's Mask...
+MoonMaskGibdo             -> It seems Ikana King Entry Pot 3 holds the Gibdo Mask...
+MoonMaskGibdoClear        -> I hear Ikana King Entry Pot 3 leads to the Gibdo Mask...
+MoonMaskGreatFairy        -> It appears Goron Village Small Snowball 4 possesses the Great Fairy's Mask...
+MoonMaskGreatFairyClear   -> They say Goron Village Small Snowball 4 conceals the Great Fairy's Mask...
+MoonMaskKafei             -> Apparently Snowhead Crate yields Kafei's Mask...
+MoonMaskKafeiClear        -> It seems Snowhead Crate yields Kafei's Mask...
+MoonMaskKamaro            -> I hear Ranch Sisters Defense yields a Bomb Trap then Kamaro's Mask then an Ice Trap then a Woodfall Stray Fairy...
+MoonMaskKamaroClear       -> It seems Ranch Sisters Defense brings a Bomb Trap then Kamaro's Mask then an Ice Trap then a Woodfall Stray Fairy...
+MoonMaskKeaton            -> Apparently Ikana Graveyard Rupee Cluster 2 holds a Keaton Mask...
+MoonMaskKeatonClear       -> They say Ikana Graveyard Rupee Cluster 2 yields a Keaton Mask...
+MoonMaskPostmanHat        -> They say Termina Field Grass Grotto holds a Postman's Hat...
+MoonMaskPostmanHatClear   -> Apparently Termina Field Grass Grotto yields a Postman's Hat...
+MoonMaskRomani            -> I hear Termina Field Song Wall Odd Hours 3 leads to Romani's Mask...
+MoonMaskRomaniClear       -> It appears Termina Field Song Wall Odd Hours 3 possesses Romani's Mask...
+MoonMaskScents            -> I hear Mountain Village Winter Small Snowball 4 leads to a Mask of Scents...
+MoonMaskScentsClear       -> I hear Mountain Village Winter Small Snowball 4 conceals a Mask of Scents...
+MoonMaskStone             -> It seems Madame Aroma in Office yields a Stone Mask then an Ice Trap...
+MoonMaskStoneClear        -> It appears Madame Aroma in Office possesses a Stone Mask then an Ice Trap...
+MoonMaskTruth             -> It seems Swamp Spider House Invisible Item 4 leads to the Mask of Truth...
+MoonMaskTruthClear        -> Apparently Swamp Spider House Invisible Item 4 yields the Mask of Truth...
+MountainPath              -> It appears Inverted Stone Tower Pot 2 conceals the Notebook Dotour's Thanks...
+MountainSpringFrog        -> They say Bottle Poe yields a Bottle Fish...
+MountainSpringPath        -> It appears Twin Islands Day 1 Snowball conceals a Piece of Heart...
+OceanFortress             -> They say Bombers' Hide and Seek holds a Rupoor then a Bomb Trap then a Stone Tower Stray Fairy...
+OceanZoraGame             -> They say Termina Field Grass Grotto conceals a Postman's Hat...
+RanchBarn                 -> Apparently Stone Tower Temple Mirror Room Crate 2 possesses an Ocean Skulltula Spirit...
+RanchCuccoShack           -> They say Mountain Village Spring Keaton Grass 2 yields 10 Bombchu...
+RanchEntrance             -> I hear Stone Tower Basement Ledge brings an Ocean Skulltula Spirit...
+RanchRacetrack            -> They say Butler Race Right Path Item 5 leads to a Great Bay Stray Fairy...
+RanchTree                 -> They say Deku Playground Day 1 Item 4 yields a Piece of Heart...
+SwampPotionShop           -> I hear Pirates' Fortress Barrel Maze Egg Pot yields a Swamp Skulltula Spirit...
+SwampRoad                 -> It appears Great Bay Coast Pot 2 conceals an Ocean Skulltula Spirit...
+SwampSpiderHouse          -> It seems Deku Palace Item 14 conceals a Swamp Skulltula Spirit...
+TerminaEast               -> They say Ikana Graveyard Lantern yields a Swamp Skulltula Spirit...
+TerminaGossipDrums        -> It seems Great Bay Coast Gossip Fairy leads to Milk...
+TerminaGossipGuitar       -> They say Pirates' Fortress Cage Room Barrel 2 conceals a Room Key...
+TerminaGossipLarge        -> It seems Ranch Sisters Defense holds a Bomb Trap then Kamaro's Mask then an Ice Trap then a Woodfall Stray Fairy...
+TerminaGossipPipes        -> Apparently Secret Shrine Underwater Pot 3 possesses the Song of Soaring...
+TerminaMilk               -> Apparently Deku Palace West Garden holds a Mirror Shield...
+TerminaNorth              -> It seems Swordsman's School Pot 4 conceals a Piece of Heart...
+TerminaObservatory        -> I hear Goron Shrine Pot 9 conceals an Ocean Skulltula Spirit...
+TerminaSouth              -> They say Termina Field Pillar Item leads to the Notebook Training Award...
+TerminaWest               -> They say Pirates' Fortress Cage Room Barrel leads to a Piece of Heart...
+
+
+ Playthrough
+Sphere     Location                                              Item
+0          Trading Post Fairy                                 -> Bow Upgrade
+0          Witch Shop Green Potion                            -> Hero's Shield
+0          Inn Staff Room Chest                               -> Wallet Upgrade
+0          North Clock Town Tree                              -> Goht's Remains
+0          Starting Shield                                    -> Bomb Bag Upgrade
+0          Doggy Racetrack Pot                                -> Ocean Title Deed
+0          Swamp Near Frog Item 2                             -> Bottle of Chateau Romani
+0          Laundry Pool Item 2                                -> Bottle of Gold Dust
+0          Termina Field Wall                                 -> Goron Lullaby Upgrade
+0          Termina Field Rock 7                               -> Hero's Shield
+0          Milk Road Keaton Grass                             -> Gyorg's Remains
+
+1          Trading Post Green Potion                          -> Odolwa's Remains
+1          Bottle: Fish                                       -> Bottle: Bug
+1          Ocean Skulltula Library Behind Picture             -> Great Bay Boss Key
+1          Great Bay Coast Pot 4                              -> Sonata of Awakening
+1          Oceanside Spider House Entrance Pot                -> Oath to Order
+1          Snowhead Small Snowball                            -> Magic Bean
+1          Zora Cape Owl Pot                                  -> Wallet Upgrade
+1          Goron Village Large Snowball                       -> Deku Mask
+1          Goron Shrine Pot 3                                 -> Powder Keg
+1          Goron Racetrack Pot 29                             -> Goron Mask
+1          Termina Field Northern Ramp Invisible Item         -> Red Potion
+1          Ikana Graveyard Rupee Cluster 2                    -> Keaton Mask
+1          Ikana Graveyard Rupee Cluster 3                    -> Pendant of Memories
+1          Termina Field Song Wall 0 / 8 / 12 / 16 2          -> Magic Power Upgrade
+1          Termina Field Song Wall 4 / 20                     -> Magic Power Upgrade
+1          Termina Field Song Wall 4 / 20 2                   -> 5 Bombchu
+1          Termina Field Song Wall Odd Hours 3                -> Romani's Mask
+1          Deku Playground Day 3 Item 2                       -> 10 Bombchu
+1          Oceanside Spider House Mask Room Pot               -> Mountain Title Deed
+1          All-Night Mask Purchase                            -> Land Title Deed
+1          Termina Field Pillar Pot                           -> Fire Arrow
+1          ItemTingleMapStoneTowerInOcean                     -> Bombchu
+1          NotebookMeetCuriosityShopManInLaundryPool          -> Red Potion
+
+2          Deku Palace West Garden                            -> Mirror Shield
+2          Milk Bar Chateau                                   -> Fierce Deity's Mask
+2          Deku Palace Item 3                                 -> New Wave Bossa Nova
+2          Secret Shrine Floating Item 5                      -> 10 Bombchu
+2          Secret Shrine Floating Item 14                     -> Bombchu
+2          Termina Field Guay #1                              -> Twinmold's Remains
+2          Termina Field Guay #9                              -> Garo's Mask
+2          Termina Field Guay #17                             -> Blast Mask
+2          Deku Playground Day 1 Item 5                       -> Zora Mask
+2          HeartPieceKeatonQuizInNCT                          -> Light Arrow
+2          HeartPieceKeatonQuizInMilkRoad                     -> Light Arrow
+2          UpgradeBiggestBombBagInMountain                    -> Captain's Hat
+
+3          Evan                                               -> Wallet Upgrade
+3          Pirates' Fortress Sewer Exit Pot                   -> Bombchu
+3          Dampe's Basement Pot 8                             -> Hookshot
+3          Ikana King Entry Pot 3                             -> Gibdo Mask
+3          Ikana Castle Hole Room Pot 4                       -> Ocarina of Time
+3          ItemTingleMapStoneTowerInCanyon                    -> Bombchu
+3          ShopItemBusinessScrubGreenPotionInOcean            -> Epona's Song
+
+4          Gorman Bros Race                                   -> Ice Arrow
+4          Bottle: Big Poe                                    -> Bottle: Deku Princess
+4          Zora Cape Gossip Fairy                             -> Goron Lullaby Upgrade
+
+5          Butler Race Final Room Item 7                      -> Song of Time
+5          HeartPieceKeatonQuizInMountainVillage              -> Light Arrow
+
+
+++ Adding a new song slot: [Bombers Hideout] at previously unused slot [72][mm-wagonride]
+++ Adding a new song slot: [Ocean Spiderhouse] at previously unused slot [70][mm-c-giantscs]
+++ Adding a new song slot: [ButlerRace] at previously unused slot [7B][mm-maskreveal]
+++ Adding a new song slot: [TheWell] at previously unused slot [1E][mm-introcutscene1]
+++ Adding a new song slot: [Spring In The Mountains] at previously unused slot [58][mm-mikaustory1]
+++ Adding a new song slot: [Swamp Spiderhouses] at previously unused slot [56][mm-milk-bar-pointer]
+ Randomizing 89 song slots, with 203 available songs:
+=====================================================
+mm-boatcruise                                       -> mm-wagonride
+mm-c-titlescreen                                    -> mm-c-titlescreen
+mm-minigame                                         -> mm-boatcruise
+mm-invertedstonetower                               -> oot-insidedekutree.mmrs
+mm-gormanbros                                       -> mm-dekupalace
+mm-shop                                             -> mk64-cm.mmrs
+mm-f-bossdown                                       -> oot-f-stone.mmrs
+mm-f-moonclear                                      -> sm64-f-bitsclear.mmrs
+mm-mask                                             -> mm-boss
+mm-f-meet                                           -> mm-f-mask
+mm-zelda                                            -> mm-guruguru
+mm-f-goronwin                                       -> mm-f-horsewin
+mm-f-gameover                                       -> mm-f-dungeonopen
+mm-tijo-drumpractice                                -> mm-clocktower
+ -- v -- Instrument set number 28 has been claimed -- v --
+mm-romaniranch                                      -> mk64-kd.mmrs
+mm-snowheadtemple                                   -> mm-snowheadtemple
+mm-wrath                                            -> oot-miniboss.mmrs
+mm-zorahall                                         -> mm-shootinggallery
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-house                                            -> uc-minigame.mmrs
+mm-ikanacanyon                                      -> uc-snowfieldold.mmrs
+mm-healed                                           -> mm-aliens
+mm-f-giantsleave                                    -> sm64-f-intro.mmrs
+mm-chase                                            -> oot-castlecollapse.mmrs
+mm-skullkid                                         -> sm64-mgr.mmrs
+mm-f-smallitem                                      -> sm64-f-race.mmrs
+mm-snowheadmountains                                -> oot-gerudovalley.mmrs
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-evan-pianopractice                               -> sm64-slide.mmrs
+mm-f-song                                           -> sm64-f-toad.mmrs
+mm-giants                                           -> oot-market.mmrs
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-f-soar                                           -> sm64-f-unlock.mmrs
+mm-clocktown3                                       -> uc-village.mmrs
+mm-clocktown2                                       -> mm-romaniranch
+mm-stonetower                                       -> oot-foresttemple.mmrs
+mm-sharp                                            -> oot-chamberofsages.mmrs
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-incarnation                                      -> sm64-battlefield.mmrs
+mm-f-clearshort                                     -> mm-f-song
+mm-f-chasefail                                      -> mm-f-soar
+mm-f-heart                                          -> sm64-f-solved.mmrs
+mm-woodfalltemple                                   -> mk64-bc.mmrs
+mm-f-dungeonclearlong                               -> oot-f-opendot.mmrs
+mm-f-gotitem                                        -> mm-f-gotitem
+mm-guruguru                                         -> mm-observatory
+mm-musicbox                                         -> sf64-sectorx.mmrs
+mm-combat                                           -> mm-incarnation
+mm-greatbaytemple                                   -> sm64-hmc.mmrs
+mm-goronrace                                        -> mm-horserace
+mm-greatbaycoast                                    -> uc-goronvillage.mmrs
+mm-laboratory                                       -> sm64-castle.mmrs
+mm-f-dungeonclearshort                              -> oot-f-medallion.mmrs
+mm-swordschool                                      -> sm64-ccm.mmrs
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-milkbar                                          -> mmr-theme.mmrs
+mm-ikanacastle                                      -> mm-caves
+mm-kamaros-mask-item-dance                          -> mm-kamaros-mask-item-dance
+mm-finalhours                                       -> mm-finalhours
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-keaton                                           -> mk64-ceremony.mmrs
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-goroncity                                        -> mk64-tt.mmrs
+mm-dekupalace                                       -> sf64-corneria.mmrs
+mm-clocktower                                       -> mm-gormanbros
+mm-witches                                          -> uc-dekutree.mmrs
+mm-terminafield                                     -> mm-snowheadmountains
+mm-opening-a-chest                                  -> mm-opening-a-chest
+mm-shootinggallery                                  -> sm64-lll.mmrs
+mm-f-fail                                           -> mm-f-gameover
+mm-f-horsewin                                       -> mm-f-smallitem
+mm-piratefortress                                   -> oot-jabu.mmrs
+mm-fileselect                                       -> mm-house
+mm-southernswamp                                    -> sf64-fichina.mmrs
+mm-meeting                                          -> oot-ganondorf.mmrs
+mm-kamaros-dance-rosa-sisters                       -> oot-sheik.mmrs
+mm-reunion                                          -> oot-navi.mmrs
+mm-mysterywoods                                     -> oot-kakariko2.mmrs
+mm-clocktown1                                       -> uc-snowfield.mmrs
+mm-boss                                             -> oot-dinosaur.mmrs
+ -- v -- Instrument set number 28 is being reused -- v --
+mm-fairyfountain                                    -> mk64-fs.mmrs
+mm-f-dungeonopen                                    -> sm64-f-lakitu.mmrs
+mm-miniboss                                         -> sf64-boss3.mmrs
+mm-aliens                                           -> oot-castlecourtyard.mmrs
+mm-f-mask                                           -> sm64-f-star.mmrs
+mm-horserace                                        -> mk64-mmf.mmrs
+mm-japas-basspractice                               -> mm-kaepora
+mm-observatory                                      -> sm64-fileselect.mmrs
+mm-caves                                            -> sf64-aquas.mmrs
+mm-kaepora                                          -> uc-navi.mmrs
+mmr-Bombers Hideout                                 -> oot-watertemple.mmrs
+mmr-Ocean Spiderhouse                               -> mm-invertedstonetower
+mmr-ButlerRace                                      -> sm64-boss.mmrs
+mmr-TheWell                                         -> mm-greatbaytemple
+mmr-Spring In The Mountains                         -> mm-southernswamp
+mmr-Swamp Spiderhouses                              -> mm-ikanacastle
+ SECOND PASS: Scanning for oversized BGM or combat cointoss: (COMBAT)
+ new BGM budget: 5020, from combat size: FE0
+
+ Sample Injections:
+===================

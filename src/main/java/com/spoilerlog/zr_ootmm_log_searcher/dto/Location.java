@@ -3,9 +3,9 @@ package com.spoilerlog.zr_ootmm_log_searcher.dto;
 import java.util.HashSet;
 
 public class Location {
-    public String locationName;
-    public String entrance;
-    public HashSet<String> itemValues;
+    private String locationName;
+    private String entrance;
+    private HashSet<String> itemValues;
 
     public Location(String locationName, String entrance) {
         this.locationName = locationName;
